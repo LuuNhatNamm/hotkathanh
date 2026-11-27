@@ -241,12 +241,12 @@
 
     <pre><code>yolo26n-seg/
 ├── data_raw/                     # 346 ảnh chờ gán, sửa hoặc duyệt nhãn
-│   ├── images/{train,test,val}/
-│   ├── labels_reference/{guideline11,kitti7}/{train,test,val}/
+│   ├── images/{train,val}/
+│   ├── labels/{train,val}/{guideline11,kitti7,vn_sign_30}/
 │   └── split_manifest.json
 ├── data/                         # Chỉ nhận ảnh–nhãn 11 lớp đã duyệt
-│   ├── images/{train,test,val}/
-│   ├── labels/{train,test,val}/
+│   ├── images/{train,val}/
+│   ├── labels/{train,val}/
 │   └── data.yaml
 ├── archive/                      # Các bộ nguồn và bộ gộp cũ
 ├── labeling_guideline.md
@@ -261,7 +261,7 @@
   <section id="dataset">
 
     <h2>Dữ liệu của project</h2>
-    <p><a href="data_raw/README.md">data_raw/</a> có 346 ảnh, gồm 242 train, 69 test và 35 validation. Trong đó có 39 ảnh CVAT chưa có nhãn và 30 ảnh vn_sign_30 có nhãn Sign một phần, cần rà và gán bổ sung. <a href="data/README.md">data/</a> dành cho ảnh và nhãn 11 lớp đã duyệt, hiện chờ nhóm bổ sung.</p>
+    <p><a href="data_raw/README.md">data_raw/</a> có 346 ảnh, gồm 311 train và 35 validation. Trong đó có 39 ảnh CVAT chưa có nhãn và 30 ảnh vn_sign_30 có nhãn Sign một phần, cần rà và gán bổ sung. <a href="data/README.md">data/</a> dành cho nhãn 11 lớp đã duyệt. 35 ảnh trong val đang chờ gán nhãn.</p>
     <h3>Dataset nguồn KITTI-200 · 7 lớp</h3>
 
     <p><strong>200 ảnh, 1.981 nhãn polygon.</strong> Ultralytics đã đọc được 160 ảnh và 1.570 nhãn train, cùng 40 ảnh và 411 nhãn validation. Đây là thống kê trước khi đổi nhãn. Dataset train theo bộ chấm cần dùng 11 lớp bên dưới.</p>
@@ -310,7 +310,7 @@
 
     <h2>Sửa KITTI-200 theo guideline</h2>
 
-    <p>Rà ảnh trong <code>data_raw/images</code>. Nhãn tham khảo KITTI 7 lớp và nhãn 11 lớp chưa duyệt nằm trong <code>data_raw/labels_reference</code>. Khi duyệt xong, chép ảnh và file nhãn 11 lớp cùng tên gốc vào <code>data/images</code> và <code>data/labels</code> theo split đã ghi. ID phải khớp bộ chấm.</p>
+    <p>Rà ảnh trong <code>data_raw/images</code>. Nhãn tham khảo KITTI 7 lớp và nhãn 11 lớp chưa duyệt nằm trong <code>data_raw/labels</code>. Khi duyệt xong, chép ảnh và file nhãn 11 lớp cùng tên gốc vào <code>data/images</code> và <code>data/labels</code> theo split đã ghi. ID phải khớp bộ chấm.</p>
 
     <div class="table-scroll" role="region" aria-label="Bảng ánh xạ nhãn" tabindex="0">
 

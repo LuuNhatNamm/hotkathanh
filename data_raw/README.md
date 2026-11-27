@@ -1,13 +1,12 @@
 # Dữ liệu chờ xử lý
 
-Bộ gộp có 346 ảnh, gồm 39 ảnh CVAT và 30 ảnh từ vn_sign_30. Các ảnh trước đó giữ nguyên split.
+Dataset có 346 ảnh. Dùng hai tập train và val, theo vị trí ảnh hiện tại. 69 ảnh ở test cũ đã nằm trong train. Tập val giữ nguyên 35 ảnh.
 
-| Split | Tổng | Ảnh CVAT | Nhãn 11 lớp chưa duyệt | Nhãn KITTI 7 lớp | Nhãn Sign một phần | Chưa có nhãn |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: |
-| train | 242 | 27 | 35 | 140 | 21 | 46 |
-| test | 69 | 8 | 10 | 40 | 6 | 13 |
-| val | 35 | 4 | 5 | 20 | 3 | 7 |
+| Split | Tổng ảnh | Nhãn 11 lớp chưa duyệt | Nhãn KITTI 7 lớp | Nhãn Sign một phần | Chưa có nhãn |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| train | 311 | 45 | 180 | 27 | 59 |
+| val | 35 | 5 | 20 | 3 | 7 |
 
-Nhãn tham khảo có cùng tên gốc và split với ảnh. Bộ vn_sign_30 có 127 nhãn Sign (ID 9) chuyển từ box. Cần kiểm tra biên, thêm biển bị thiếu và gán các lớp đối tượng còn lại trước khi đưa vào [data](../data/README.md). Xem [ghi chú nguồn vn_sign_30](sources/vn_sign_30/README.md).
+Nhãn tham khảo nằm trong labels/train và labels/val, bên trong chia theo nguồn guideline11, kitti7 và vn_sign_30. Mỗi file TXT cùng tên gốc và split với ảnh. Các nhãn Sign cần rà, gán bổ sung trước khi đưa vào [data](../data/README.md). Xem [ghi chú nguồn vn_sign_30](sources/vn_sign_30/README.md).
 
-Đọc split_manifest.json để tra nguồn và 23 cặp nghi gần trùng. Các cặp này nằm cùng split.
+Tra nguồn và 23 cặp nghi gần trùng trong split_manifest.json. Các cặp này nằm cùng split.

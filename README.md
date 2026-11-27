@@ -9,4 +9,4 @@ Mở [hướng dẫn HTML](huong-dan-robotaxi-yolo26.html) để xem sơ đồ u
 | Chạy demo | [demo](demo/README.md) | Dùng best.pt của nhóm để xuất video có mask. |
 | Trưởng nhóm | [submission](submission/README.md) | Tập hợp submission.zip và run_report.json để bàn giao. |
 
-Bộ data_raw có **346 ảnh**, chia **242 train / 69 test / 35 val**, gồm 39 ảnh CVAT chưa có nhãn và 30 ảnh vn_sign_30 có nhãn Sign một phần, cần rà và gán bổ sung. data/ có schema 11 lớp và chờ nhãn đã duyệt. Các bộ cũ được lưu trong archive/ để đối chiếu.
+Bộ data_raw có **346 ảnh**, chia **311 train / 35 val**, gồm 39 ảnh CVAT chưa có nhãn và 30 ảnh vn_sign_30 có nhãn Sign một phần, cần rà và gán bổ sung. data/ có schema 11 lớp và chờ nhãn đã duyệt. Các bộ cũ được lưu trong archive/ để đối chiếu.
