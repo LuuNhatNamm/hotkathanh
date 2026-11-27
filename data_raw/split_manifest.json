@@ -1,5 +1,5 @@
 {
-  "total_images": 346,
+  "total_images": 403,
   "approved_images": 0,
   "target_ratio_percent": {
     "train": 90,
@@ -7,20 +7,22 @@
   },
   "split_counts": {
     "train": {
-      "total": 311,
+      "total": 347,
       "guideline11": 45,
       "pending": 24,
       "kitti7": 180,
       "cvat_new": 35,
-      "vn_sign_30": 27
+      "vn_sign_30": 27,
+      "mini_traffic_detection": 36
     },
     "val": {
-      "total": 35,
+      "total": 56,
       "guideline11": 5,
       "pending": 3,
       "kitti7": 20,
       "cvat_new": 4,
-      "vn_sign_30": 3
+      "vn_sign_30": 3,
+      "mini_traffic_detection": 21
     }
   },
   "checks": {
@@ -3285,6 +3287,576 @@
       "source_bucket": "vn_sign_30",
       "reference_label": "labels/train/vn_sign_30/vn_sign_30__zalo_9894.txt",
       "street_id": "16"
+    },
+    {
+      "image": "images/train/minitraffic__bicycle21.jpg",
+      "split": "train",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/train/img/bicycle21.jpg",
+      "sha256": "e1929c7f7668b7eefd3150ecc2a2ed6840482a1a5e2ed2dc0eb3583ce857a876",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/train/mini_traffic_detection/minitraffic__bicycle21.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/train/ann/bicycle21.jpg.json"
+    },
+    {
+      "image": "images/val/minitraffic__bicycle22.jpg",
+      "split": "val",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/val/img/bicycle22.jpg",
+      "sha256": "a7a191a347d460c640a6ea7341ef9815dd148ec1ad0923d9679233676c707958",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/val/mini_traffic_detection/minitraffic__bicycle22.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/val/ann/bicycle22.jpg.json"
+    },
+    {
+      "image": "images/val/minitraffic__bicycle25.jpg",
+      "split": "val",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/val/img/bicycle25.jpg",
+      "sha256": "b7ecac76ef17bd1e15b46f74069a3f6eeb5536963e2564a4a5287f1adc4c0498",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/val/mini_traffic_detection/minitraffic__bicycle25.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/val/ann/bicycle25.jpg.json"
+    },
+    {
+      "image": "images/val/minitraffic__bicycle27.jpg",
+      "split": "val",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/val/img/bicycle27.jpg",
+      "sha256": "28ad88677d71ae4802ea4017d842e199fb20132aec9912d2342de93b02dc9df1",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/val/mini_traffic_detection/minitraffic__bicycle27.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/val/ann/bicycle27.jpg.json"
+    },
+    {
+      "image": "images/train/minitraffic__bus3.jpg",
+      "split": "train",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/train/img/bus3.jpg",
+      "sha256": "d0d482c45da21b9f851125aa2b6eb75f1bc9eee1c0ad3b7f8c21743c0cc3a51e",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/train/mini_traffic_detection/minitraffic__bus3.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/train/ann/bus3.jpg.json"
+    },
+    {
+      "image": "images/train/minitraffic__bus4.jpg",
+      "split": "train",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/train/img/bus4.jpg",
+      "sha256": "0d533e6f623095dd10e4168679cd2ca50b09028be27b7d2a548a480a6333507e",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/train/mini_traffic_detection/minitraffic__bus4.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/train/ann/bus4.jpg.json"
+    },
+    {
+      "image": "images/train/minitraffic__bus5.jpg",
+      "split": "train",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/train/img/bus5.jpg",
+      "sha256": "5a976816d7d0c1407568ecd33fc651c435579437ffe54eea52f943b61ca1e74d",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/train/mini_traffic_detection/minitraffic__bus5.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/train/ann/bus5.jpg.json"
+    },
+    {
+      "image": "images/train/minitraffic__bus14.jpg",
+      "split": "train",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/train/img/bus14.jpg",
+      "sha256": "4b9dadcbb87e0feed2e0c580e1c5237ccc284fbcb4c32233ae4b887913d40bd8",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/train/mini_traffic_detection/minitraffic__bus14.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/train/ann/bus14.jpg.json"
+    },
+    {
+      "image": "images/train/minitraffic__bus16.jpg",
+      "split": "train",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/train/img/bus16.jpg",
+      "sha256": "36cbbc492c3a1c47d61d6931dc73f6cd6a368b0255b890aa99aac08e51cff73f",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/train/mini_traffic_detection/minitraffic__bus16.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/train/ann/bus16.jpg.json"
+    },
+    {
+      "image": "images/train/minitraffic__bus18.jpg",
+      "split": "train",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/train/img/bus18.jpg",
+      "sha256": "e011d9507efd97d7327ba891225e7837658a19ec5284e6b5d069d3fd491a8979",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/train/mini_traffic_detection/minitraffic__bus18.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/train/ann/bus18.jpg.json"
+    },
+    {
+      "image": "images/train/minitraffic__bus20.jpg",
+      "split": "train",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/train/img/bus20.jpg",
+      "sha256": "a92c7b789e65a8273139e5c85f880d56832631aa5757878e154b225fdaa7c546",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/train/mini_traffic_detection/minitraffic__bus20.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/train/ann/bus20.jpg.json"
+    },
+    {
+      "image": "images/val/minitraffic__bus26.jpg",
+      "split": "val",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/val/img/bus26.jpg",
+      "sha256": "21cd1d134c008f988a0d0c93cb198cdecec1ca3ba2b784b8582be7fe23491623",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/val/mini_traffic_detection/minitraffic__bus26.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/val/ann/bus26.jpg.json"
+    },
+    {
+      "image": "images/val/minitraffic__bus29.jpg",
+      "split": "val",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/val/img/bus29.jpg",
+      "sha256": "5097f66c220348b7e087bb0221702712fa2abd693ff01a6d059b1a76990c87bf",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/val/mini_traffic_detection/minitraffic__bus29.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/val/ann/bus29.jpg.json"
+    },
+    {
+      "image": "images/val/minitraffic__bus30.jpg",
+      "split": "val",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/val/img/bus30.jpg",
+      "sha256": "49d2e9444caf10026e17a379c7d1a9533777e3797027507679185ab31cc8b3c6",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/val/mini_traffic_detection/minitraffic__bus30.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/val/ann/bus30.jpg.json"
+    },
+    {
+      "image": "images/train/minitraffic__car1.jpg",
+      "split": "train",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/train/img/car1.jpg",
+      "sha256": "797033416c8c0ef541c4119c3f2558ff3054e4b0a41f751530edd824a3f88cfb",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/train/mini_traffic_detection/minitraffic__car1.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/train/ann/car1.jpg.json"
+    },
+    {
+      "image": "images/train/minitraffic__car2.jpg",
+      "split": "train",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/train/img/car2.jpg",
+      "sha256": "9e750b271d6c17d208855097b65657ff9e4132970351d1eba54ec1512a7ed436",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/train/mini_traffic_detection/minitraffic__car2.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/train/ann/car2.jpg.json"
+    },
+    {
+      "image": "images/train/minitraffic__car3.jpg",
+      "split": "train",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/train/img/car3.jpg",
+      "sha256": "2417a52c402e58ce93ff459c50c857faf955e27218b681d21231d68d36ba7947",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/train/mini_traffic_detection/minitraffic__car3.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/train/ann/car3.jpg.json"
+    },
+    {
+      "image": "images/train/minitraffic__car4.jpg",
+      "split": "train",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/train/img/car4.jpg",
+      "sha256": "ff452eb8c8d7892439893eaa60cdeffad8a7e171e0f3b2c0b58672308c17e7a9",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/train/mini_traffic_detection/minitraffic__car4.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/train/ann/car4.jpg.json"
+    },
+    {
+      "image": "images/train/minitraffic__car6.jpg",
+      "split": "train",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/train/img/car6.jpg",
+      "sha256": "25286ed2fad075b67ff54b74b42c8a96ec5c3974cae2b73861a3faa70f49ac6a",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/train/mini_traffic_detection/minitraffic__car6.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/train/ann/car6.jpg.json"
+    },
+    {
+      "image": "images/train/minitraffic__car7.jpg",
+      "split": "train",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/train/img/car7.jpg",
+      "sha256": "225109ad9ec490e5d2e4d1b5b0d60bef3caeb139f3d83bd77c479d63d97d9e47",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/train/mini_traffic_detection/minitraffic__car7.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/train/ann/car7.jpg.json"
+    },
+    {
+      "image": "images/train/minitraffic__car8.jpg",
+      "split": "train",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/train/img/car8.jpg",
+      "sha256": "2123376a6cfe401b5f129dcc143d812506c4aba7939bc8419ca81c542818ca53",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/train/mini_traffic_detection/minitraffic__car8.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/train/ann/car8.jpg.json"
+    },
+    {
+      "image": "images/train/minitraffic__car9.jpg",
+      "split": "train",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/train/img/car9.jpg",
+      "sha256": "59108ed78369dc0700510a61a84a83a0b4d053e602e859fe3901db3b7c65c368",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/train/mini_traffic_detection/minitraffic__car9.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/train/ann/car9.jpg.json"
+    },
+    {
+      "image": "images/train/minitraffic__car10.jpg",
+      "split": "train",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/train/img/car10.jpg",
+      "sha256": "52b7ca502e8ba8ab96bd12ffcd1db9d5ae136bd3ccbeb09ad741463f6bc23b5c",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/train/mini_traffic_detection/minitraffic__car10.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/train/ann/car10.jpg.json"
+    },
+    {
+      "image": "images/train/minitraffic__car11.jpg",
+      "split": "train",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/train/img/car11.jpg",
+      "sha256": "4db58c6d8ba3ee3178a7855849f5f59fae8825669201eac912756d0956978849",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/train/mini_traffic_detection/minitraffic__car11.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/train/ann/car11.jpg.json"
+    },
+    {
+      "image": "images/train/minitraffic__car12.jpg",
+      "split": "train",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/train/img/car12.jpg",
+      "sha256": "2dd93aef48e4a14d3c8ff067f84360b67953582757bcbe7f9a26abad247964ed",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/train/mini_traffic_detection/minitraffic__car12.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/train/ann/car12.jpg.json"
+    },
+    {
+      "image": "images/train/minitraffic__car13.jpg",
+      "split": "train",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/train/img/car13.jpg",
+      "sha256": "f380747aafe89ee521a372d8971fcb0ba2951bc65e05b5e1abe3b6f302dc39d9",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/train/mini_traffic_detection/minitraffic__car13.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/train/ann/car13.jpg.json"
+    },
+    {
+      "image": "images/train/minitraffic__car14.jpg",
+      "split": "train",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/train/img/car14.jpg",
+      "sha256": "ed3f40f1bd5b62113c57242224ae1b1f2c6e77df4f4c090008207727ff2ad2d6",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/train/mini_traffic_detection/minitraffic__car14.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/train/ann/car14.jpg.json"
+    },
+    {
+      "image": "images/train/minitraffic__car15.jpg",
+      "split": "train",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/train/img/car15.jpg",
+      "sha256": "83331b03c77efb6d0932ef81ba822c37583a00edac63fc4355507a00cefba438",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/train/mini_traffic_detection/minitraffic__car15.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/train/ann/car15.jpg.json"
+    },
+    {
+      "image": "images/train/minitraffic__car16.jpg",
+      "split": "train",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/train/img/car16.jpg",
+      "sha256": "cb3ad18bf09e38e0b02ac9d3b1be312ccd397f831f0bd59704f8541923da1f11",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/train/mini_traffic_detection/minitraffic__car16.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/train/ann/car16.jpg.json"
+    },
+    {
+      "image": "images/train/minitraffic__car17.jpg",
+      "split": "train",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/train/img/car17.jpg",
+      "sha256": "1420e4f58674c2092eedffd05c24963ec75de086c52d3a118d9a87f871541af9",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/train/mini_traffic_detection/minitraffic__car17.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/train/ann/car17.jpg.json"
+    },
+    {
+      "image": "images/train/minitraffic__car20.jpg",
+      "split": "train",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/train/img/car20.jpg",
+      "sha256": "daa20191d82b2ec645cd9127a82e4df5958d0b81bf545673e7fc9a3b919916f7",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/train/mini_traffic_detection/minitraffic__car20.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/train/ann/car20.jpg.json"
+    },
+    {
+      "image": "images/train/minitraffic__car21.jpg",
+      "split": "train",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/train/img/car21.jpg",
+      "sha256": "bbed2f7977537c1bebcd1be5766ac561365aa1f3549894afbc190b078b3ac6bc",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/train/mini_traffic_detection/minitraffic__car21.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/train/ann/car21.jpg.json"
+    },
+    {
+      "image": "images/val/minitraffic__car22.jpg",
+      "split": "val",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/val/img/car22.jpg",
+      "sha256": "f3eecdc01fc5be37bbcb6d3ee52bbe9dd5fb3e8666a62b99d35cedecc186bdb5",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/val/mini_traffic_detection/minitraffic__car22.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/val/ann/car22.jpg.json"
+    },
+    {
+      "image": "images/val/minitraffic__car23.jpg",
+      "split": "val",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/val/img/car23.jpg",
+      "sha256": "cd1c697b10c55c3bfc873d889a2afac61a1c3cb6fe43759fe640f49d4db51b60",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/val/mini_traffic_detection/minitraffic__car23.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/val/ann/car23.jpg.json"
+    },
+    {
+      "image": "images/val/minitraffic__car24.jpg",
+      "split": "val",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/val/img/car24.jpg",
+      "sha256": "19d268bf2f0ce001c34e8a381de9b2db72f226a2e09ea021b6ffd8c6d573936a",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/val/mini_traffic_detection/minitraffic__car24.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/val/ann/car24.jpg.json"
+    },
+    {
+      "image": "images/val/minitraffic__car25.jpg",
+      "split": "val",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/val/img/car25.jpg",
+      "sha256": "d032c6ee433687221fef6efa28ff862df0bafe8e8f0cf806dd91c57ba13ddef0",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/val/mini_traffic_detection/minitraffic__car25.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/val/ann/car25.jpg.json"
+    },
+    {
+      "image": "images/val/minitraffic__car26.jpg",
+      "split": "val",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/val/img/car26.jpg",
+      "sha256": "a0772b0a3840eec0c7a133a6aefedfba627f063dc26f5a93a74a7ac3753a541e",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/val/mini_traffic_detection/minitraffic__car26.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/val/ann/car26.jpg.json"
+    },
+    {
+      "image": "images/val/minitraffic__car27.jpg",
+      "split": "val",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/val/img/car27.jpg",
+      "sha256": "95f718460b07066c2414fa50f665f4bb4cc619ea29c75039e55cb63a12498615",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/val/mini_traffic_detection/minitraffic__car27.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/val/ann/car27.jpg.json"
+    },
+    {
+      "image": "images/val/minitraffic__car28.jpg",
+      "split": "val",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/val/img/car28.jpg",
+      "sha256": "0eca7fd1e914fae4d20512a2516df28b016ded001fdc0da2664a59b50f0321a1",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/val/mini_traffic_detection/minitraffic__car28.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/val/ann/car28.jpg.json"
+    },
+    {
+      "image": "images/val/minitraffic__car29.jpg",
+      "split": "val",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/val/img/car29.jpg",
+      "sha256": "da7b096f1e8a4df2d04f3ef4c79db1a49b944cad9cb98ba03e75d89771d8ae04",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/val/mini_traffic_detection/minitraffic__car29.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/val/ann/car29.jpg.json"
+    },
+    {
+      "image": "images/train/minitraffic__moto2.jpg",
+      "split": "train",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/train/img/moto2.jpg",
+      "sha256": "0a7ec80539e2a66b8a4f196886675a23244d1b3cb1faca22bdc67ff41ae87d93",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/train/mini_traffic_detection/minitraffic__moto2.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/train/ann/moto2.jpg.json"
+    },
+    {
+      "image": "images/train/minitraffic__moto4.jpg",
+      "split": "train",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/train/img/moto4.jpg",
+      "sha256": "dea3be261e9ed259f85a809b9d47a03f5283cd03847816128e2c13c1720cd447",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/train/mini_traffic_detection/minitraffic__moto4.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/train/ann/moto4.jpg.json"
+    },
+    {
+      "image": "images/train/minitraffic__moto5.jpg",
+      "split": "train",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/train/img/moto5.jpg",
+      "sha256": "719d41eebf0e6979522729cbc84437e36e10f8abdfef4a39dabaa802ec60a897",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/train/mini_traffic_detection/minitraffic__moto5.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/train/ann/moto5.jpg.json"
+    },
+    {
+      "image": "images/train/minitraffic__moto7.jpg",
+      "split": "train",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/train/img/moto7.jpg",
+      "sha256": "c8f70d415621e179f29a0d0cd9dfe78ce84141ceb2ad2d51aad7370246abd099",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/train/mini_traffic_detection/minitraffic__moto7.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/train/ann/moto7.jpg.json"
+    },
+    {
+      "image": "images/train/minitraffic__moto9.jpg",
+      "split": "train",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/train/img/moto9.jpg",
+      "sha256": "db2994f4986a676c5b389ac1db47bc51d64a1b7d999166bb94dbce85afcca54a",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/train/mini_traffic_detection/minitraffic__moto9.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/train/ann/moto9.jpg.json"
+    },
+    {
+      "image": "images/train/minitraffic__moto11.jpg",
+      "split": "train",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/train/img/moto11.jpg",
+      "sha256": "d8bcebac22ab4898b35c3d66215b863b0885800a9a7fd544e0839e06f96813b0",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/train/mini_traffic_detection/minitraffic__moto11.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/train/ann/moto11.jpg.json"
+    },
+    {
+      "image": "images/train/minitraffic__moto12.jpg",
+      "split": "train",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/train/img/moto12.jpg",
+      "sha256": "9162f296d996cf1fabf516a423c2f60c7608b2d3f08817a1ba1b3abf92cb1de8",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/train/mini_traffic_detection/minitraffic__moto12.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/train/ann/moto12.jpg.json"
+    },
+    {
+      "image": "images/val/minitraffic__moto23.jpg",
+      "split": "val",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/val/img/moto23.jpg",
+      "sha256": "5ac718fffdace690fae881728d10a7ded3e60a340456cde4a72590e79e20a639",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/val/mini_traffic_detection/minitraffic__moto23.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/val/ann/moto23.jpg.json"
+    },
+    {
+      "image": "images/val/minitraffic__moto24.jpg",
+      "split": "val",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/val/img/moto24.jpg",
+      "sha256": "baafd14a73cd424ca6845c0990a460389f61c9a79cacfc4092b0bbb59bd3fa84",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/val/mini_traffic_detection/minitraffic__moto24.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/val/ann/moto24.jpg.json"
+    },
+    {
+      "image": "images/val/minitraffic__moto26.jpg",
+      "split": "val",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/val/img/moto26.jpg",
+      "sha256": "c25d6558e2e4708ccc7f1a73980a8d37ecb5541f6dd54a7aa5c411119767ae80",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/val/mini_traffic_detection/minitraffic__moto26.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/val/ann/moto26.jpg.json"
+    },
+    {
+      "image": "images/val/minitraffic__person24.jpg",
+      "split": "val",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/val/img/person24.jpg",
+      "sha256": "493edde40e665a4d1c305300f4fe00105c2a20d65e365ed334dd69609d38bf7a",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/val/mini_traffic_detection/minitraffic__person24.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/val/ann/person24.jpg.json"
+    },
+    {
+      "image": "images/val/minitraffic__person29.jpg",
+      "split": "val",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/val/img/person29.jpg",
+      "sha256": "579aee10a4cb5e886b5e570d169314e85448f9b03a1a7a86474df7247c3e68cd",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/val/mini_traffic_detection/minitraffic__person29.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/val/ann/person29.jpg.json"
+    },
+    {
+      "image": "images/train/minitraffic__trafficlight5.jpg",
+      "split": "train",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/train/img/trafficlight5.jpg",
+      "sha256": "8bbe884aff762c8e700dde666951f3751c42a8cec86d12378f3861cd1a69b8b4",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/train/mini_traffic_detection/minitraffic__trafficlight5.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/train/ann/trafficlight5.jpg.json"
+    },
+    {
+      "image": "images/train/minitraffic__trafficlight16.jpg",
+      "split": "train",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/train/img/trafficlight16.jpg",
+      "sha256": "20519c1355ab296a4276736851baffa73ddcc47bd05bfbaff2170673dc682229",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/train/mini_traffic_detection/minitraffic__trafficlight16.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/train/ann/trafficlight16.jpg.json"
+    },
+    {
+      "image": "images/val/minitraffic__trafficlight24.jpg",
+      "split": "val",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/val/img/trafficlight24.jpg",
+      "sha256": "8e63087f3de7c523950eda547c157c0cc699f288d311d4f452833aada3e8c0b6",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/val/mini_traffic_detection/minitraffic__trafficlight24.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/val/ann/trafficlight24.jpg.json"
+    },
+    {
+      "image": "images/val/minitraffic__trafficlight30.jpg",
+      "split": "val",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/val/img/trafficlight30.jpg",
+      "sha256": "265f0b35cd20eed5f35090d9071947b530c6a00322b101c4634f2780f02eaef9",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/val/mini_traffic_detection/minitraffic__trafficlight30.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/val/ann/trafficlight30.jpg.json"
+    },
+    {
+      "image": "images/train/minitraffic__truck3.jpg",
+      "split": "train",
+      "source": "dataset/mini-traffic-detection-DatasetNinja/train/img/truck3.jpg",
+      "sha256": "1ca26d1d0701acfce8a5ce8230e65dd4a2d0dc873c0685e385e85c32a78e2a56",
+      "source_bucket": "mini_traffic_detection",
+      "status": "11_class_review_pending",
+      "reference_label": "labels/train/mini_traffic_detection/minitraffic__truck3.txt",
+      "source_annotation": "dataset/mini-traffic-detection-DatasetNinja/train/ann/truck3.jpg.json"
     }
   ]
 }

@@ -1,0 +1,1604 @@
+{
+  "dataset": "Mini Traffic Detection",
+  "source_url": "https://datasetninja.com/mini-traffic-detection",
+  "source_license": "DbCL v1.0 (reported by the source)",
+  "class_mapping": {
+    "car": 0,
+    "bus": 1,
+    "truck": 2,
+    "motorcycle": 4,
+    "bicycle": 6,
+    "person": 8,
+    "stop_sign": 9,
+    "traffic_light": 10
+  },
+  "source_image_count": 226,
+  "imported_image_count": 57,
+  "review_method": "Image-wide visual scan against team classes, source image/annotation pairing, geometry and image-hash checks.",
+  "imported": [
+    {
+      "file": "bicycle21.jpg",
+      "split": "train",
+      "polygons": {
+        "bicycle": 1
+      }
+    },
+    {
+      "file": "bicycle22.jpg",
+      "split": "val",
+      "polygons": {
+        "bicycle": 1
+      }
+    },
+    {
+      "file": "bicycle25.jpg",
+      "split": "val",
+      "polygons": {
+        "bicycle": 1
+      }
+    },
+    {
+      "file": "bicycle27.jpg",
+      "split": "val",
+      "polygons": {
+        "bicycle": 1
+      }
+    },
+    {
+      "file": "bus3.jpg",
+      "split": "train",
+      "polygons": {
+        "bus": 2
+      }
+    },
+    {
+      "file": "bus4.jpg",
+      "split": "train",
+      "polygons": {
+        "bus": 1
+      }
+    },
+    {
+      "file": "bus5.jpg",
+      "split": "train",
+      "polygons": {
+        "bus": 1
+      }
+    },
+    {
+      "file": "bus14.jpg",
+      "split": "train",
+      "polygons": {
+        "bus": 1
+      }
+    },
+    {
+      "file": "bus16.jpg",
+      "split": "train",
+      "polygons": {
+        "bus": 2
+      }
+    },
+    {
+      "file": "bus18.jpg",
+      "split": "train",
+      "polygons": {
+        "bus": 1
+      }
+    },
+    {
+      "file": "bus20.jpg",
+      "split": "train",
+      "polygons": {
+        "bus": 1
+      }
+    },
+    {
+      "file": "bus26.jpg",
+      "split": "val",
+      "polygons": {
+        "bus": 1
+      }
+    },
+    {
+      "file": "bus29.jpg",
+      "split": "val",
+      "polygons": {
+        "bus": 1
+      }
+    },
+    {
+      "file": "bus30.jpg",
+      "split": "val",
+      "polygons": {
+        "bus": 1
+      }
+    },
+    {
+      "file": "car1.jpg",
+      "split": "train",
+      "polygons": {
+        "car": 10
+      }
+    },
+    {
+      "file": "car2.jpg",
+      "split": "train",
+      "polygons": {
+        "car": 1
+      }
+    },
+    {
+      "file": "car3.jpg",
+      "split": "train",
+      "polygons": {
+        "car": 1
+      }
+    },
+    {
+      "file": "car4.jpg",
+      "split": "train",
+      "polygons": {
+        "car": 1
+      }
+    },
+    {
+      "file": "car6.jpg",
+      "split": "train",
+      "polygons": {
+        "car": 1
+      }
+    },
+    {
+      "file": "car7.jpg",
+      "split": "train",
+      "polygons": {
+        "car": 1
+      }
+    },
+    {
+      "file": "car8.jpg",
+      "split": "train",
+      "polygons": {
+        "car": 1
+      }
+    },
+    {
+      "file": "car9.jpg",
+      "split": "train",
+      "polygons": {
+        "car": 1
+      }
+    },
+    {
+      "file": "car10.jpg",
+      "split": "train",
+      "polygons": {
+        "car": 1
+      }
+    },
+    {
+      "file": "car11.jpg",
+      "split": "train",
+      "polygons": {
+        "car": 1
+      }
+    },
+    {
+      "file": "car12.jpg",
+      "split": "train",
+      "polygons": {
+        "car": 2
+      }
+    },
+    {
+      "file": "car13.jpg",
+      "split": "train",
+      "polygons": {
+        "car": 1
+      }
+    },
+    {
+      "file": "car14.jpg",
+      "split": "train",
+      "polygons": {
+        "car": 1
+      }
+    },
+    {
+      "file": "car15.jpg",
+      "split": "train",
+      "polygons": {
+        "car": 1
+      }
+    },
+    {
+      "file": "car16.jpg",
+      "split": "train",
+      "polygons": {
+        "car": 1
+      }
+    },
+    {
+      "file": "car17.jpg",
+      "split": "train",
+      "polygons": {
+        "car": 1
+      }
+    },
+    {
+      "file": "car20.jpg",
+      "split": "train",
+      "polygons": {
+        "car": 1
+      }
+    },
+    {
+      "file": "car21.jpg",
+      "split": "train",
+      "polygons": {
+        "car": 1
+      }
+    },
+    {
+      "file": "car22.jpg",
+      "split": "val",
+      "polygons": {
+        "car": 1
+      }
+    },
+    {
+      "file": "car23.jpg",
+      "split": "val",
+      "polygons": {
+        "car": 1
+      }
+    },
+    {
+      "file": "car24.jpg",
+      "split": "val",
+      "polygons": {
+        "car": 1
+      }
+    },
+    {
+      "file": "car25.jpg",
+      "split": "val",
+      "polygons": {
+        "car": 1
+      }
+    },
+    {
+      "file": "car26.jpg",
+      "split": "val",
+      "polygons": {
+        "car": 1
+      }
+    },
+    {
+      "file": "car27.jpg",
+      "split": "val",
+      "polygons": {
+        "car": 1
+      }
+    },
+    {
+      "file": "car28.jpg",
+      "split": "val",
+      "polygons": {
+        "car": 1
+      }
+    },
+    {
+      "file": "car29.jpg",
+      "split": "val",
+      "polygons": {
+        "car": 1
+      }
+    },
+    {
+      "file": "moto2.jpg",
+      "split": "train",
+      "polygons": {
+        "motorcycle": 1
+      }
+    },
+    {
+      "file": "moto4.jpg",
+      "split": "train",
+      "polygons": {
+        "motorcycle": 1
+      }
+    },
+    {
+      "file": "moto5.jpg",
+      "split": "train",
+      "polygons": {
+        "motorcycle": 1
+      }
+    },
+    {
+      "file": "moto7.jpg",
+      "split": "train",
+      "polygons": {
+        "motorcycle": 1
+      }
+    },
+    {
+      "file": "moto9.jpg",
+      "split": "train",
+      "polygons": {
+        "motorcycle": 1
+      }
+    },
+    {
+      "file": "moto11.jpg",
+      "split": "train",
+      "polygons": {
+        "motorcycle": 1
+      }
+    },
+    {
+      "file": "moto12.jpg",
+      "split": "train",
+      "polygons": {
+        "motorcycle": 1
+      }
+    },
+    {
+      "file": "moto23.jpg",
+      "split": "val",
+      "polygons": {
+        "motorcycle": 1
+      }
+    },
+    {
+      "file": "moto24.jpg",
+      "split": "val",
+      "polygons": {
+        "motorcycle": 1
+      }
+    },
+    {
+      "file": "moto26.jpg",
+      "split": "val",
+      "polygons": {
+        "motorcycle": 1
+      }
+    },
+    {
+      "file": "person24.jpg",
+      "split": "val",
+      "polygons": {
+        "person": 1
+      }
+    },
+    {
+      "file": "person29.jpg",
+      "split": "val",
+      "polygons": {
+        "person": 2
+      }
+    },
+    {
+      "file": "trafficlight5.jpg",
+      "split": "train",
+      "polygons": {
+        "traffic_light": 1
+      }
+    },
+    {
+      "file": "trafficlight16.jpg",
+      "split": "train",
+      "polygons": {
+        "traffic_light": 1
+      }
+    },
+    {
+      "file": "trafficlight24.jpg",
+      "split": "val",
+      "polygons": {
+        "traffic_light": 1
+      }
+    },
+    {
+      "file": "trafficlight30.jpg",
+      "split": "val",
+      "polygons": {
+        "traffic_light": 1
+      }
+    },
+    {
+      "file": "truck3.jpg",
+      "split": "train",
+      "polygons": {
+        "truck": 1
+      }
+    }
+  ],
+  "not_imported": [
+    {
+      "file": "bicycle1.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "bicycle2.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "bicycle3.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "bicycle4.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "bicycle5.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "bicycle6.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "bicycle7.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "bicycle8.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "bicycle9.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "bicycle10.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "bicycle11.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "bicycle12.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "bicycle13.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "bicycle14.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "bicycle15.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "bicycle16.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "bicycle17.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "bicycle18.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "bicycle20.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "bicycle23.jpg",
+      "split": "val",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "bicycle24.jpg",
+      "split": "val",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "bicycle26.jpg",
+      "split": "val",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "bicycle28.jpg",
+      "split": "val",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "bicycle29.jpg",
+      "split": "val",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "bicycle30.jpg",
+      "split": "val",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "bus1.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "bus2.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "bus6.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "bus7.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "bus8.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "bus9.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "bus10.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "bus11.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "bus12.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "bus13.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "bus15.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "bus17.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "bus19.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "bus21.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "bus22.jpg",
+      "split": "val",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "bus23.jpg",
+      "split": "val",
+      "reason": [
+        "image_size_or_orientation"
+      ]
+    },
+    {
+      "file": "bus25.jpg",
+      "split": "val",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "bus27.jpg",
+      "split": "val",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "bus28.jpg",
+      "split": "val",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "car5.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "car18.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "car19.jpg",
+      "split": "train",
+      "reason": [
+        "invalid_polygon"
+      ]
+    },
+    {
+      "file": "car30.jpg",
+      "split": "val",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "moto1.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "moto3.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "moto6.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "moto8.jpg",
+      "split": "train",
+      "reason": [
+        "polygon_missing_for_box"
+      ]
+    },
+    {
+      "file": "moto14.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "moto15.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "moto16.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "moto17.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "moto18.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "moto19.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "moto21.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "moto22.jpg",
+      "split": "val",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "moto25.jpg",
+      "split": "val",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "moto27.jpg",
+      "split": "val",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "moto28.jpg",
+      "split": "val",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "moto29.jpg",
+      "split": "val",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "moto30.jpg",
+      "split": "val",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "person1.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "person2.jpg",
+      "split": "train",
+      "reason": [
+        "invalid_polygon"
+      ]
+    },
+    {
+      "file": "person3.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "person4.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "person5.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "person6.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "person7.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "person8.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "person9.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "person10.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "person11.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "person13.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "person14.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "person15.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "person16.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "person17.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "person18.jpg",
+      "split": "train",
+      "reason": [
+        "invalid_polygon"
+      ]
+    },
+    {
+      "file": "person19.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "person20.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "person21.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "person22.jpg",
+      "split": "val",
+      "reason": [
+        "invalid_polygon"
+      ]
+    },
+    {
+      "file": "person23.jpg",
+      "split": "val",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "person25.jpg",
+      "split": "val",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "person26.jpg",
+      "split": "val",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "person28.jpg",
+      "split": "val",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "person30.jpg",
+      "split": "val",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "stopsign1.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "stopsign2.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "stopsign3.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "stopsign4.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "stopsign5.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "stopsign6.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "stopsign7.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "stopsign8.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "stopsign9.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "stopsign10.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "stopsign11.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "stopsign12.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "stopsign13.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "stopsign14.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "stopsign15.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "stopsign17.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "stopsign18.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "stopsign21.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "stopsign23.jpg",
+      "split": "val",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "stopsign24.jpg",
+      "split": "val",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "stopsign25.jpg",
+      "split": "val",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "stopsign26.jpg",
+      "split": "val",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "stopsign27.jpg",
+      "split": "val",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "stopsign28.jpg",
+      "split": "val",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "stopsign29.jpg",
+      "split": "val",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "stopsign30.jpg",
+      "split": "val",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "trafficlight1.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "trafficlight2.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "trafficlight3.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "trafficlight4.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "trafficlight6.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "trafficlight7.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "trafficlight8.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "trafficlight9.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "trafficlight10.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "trafficlight11.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "trafficlight12.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "trafficlight13.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "trafficlight15.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "trafficlight17.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "trafficlight18.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "trafficlight19.jpg",
+      "split": "train",
+      "reason": [
+        "image_size_or_orientation"
+      ]
+    },
+    {
+      "file": "trafficlight20.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "trafficlight21.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "trafficlight22.jpg",
+      "split": "val",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "trafficlight23.jpg",
+      "split": "val",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "trafficlight25.jpg",
+      "split": "val",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "trafficlight27.jpg",
+      "split": "val",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "trafficlight28.jpg",
+      "split": "val",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "trafficlight29.jpg",
+      "split": "val",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "truck1.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "truck2.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "truck5.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "truck6.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "truck7.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "truck8.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "truck9.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "truck10.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "truck11.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "truck12.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "truck13.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "truck14.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "truck15.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "truck16.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "truck17.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "truck18.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "truck19.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "truck20.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "truck21.jpg",
+      "split": "train",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "truck22.jpg",
+      "split": "val",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "truck23.jpg",
+      "split": "val",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "truck24.jpg",
+      "split": "val",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "truck25.jpg",
+      "split": "val",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "truck26.jpg",
+      "split": "val",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "truck27.jpg",
+      "split": "val",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "truck28.jpg",
+      "split": "val",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "truck29.jpg",
+      "split": "val",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    },
+    {
+      "file": "truck30.jpg",
+      "split": "val",
+      "reason": [
+        "not_selected_after_visual_review"
+      ]
+    }
+  ]
+}

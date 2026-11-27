@@ -9,7 +9,15 @@ Mở [hướng dẫn HTML](huong-dan-robotaxi-yolo26.html) để xem sơ đồ u
 | Chạy demo | [demo](demo/README.md) | Dùng best.pt của nhóm để xuất video có mask. |
 | Trưởng nhóm | [submission](submission/README.md) | Tập hợp submission.zip và run_report.json để bàn giao. |
 
-Bộ data_raw có **346 ảnh**, chia **311 train / 35 val**, gồm 39 ảnh CVAT chưa có nhãn và 30 ảnh vn_sign_30 có nhãn Sign một phần, cần rà và gán bổ sung. data/ có schema 11 lớp và chờ nhãn đã duyệt. Các bộ cũ được lưu trong archive/ để đối chiếu.
+Bộ data_raw ban đầu có **346 ảnh**, chia **311 train / 35 val**, gồm 39 ảnh CVAT chưa có nhãn và 30 ảnh vn_sign_30 có nhãn Sign một phần, cần rà và gán bổ sung. data/ có schema 11 lớp và chứa dữ liệu đã chuẩn bị cho huấn luyện. Các bộ cũ được lưu trong archive/ để đối chiếu.
+
+## Chạy tiếp phần huấn luyện của đội
+
+Đọc [hướng dẫn từng bước cho Đội 29](HUONG_DAN_TRAIN_COLAB_DOI29.md). Seed `TEAM_ID = 34`.
+
+Bộ dữ liệu dùng để chạy hiện nằm trong `data/`, gồm **372 ảnh train / 5.338 đối tượng** và **26 ảnh val / 372 đối tượng**. Đã bổ sung 70 ảnh Mini Traffic Detection vào train và cập nhật nhãn đã rà. Phần phân công bên dưới lưu lại bộ ảnh gốc của nhóm.
+
+Có thể clone repo ngay trong Colab và đặt `DATASET_PATH = "/content/hotkathanh/data"`. Hướng dẫn có sẵn ô lệnh clone, thứ tự chạy notebook, cấu hình và danh sách file cần bàn giao.
 
 ## Phân công gán nhãn
 
