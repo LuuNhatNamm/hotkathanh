@@ -1,5 +1,5 @@
 {
-  "total_images": 316,
+  "total_images": 346,
   "approved_images": 0,
   "target_ratio_percent": {
     "train": 70,
@@ -8,25 +8,28 @@
   },
   "split_counts": {
     "train": {
-      "total": 221,
+      "total": 242,
       "guideline11": 35,
       "pending": 19,
       "kitti7": 140,
-      "cvat_new": 27
+      "cvat_new": 27,
+      "vn_sign_30": 21
     },
     "test": {
-      "total": 63,
+      "total": 69,
       "guideline11": 10,
       "pending": 5,
       "kitti7": 40,
-      "cvat_new": 8
+      "cvat_new": 8,
+      "vn_sign_30": 6
     },
     "val": {
-      "total": 32,
+      "total": 35,
       "guideline11": 5,
       "pending": 3,
       "kitti7": 20,
-      "cvat_new": 4
+      "cvat_new": 4,
+      "vn_sign_30": 3
     }
   },
   "checks": {
@@ -2991,6 +2994,306 @@
       "source_bucket": "cvat_new",
       "status": "unlabeled",
       "view_sequence_group": "0000364"
+    },
+    {
+      "image": "images/train/vn_sign_30__zalo_10246.png",
+      "split": "train",
+      "source": "dataset/vn_sign_30/images/zalo_10246.png",
+      "sha256": "4e3cdc7b8cc53625cef544cc79ffc3e7fc2a91ab2d9c3e70a42d944fb966ee4b",
+      "status": "partial_sign_labels_review_pending",
+      "source_bucket": "vn_sign_30",
+      "reference_label": "labels_reference/vn_sign_30/train/vn_sign_30__zalo_10246.txt",
+      "street_id": "29"
+    },
+    {
+      "image": "images/train/vn_sign_30__zalo_10657.png",
+      "split": "train",
+      "source": "dataset/vn_sign_30/images/zalo_10657.png",
+      "sha256": "7ac9a2d837ace21b19ec962f066e64b4c3ef07a50cab2a09db62ff7f102a9e9b",
+      "status": "partial_sign_labels_review_pending",
+      "source_bucket": "vn_sign_30",
+      "reference_label": "labels_reference/vn_sign_30/train/vn_sign_30__zalo_10657.txt",
+      "street_id": "53"
+    },
+    {
+      "image": "images/train/vn_sign_30__zalo_1069.png",
+      "split": "train",
+      "source": "dataset/vn_sign_30/images/zalo_1069.png",
+      "sha256": "61306aeeb641ac3cec217eeda1d7b87eda29ac21954db6caef0e685429086f6f",
+      "status": "partial_sign_labels_review_pending",
+      "source_bucket": "vn_sign_30",
+      "reference_label": "labels_reference/vn_sign_30/train/vn_sign_30__zalo_1069.txt",
+      "street_id": "24"
+    },
+    {
+      "image": "images/train/vn_sign_30__zalo_10877.png",
+      "split": "train",
+      "source": "dataset/vn_sign_30/images/zalo_10877.png",
+      "sha256": "77a2367eee0ff18c38885991581b2cbf162242ba6fd9446934a52861ab4ecf4c",
+      "status": "partial_sign_labels_review_pending",
+      "source_bucket": "vn_sign_30",
+      "reference_label": "labels_reference/vn_sign_30/train/vn_sign_30__zalo_10877.txt",
+      "street_id": "18"
+    },
+    {
+      "image": "images/train/vn_sign_30__zalo_11178.png",
+      "split": "train",
+      "source": "dataset/vn_sign_30/images/zalo_11178.png",
+      "sha256": "cae08ac06f3de102e314cc3de6eb3906afa748dc8a51a7ccf783e91c773cf7fb",
+      "status": "partial_sign_labels_review_pending",
+      "source_bucket": "vn_sign_30",
+      "reference_label": "labels_reference/vn_sign_30/train/vn_sign_30__zalo_11178.txt",
+      "street_id": "22"
+    },
+    {
+      "image": "images/train/vn_sign_30__zalo_12213.png",
+      "split": "train",
+      "source": "dataset/vn_sign_30/images/zalo_12213.png",
+      "sha256": "cb2ddfb09e929f76d1aba871a10d1184a22849138e27259aba639742242e9b6a",
+      "status": "partial_sign_labels_review_pending",
+      "source_bucket": "vn_sign_30",
+      "reference_label": "labels_reference/vn_sign_30/train/vn_sign_30__zalo_12213.txt",
+      "street_id": "49"
+    },
+    {
+      "image": "images/test/vn_sign_30__zalo_12267.png",
+      "split": "test",
+      "source": "dataset/vn_sign_30/images/zalo_12267.png",
+      "sha256": "402c083508d5266c9684e01e15880727c9bd801abc0bfa207a478f2b3d4ee4ed",
+      "status": "partial_sign_labels_review_pending",
+      "source_bucket": "vn_sign_30",
+      "reference_label": "labels_reference/vn_sign_30/test/vn_sign_30__zalo_12267.txt",
+      "street_id": "51"
+    },
+    {
+      "image": "images/train/vn_sign_30__zalo_1827.png",
+      "split": "train",
+      "source": "dataset/vn_sign_30/images/zalo_1827.png",
+      "sha256": "4bd97a3d81a4b52d1ee77909e34aa1bd12ae66e1a4bbd794588d0ba4cf5fc239",
+      "status": "partial_sign_labels_review_pending",
+      "source_bucket": "vn_sign_30",
+      "reference_label": "labels_reference/vn_sign_30/train/vn_sign_30__zalo_1827.txt",
+      "street_id": "19"
+    },
+    {
+      "image": "images/train/vn_sign_30__zalo_1995.png",
+      "split": "train",
+      "source": "dataset/vn_sign_30/images/zalo_1995.png",
+      "sha256": "17793446d722c03e7d5318edd07a0cdeb8084de3b888087a0e875e604b2129a4",
+      "status": "partial_sign_labels_review_pending",
+      "source_bucket": "vn_sign_30",
+      "reference_label": "labels_reference/vn_sign_30/train/vn_sign_30__zalo_1995.txt",
+      "street_id": "20"
+    },
+    {
+      "image": "images/train/vn_sign_30__zalo_254.png",
+      "split": "train",
+      "source": "dataset/vn_sign_30/images/zalo_254.png",
+      "sha256": "7cf08fee7b5e47babc90edfc96d8d182255203e5eba75933e0bb953b1b86aa29",
+      "status": "partial_sign_labels_review_pending",
+      "source_bucket": "vn_sign_30",
+      "reference_label": "labels_reference/vn_sign_30/train/vn_sign_30__zalo_254.txt",
+      "street_id": "7"
+    },
+    {
+      "image": "images/train/vn_sign_30__zalo_3426.png",
+      "split": "train",
+      "source": "dataset/vn_sign_30/images/zalo_3426.png",
+      "sha256": "a6172c15707e91603d3cc6afcbf601dd3199e4125ecbd8317701ca793d0dc38a",
+      "status": "partial_sign_labels_review_pending",
+      "source_bucket": "vn_sign_30",
+      "reference_label": "labels_reference/vn_sign_30/train/vn_sign_30__zalo_3426.txt",
+      "street_id": "30"
+    },
+    {
+      "image": "images/val/vn_sign_30__zalo_4692.png",
+      "split": "val",
+      "source": "dataset/vn_sign_30/images/zalo_4692.png",
+      "sha256": "2cbc2a7276fe51e2ace6102d7c1f6081565482213708fb266684149d4428543e",
+      "status": "partial_sign_labels_review_pending",
+      "source_bucket": "vn_sign_30",
+      "reference_label": "labels_reference/vn_sign_30/val/vn_sign_30__zalo_4692.txt",
+      "street_id": "36"
+    },
+    {
+      "image": "images/test/vn_sign_30__zalo_4737.png",
+      "split": "test",
+      "source": "dataset/vn_sign_30/images/zalo_4737.png",
+      "sha256": "a57e558ebfe4d1433e8ecccf485c3da755058e557050b9010e7fa7bb95b45132",
+      "status": "partial_sign_labels_review_pending",
+      "source_bucket": "vn_sign_30",
+      "reference_label": "labels_reference/vn_sign_30/test/vn_sign_30__zalo_4737.txt",
+      "street_id": "34"
+    },
+    {
+      "image": "images/test/vn_sign_30__zalo_4816.png",
+      "split": "test",
+      "source": "dataset/vn_sign_30/images/zalo_4816.png",
+      "sha256": "6aa44de2f7594aa48a6e13a154338a9345af753516cabe2cc0743d0bb74e634e",
+      "status": "partial_sign_labels_review_pending",
+      "source_bucket": "vn_sign_30",
+      "reference_label": "labels_reference/vn_sign_30/test/vn_sign_30__zalo_4816.txt",
+      "street_id": "33"
+    },
+    {
+      "image": "images/train/vn_sign_30__zalo_5025.png",
+      "split": "train",
+      "source": "dataset/vn_sign_30/images/zalo_5025.png",
+      "sha256": "13aaff4262723bc200c1634cd02318195a5219600d13c9dd93ac1f7b314311cd",
+      "status": "partial_sign_labels_review_pending",
+      "source_bucket": "vn_sign_30",
+      "reference_label": "labels_reference/vn_sign_30/train/vn_sign_30__zalo_5025.txt",
+      "street_id": "38"
+    },
+    {
+      "image": "images/test/vn_sign_30__zalo_5042.png",
+      "split": "test",
+      "source": "dataset/vn_sign_30/images/zalo_5042.png",
+      "sha256": "72d96844b0643460f22e9ba4a5464978243ea41d8ec2c54f28ae480d59762d55",
+      "status": "partial_sign_labels_review_pending",
+      "source_bucket": "vn_sign_30",
+      "reference_label": "labels_reference/vn_sign_30/test/vn_sign_30__zalo_5042.txt",
+      "street_id": "44"
+    },
+    {
+      "image": "images/train/vn_sign_30__zalo_5046.png",
+      "split": "train",
+      "source": "dataset/vn_sign_30/images/zalo_5046.png",
+      "sha256": "7c30010e5c197bbfe3e3a1ccfea74d589dec69d3a67dc308e95c07be5d03cb6a",
+      "status": "partial_sign_labels_review_pending",
+      "source_bucket": "vn_sign_30",
+      "reference_label": "labels_reference/vn_sign_30/train/vn_sign_30__zalo_5046.txt",
+      "street_id": "40"
+    },
+    {
+      "image": "images/val/vn_sign_30__zalo_5259.png",
+      "split": "val",
+      "source": "dataset/vn_sign_30/images/zalo_5259.png",
+      "sha256": "0a12d1a4e1e41af5c5d772b8599ffea22c0f8ca7b03e181d28a41784d07eb49d",
+      "status": "partial_sign_labels_review_pending",
+      "source_bucket": "vn_sign_30",
+      "reference_label": "labels_reference/vn_sign_30/val/vn_sign_30__zalo_5259.txt",
+      "street_id": "39"
+    },
+    {
+      "image": "images/train/vn_sign_30__zalo_6244.png",
+      "split": "train",
+      "source": "dataset/vn_sign_30/images/zalo_6244.png",
+      "sha256": "fd926efc658226b36d8ee2197bb5574366b14f70eec25189cfdb5fe07766c61a",
+      "status": "partial_sign_labels_review_pending",
+      "source_bucket": "vn_sign_30",
+      "reference_label": "labels_reference/vn_sign_30/train/vn_sign_30__zalo_6244.txt",
+      "street_id": "45"
+    },
+    {
+      "image": "images/train/vn_sign_30__zalo_6652.png",
+      "split": "train",
+      "source": "dataset/vn_sign_30/images/zalo_6652.png",
+      "sha256": "cc7986e7df6513f31045df60d3e86ded9db2bad8422ebd03052ee74ff3206eb4",
+      "status": "partial_sign_labels_review_pending",
+      "source_bucket": "vn_sign_30",
+      "reference_label": "labels_reference/vn_sign_30/train/vn_sign_30__zalo_6652.txt",
+      "street_id": "47"
+    },
+    {
+      "image": "images/train/vn_sign_30__zalo_698.png",
+      "split": "train",
+      "source": "dataset/vn_sign_30/images/zalo_698.png",
+      "sha256": "037c14d6ad36ee548f6fb81a180b75d6566b3a59c8edfa074b11064c1287f503",
+      "status": "partial_sign_labels_review_pending",
+      "source_bucket": "vn_sign_30",
+      "reference_label": "labels_reference/vn_sign_30/train/vn_sign_30__zalo_698.txt",
+      "street_id": "8"
+    },
+    {
+      "image": "images/train/vn_sign_30__zalo_758.png",
+      "split": "train",
+      "source": "dataset/vn_sign_30/images/zalo_758.png",
+      "sha256": "010fa472f48c9bffbad36aaf219d84f7d5733ca96df0ef0431171b65c35d48d5",
+      "status": "partial_sign_labels_review_pending",
+      "source_bucket": "vn_sign_30",
+      "reference_label": "labels_reference/vn_sign_30/train/vn_sign_30__zalo_758.txt",
+      "street_id": "13"
+    },
+    {
+      "image": "images/train/vn_sign_30__zalo_86.png",
+      "split": "train",
+      "source": "dataset/vn_sign_30/images/zalo_86.png",
+      "sha256": "5b7772f10f2d46308d2210cf00f0ff381b13be4e0fd44c0eb8d8ec76e644d032",
+      "status": "partial_sign_labels_review_pending",
+      "source_bucket": "vn_sign_30",
+      "reference_label": "labels_reference/vn_sign_30/train/vn_sign_30__zalo_86.txt",
+      "street_id": "1"
+    },
+    {
+      "image": "images/test/vn_sign_30__zalo_9000.png",
+      "split": "test",
+      "source": "dataset/vn_sign_30/images/zalo_9000.png",
+      "sha256": "7149febd97a1b1297e040a5558aa8c858fb5f5966add2317b263a96c13879632",
+      "status": "partial_sign_labels_review_pending",
+      "source_bucket": "vn_sign_30",
+      "reference_label": "labels_reference/vn_sign_30/test/vn_sign_30__zalo_9000.txt",
+      "street_id": "52"
+    },
+    {
+      "image": "images/train/vn_sign_30__zalo_9309.png",
+      "split": "train",
+      "source": "dataset/vn_sign_30/images/zalo_9309.png",
+      "sha256": "12ab29b41c179dbad373b6b7f0814ed0bf9f687ca25a5bd20716445a2818ce39",
+      "status": "partial_sign_labels_review_pending",
+      "source_bucket": "vn_sign_30",
+      "reference_label": "labels_reference/vn_sign_30/train/vn_sign_30__zalo_9309.txt",
+      "street_id": "15"
+    },
+    {
+      "image": "images/train/vn_sign_30__zalo_935.png",
+      "split": "train",
+      "source": "dataset/vn_sign_30/images/zalo_935.png",
+      "sha256": "86b43f719c361e2ec5c002f31704855a2fbfc6f8a19e694b67bae0b83dc5ad88",
+      "status": "partial_sign_labels_review_pending",
+      "source_bucket": "vn_sign_30",
+      "reference_label": "labels_reference/vn_sign_30/train/vn_sign_30__zalo_935.txt",
+      "street_id": "3"
+    },
+    {
+      "image": "images/test/vn_sign_30__zalo_9530.png",
+      "split": "test",
+      "source": "dataset/vn_sign_30/images/zalo_9530.png",
+      "sha256": "1ade8d1090110a193d51b7953990646ccdf0ef52afc6b8d7791280da1622c8c2",
+      "status": "partial_sign_labels_review_pending",
+      "source_bucket": "vn_sign_30",
+      "reference_label": "labels_reference/vn_sign_30/test/vn_sign_30__zalo_9530.txt",
+      "street_id": "5"
+    },
+    {
+      "image": "images/train/vn_sign_30__zalo_9576.png",
+      "split": "train",
+      "source": "dataset/vn_sign_30/images/zalo_9576.png",
+      "sha256": "13e6a611dccff95a3b101b2b46904de425d7b031b7ebc8f5ecbfca3634dac950",
+      "status": "partial_sign_labels_review_pending",
+      "source_bucket": "vn_sign_30",
+      "reference_label": "labels_reference/vn_sign_30/train/vn_sign_30__zalo_9576.txt",
+      "street_id": "28"
+    },
+    {
+      "image": "images/val/vn_sign_30__zalo_9767.png",
+      "split": "val",
+      "source": "dataset/vn_sign_30/images/zalo_9767.png",
+      "sha256": "fef8302ad9540c917971c4d14378c8968931b85915e6073dade6bbb9452caffb",
+      "status": "partial_sign_labels_review_pending",
+      "source_bucket": "vn_sign_30",
+      "reference_label": "labels_reference/vn_sign_30/val/vn_sign_30__zalo_9767.txt",
+      "street_id": "12"
+    },
+    {
+      "image": "images/train/vn_sign_30__zalo_9894.png",
+      "split": "train",
+      "source": "dataset/vn_sign_30/images/zalo_9894.png",
+      "sha256": "86c59eb685cb0341cfd30d9a1d6ec08abe58c90c205e9135654e3f29d133bda3",
+      "status": "partial_sign_labels_review_pending",
+      "source_bucket": "vn_sign_30",
+      "reference_label": "labels_reference/vn_sign_30/train/vn_sign_30__zalo_9894.txt",
+      "street_id": "16"
     }
   ]
 }

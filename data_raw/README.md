@@ -1,13 +1,13 @@
 # Dữ liệu chờ xử lý
 
-Bản gộp gồm dữ liệu trước đó và 39 ảnh trong RoboTaxi_v3_CVAT_moi. Ảnh cũ giữ nguyên split. Ảnh mới có cùng mã nhóm trong tên VisDrone được xếp cùng tập.
+Bộ gộp có 346 ảnh, gồm 39 ảnh CVAT và 30 ảnh từ vn_sign_30. Các ảnh trước đó giữ nguyên split.
 
-| Split | Tổng | Ảnh CVAT mới | Nhãn 11 lớp chưa duyệt | Nhãn KITTI 7 lớp | Chưa có nhãn |
-| --- | ---: | ---: | ---: | ---: | ---: |
-| train | 221 | 27 | 35 | 140 | 46 |
-| test | 63 | 8 | 10 | 40 | 13 |
-| val | 32 | 4 | 5 | 20 | 7 |
+| Split | Tổng | Ảnh CVAT | Nhãn 11 lớp chưa duyệt | Nhãn KITTI 7 lớp | Nhãn Sign một phần | Chưa có nhãn |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| train | 242 | 27 | 35 | 140 | 21 | 46 |
+| test | 69 | 8 | 10 | 40 | 6 | 13 |
+| val | 35 | 4 | 5 | 20 | 3 | 7 |
 
-labels_reference/guideline11/ chứa 50 nhãn ánh xạ cần rà. labels_reference/kitti7/ chứa 200 nhãn nguồn cần chuyển sang 11 lớp. 66 ảnh còn lại chưa có nhãn. File tham khảo có cùng tên gốc và nằm cùng split với ảnh.
+Nhãn tham khảo có cùng tên gốc và split với ảnh. Bộ vn_sign_30 có 127 nhãn Sign (ID 9) chuyển từ box. Cần kiểm tra biên, thêm biển bị thiếu và gán các lớp đối tượng còn lại trước khi đưa vào [data](../data/README.md). Xem [ghi chú nguồn vn_sign_30](sources/vn_sign_30/README.md).
 
-Đọc split_manifest.json để tra nguồn và 23 cặp nghi gần trùng. Các cặp này nằm cùng split. Chỉ đưa cặp ảnh và nhãn đã duyệt vào [data](../data/README.md).
+Đọc split_manifest.json để tra nguồn và 23 cặp nghi gần trùng. Các cặp này nằm cùng split.

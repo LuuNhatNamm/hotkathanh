@@ -240,7 +240,7 @@
     <h3>Cấu trúc thư mục</h3>
 
     <pre><code>yolo26n-seg/
-├── data_raw/                     # 316 ảnh chờ gán, sửa hoặc duyệt nhãn
+├── data_raw/                     # 346 ảnh chờ gán, sửa hoặc duyệt nhãn
 │   ├── images/{train,test,val}/
 │   ├── labels_reference/{guideline11,kitti7}/{train,test,val}/
 │   └── split_manifest.json
@@ -261,7 +261,7 @@
   <section id="dataset">
 
     <h2>Dữ liệu của project</h2>
-    <p><a href="data_raw/README.md">data_raw/</a> có 316 ảnh, gồm 221 train, 63 test và 32 validation. Trong đó có 39 ảnh CVAT mới chưa có nhãn. <a href="data/README.md">data/</a> dành cho ảnh và nhãn 11 lớp đã duyệt, hiện chờ nhóm bổ sung.</p>
+    <p><a href="data_raw/README.md">data_raw/</a> có 346 ảnh, gồm 242 train, 69 test và 35 validation. Trong đó có 39 ảnh CVAT chưa có nhãn và 30 ảnh vn_sign_30 có nhãn Sign một phần, cần rà và gán bổ sung. <a href="data/README.md">data/</a> dành cho ảnh và nhãn 11 lớp đã duyệt, hiện chờ nhóm bổ sung.</p>
     <h3>Dataset nguồn KITTI-200 · 7 lớp</h3>
 
     <p><strong>200 ảnh, 1.981 nhãn polygon.</strong> Ultralytics đã đọc được 160 ảnh và 1.570 nhãn train, cùng 40 ảnh và 411 nhãn validation. Đây là thống kê trước khi đổi nhãn. Dataset train theo bộ chấm cần dùng 11 lớp bên dưới.</p>
