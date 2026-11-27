@@ -17,7 +17,7 @@ Mỗi thành viên nhận một phần. Ghi tên người phụ trách cạnh ph
 
 | Phần | Tổng ảnh | Train | Val | Nhãn 11 lớp chờ rà | KITTI 7 lớp cần chuyển | Nhãn Sign một phần | Chưa có nhãn |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Phần 1 | 87 | 78 | 9 | 13 | 50 | 7 | 17 |
+| Phần 1 · Phu · đã duyệt | 87 | 78 | 9 | 13 | 50 | 7 | 17 |
 | Phần 2 | 87 | 78 | 9 | 13 | 50 | 7 | 17 |
 | Phần 3 | 86 | 78 | 8 | 12 | 50 | 8 | 16 |
 | Phần 4 | 86 | 77 | 9 | 12 | 50 | 8 | 16 |
