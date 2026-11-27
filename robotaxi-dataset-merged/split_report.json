@@ -1,0 +1,2642 @@
+{
+  "total_input": 277,
+  "total_unique": 277,
+  "ratio_percent": {
+    "train": 70,
+    "test": 20,
+    "val": 10
+  },
+  "seed": 42,
+  "split_counts": {
+    "train": {
+      "total": 194,
+      "guideline11": 35,
+      "pending": 19,
+      "kitti7": 140
+    },
+    "test": {
+      "total": 55,
+      "guideline11": 10,
+      "pending": 5,
+      "kitti7": 40
+    },
+    "val": {
+      "total": 28,
+      "guideline11": 5,
+      "pending": 3,
+      "kitti7": 20
+    }
+  },
+  "exact_duplicates": [],
+  "near_duplicate_rule": "64-bit dHash Hamming distance <= 2; treated as potential near-duplicates",
+  "near_pair_count": 23,
+  "near_cluster_count": 5,
+  "near_pairs": [
+    {
+      "image_a": "robotaxi-kitti200-seg/images/train/000043_10.jpg",
+      "image_b": "robotaxi-kitti200-seg/images/train/000045_10.jpg",
+      "distance": 1,
+      "split": "train"
+    },
+    {
+      "image_a": "robotaxi-kitti200-seg/images/train/000043_10.jpg",
+      "image_b": "robotaxi-kitti200-seg/images/train/000046_10.jpg",
+      "distance": 2,
+      "split": "train"
+    },
+    {
+      "image_a": "robotaxi-kitti200-seg/images/train/000043_10.jpg",
+      "image_b": "robotaxi-kitti200-seg/images/train/000047_10.jpg",
+      "distance": 1,
+      "split": "train"
+    },
+    {
+      "image_a": "robotaxi-kitti200-seg/images/train/000045_10.jpg",
+      "image_b": "robotaxi-kitti200-seg/images/train/000047_10.jpg",
+      "distance": 2,
+      "split": "train"
+    },
+    {
+      "image_a": "robotaxi-kitti200-seg/images/train/000089_10.jpg",
+      "image_b": "robotaxi-kitti200-seg/images/train/000091_10.jpg",
+      "distance": 0,
+      "split": "train"
+    },
+    {
+      "image_a": "robotaxi-kitti200-seg/images/train/000089_10.jpg",
+      "image_b": "robotaxi-kitti200-seg/images/train/000092_10.jpg",
+      "distance": 0,
+      "split": "train"
+    },
+    {
+      "image_a": "robotaxi-kitti200-seg/images/train/000089_10.jpg",
+      "image_b": "robotaxi-kitti200-seg/images/train/000094_10.jpg",
+      "distance": 1,
+      "split": "train"
+    },
+    {
+      "image_a": "robotaxi-kitti200-seg/images/train/000089_10.jpg",
+      "image_b": "robotaxi-kitti200-seg/images/train/000096_10.jpg",
+      "distance": 1,
+      "split": "train"
+    },
+    {
+      "image_a": "robotaxi-kitti200-seg/images/train/000089_10.jpg",
+      "image_b": "robotaxi-kitti200-seg/images/val/000097_10.jpg",
+      "distance": 0,
+      "split": "train"
+    },
+    {
+      "image_a": "robotaxi-kitti200-seg/images/train/000090_10.jpg",
+      "image_b": "robotaxi-kitti200-seg/images/train/000095_10.jpg",
+      "distance": 1,
+      "split": "train"
+    },
+    {
+      "image_a": "robotaxi-kitti200-seg/images/train/000091_10.jpg",
+      "image_b": "robotaxi-kitti200-seg/images/train/000092_10.jpg",
+      "distance": 0,
+      "split": "train"
+    },
+    {
+      "image_a": "robotaxi-kitti200-seg/images/train/000091_10.jpg",
+      "image_b": "robotaxi-kitti200-seg/images/train/000094_10.jpg",
+      "distance": 1,
+      "split": "train"
+    },
+    {
+      "image_a": "robotaxi-kitti200-seg/images/train/000091_10.jpg",
+      "image_b": "robotaxi-kitti200-seg/images/train/000096_10.jpg",
+      "distance": 1,
+      "split": "train"
+    },
+    {
+      "image_a": "robotaxi-kitti200-seg/images/train/000091_10.jpg",
+      "image_b": "robotaxi-kitti200-seg/images/val/000097_10.jpg",
+      "distance": 0,
+      "split": "train"
+    },
+    {
+      "image_a": "robotaxi-kitti200-seg/images/train/000092_10.jpg",
+      "image_b": "robotaxi-kitti200-seg/images/train/000094_10.jpg",
+      "distance": 1,
+      "split": "train"
+    },
+    {
+      "image_a": "robotaxi-kitti200-seg/images/train/000092_10.jpg",
+      "image_b": "robotaxi-kitti200-seg/images/train/000096_10.jpg",
+      "distance": 1,
+      "split": "train"
+    },
+    {
+      "image_a": "robotaxi-kitti200-seg/images/train/000092_10.jpg",
+      "image_b": "robotaxi-kitti200-seg/images/val/000097_10.jpg",
+      "distance": 0,
+      "split": "train"
+    },
+    {
+      "image_a": "robotaxi-kitti200-seg/images/train/000094_10.jpg",
+      "image_b": "robotaxi-kitti200-seg/images/train/000096_10.jpg",
+      "distance": 2,
+      "split": "train"
+    },
+    {
+      "image_a": "robotaxi-kitti200-seg/images/train/000094_10.jpg",
+      "image_b": "robotaxi-kitti200-seg/images/val/000097_10.jpg",
+      "distance": 1,
+      "split": "train"
+    },
+    {
+      "image_a": "robotaxi-kitti200-seg/images/train/000096_10.jpg",
+      "image_b": "robotaxi-kitti200-seg/images/val/000097_10.jpg",
+      "distance": 1,
+      "split": "train"
+    },
+    {
+      "image_a": "robotaxi-kitti200-seg/images/train/000114_10.jpg",
+      "image_b": "robotaxi-kitti200-seg/images/val/000113_10.jpg",
+      "distance": 2,
+      "split": "train"
+    },
+    {
+      "image_a": "robotaxi-kitti200-seg/images/val/000048_10.jpg",
+      "image_b": "robotaxi-kitti200-seg/images/val/000051_10.jpg",
+      "distance": 2,
+      "split": "train"
+    },
+    {
+      "image_a": "robotaxi-kitti200-seg/images/val/000112_10.jpg",
+      "image_b": "robotaxi-kitti200-seg/images/val/000113_10.jpg",
+      "distance": 1,
+      "split": "train"
+    }
+  ],
+  "files": [
+    {
+      "image": "images/train/guideline11__coco_000000076417.jpg",
+      "source": "robotaxi-guideline11-seg/images/train/coco_000000076417.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "guideline11",
+      "sha256": "740a8f0e6c980ad0587bb352a909308782f8c3a7fa3853cc6b06aa2ed1ff4675",
+      "source_label": "labels_guideline11/train/guideline11__coco_000000076417.txt"
+    },
+    {
+      "image": "images/train/guideline11__coco_000000109441.jpg",
+      "source": "robotaxi-guideline11-seg/images/train/coco_000000109441.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "guideline11",
+      "sha256": "a6099acbb72ebec1c46e522ad26e874742446549d373c52048e0dc18ba15f5d3",
+      "source_label": "labels_guideline11/train/guideline11__coco_000000109441.txt"
+    },
+    {
+      "image": "images/train/guideline11__coco_000000115946.jpg",
+      "source": "robotaxi-guideline11-seg/images/train/coco_000000115946.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "guideline11",
+      "sha256": "710c302c6a617ffbd271ebad8a4b1a15a6737f51e3cdaa35b4b009aee4046264",
+      "source_label": "labels_guideline11/train/guideline11__coco_000000115946.txt"
+    },
+    {
+      "image": "images/train/guideline11__coco_000000133819.jpg",
+      "source": "robotaxi-guideline11-seg/images/train/coco_000000133819.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "guideline11",
+      "sha256": "ddb32ae4d1057b76bbfcde96ef5b03c0df64811155bf2da75ca622f83ddc1f29",
+      "source_label": "labels_guideline11/train/guideline11__coco_000000133819.txt"
+    },
+    {
+      "image": "images/train/guideline11__coco_000000144706.jpg",
+      "source": "robotaxi-guideline11-seg/images/train/coco_000000144706.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "guideline11",
+      "sha256": "0cca792ee55651c6cdda13c2f01a4047ee7423636ad1b6e8f4f124c4411f6b3f",
+      "source_label": "labels_guideline11/train/guideline11__coco_000000144706.txt"
+    },
+    {
+      "image": "images/train/guideline11__coco_000000155451.jpg",
+      "source": "robotaxi-guideline11-seg/images/train/coco_000000155451.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "guideline11",
+      "sha256": "d53c8637732ca8e9542fb324cba5bf8224b5816d0bdc86f3deb5bf9315534427",
+      "source_label": "labels_guideline11/train/guideline11__coco_000000155451.txt"
+    },
+    {
+      "image": "images/train/guideline11__coco_000000165039.jpg",
+      "source": "robotaxi-guideline11-seg/images/train/coco_000000165039.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "guideline11",
+      "sha256": "e33ff0c52506ec5f5eea55ca9a3306f3bdc2ba6596ceedefcadf3b59541c1458",
+      "source_label": "labels_guideline11/train/guideline11__coco_000000165039.txt"
+    },
+    {
+      "image": "images/train/guideline11__coco_000000169996.jpg",
+      "source": "robotaxi-guideline11-seg/images/train/coco_000000169996.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "guideline11",
+      "sha256": "611bac47a27ce814dffb589dd2ed663f447b22aed5365b95fce142dbc6ddcc08",
+      "source_label": "labels_guideline11/train/guideline11__coco_000000169996.txt"
+    },
+    {
+      "image": "images/train/guideline11__coco_000000178982.jpg",
+      "source": "robotaxi-guideline11-seg/images/train/coco_000000178982.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "guideline11",
+      "sha256": "8c7b1f2f6e44305b7ef5b05bb9c35a4c5935a7f51dfed9f4f5af56fff6f6100b",
+      "source_label": "labels_guideline11/train/guideline11__coco_000000178982.txt"
+    },
+    {
+      "image": "images/train/guideline11__coco_000000183246.jpg",
+      "source": "robotaxi-guideline11-seg/images/train/coco_000000183246.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "guideline11",
+      "sha256": "25d6c62b5ee245a99b98de1f078ab5d827c6737dfe11c60815955146604b6e7b",
+      "source_label": "labels_guideline11/train/guideline11__coco_000000183246.txt"
+    },
+    {
+      "image": "images/train/guideline11__coco_000000183709.jpg",
+      "source": "robotaxi-guideline11-seg/images/train/coco_000000183709.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "guideline11",
+      "sha256": "89dabb8b6940b9c08d005d03f0a22573eea72896f8314fbb0d4c128a99c261a1",
+      "source_label": "labels_guideline11/train/guideline11__coco_000000183709.txt"
+    },
+    {
+      "image": "images/train/guideline11__coco_000000193717.jpg",
+      "source": "robotaxi-guideline11-seg/images/train/coco_000000193717.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "guideline11",
+      "sha256": "a2606516f5b4ff9ba6dd7e65ef87bff0c1621f837ba164954d41c688dc7da16e",
+      "source_label": "labels_guideline11/train/guideline11__coco_000000193717.txt"
+    },
+    {
+      "image": "images/train/guideline11__coco_000000204871.jpg",
+      "source": "robotaxi-guideline11-seg/images/train/coco_000000204871.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "guideline11",
+      "sha256": "f471e48c808ea689a1e3a4a1214bc03e81a95195146b0c42601dbd6eaa006c89",
+      "source_label": "labels_guideline11/train/guideline11__coco_000000204871.txt"
+    },
+    {
+      "image": "images/train/guideline11__coco_000000226417.jpg",
+      "source": "robotaxi-guideline11-seg/images/train/coco_000000226417.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "guideline11",
+      "sha256": "3b9c08f91df2e02c28c663da9f5a7204768633fb278b8489330f595dd144f94d",
+      "source_label": "labels_guideline11/train/guideline11__coco_000000226417.txt"
+    },
+    {
+      "image": "images/train/guideline11__coco_000000260266.jpg",
+      "source": "robotaxi-guideline11-seg/images/train/coco_000000260266.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "guideline11",
+      "sha256": "a5193e5cc5a14ee137092638d926fe3de0132243aede2e40d54aaa2a7d3d344b",
+      "source_label": "labels_guideline11/train/guideline11__coco_000000260266.txt"
+    },
+    {
+      "image": "images/train/guideline11__coco_000000274272.jpg",
+      "source": "robotaxi-guideline11-seg/images/train/coco_000000274272.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "guideline11",
+      "sha256": "e87ab7fa2006444ffb6f71b65a5743d33365313b30c96c8b559de7dc7891a404",
+      "source_label": "labels_guideline11/train/guideline11__coco_000000274272.txt"
+    },
+    {
+      "image": "images/train/guideline11__coco_000000287291.jpg",
+      "source": "robotaxi-guideline11-seg/images/train/coco_000000287291.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "guideline11",
+      "sha256": "e6dfa7707e0369473b6ac5d90377963b4d92042f0fe68b238cb01ee3d93c8118",
+      "source_label": "labels_guideline11/train/guideline11__coco_000000287291.txt"
+    },
+    {
+      "image": "images/train/guideline11__coco_000000292997.jpg",
+      "source": "robotaxi-guideline11-seg/images/train/coco_000000292997.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "guideline11",
+      "sha256": "9cbd814d4a5dd69d5652df7570f59b9a9570b3c3ad706bcf343a06805267771c",
+      "source_label": "labels_guideline11/train/guideline11__coco_000000292997.txt"
+    },
+    {
+      "image": "images/train/guideline11__coco_000000301376.jpg",
+      "source": "robotaxi-guideline11-seg/images/train/coco_000000301376.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "guideline11",
+      "sha256": "57ead4a94a6df986a161c014c0719b6c37b52ea2aa2246c297ec44db06eb7a2e",
+      "source_label": "labels_guideline11/train/guideline11__coco_000000301376.txt"
+    },
+    {
+      "image": "images/train/guideline11__coco_000000307074.jpg",
+      "source": "robotaxi-guideline11-seg/images/train/coco_000000307074.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "guideline11",
+      "sha256": "59fca33672badaf0c9f0006ba0d1bcff367ea3cc25d2ba97af8eaaed3261c282",
+      "source_label": "labels_guideline11/train/guideline11__coco_000000307074.txt"
+    },
+    {
+      "image": "images/train/guideline11__coco_000000315450.jpg",
+      "source": "robotaxi-guideline11-seg/images/train/coco_000000315450.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "guideline11",
+      "sha256": "bfe43280710dcd0e48252d914153699c46c31dcb4b5114ffc8d6d5febc8ef953",
+      "source_label": "labels_guideline11/train/guideline11__coco_000000315450.txt"
+    },
+    {
+      "image": "images/train/guideline11__coco_000000319607.jpg",
+      "source": "robotaxi-guideline11-seg/images/train/coco_000000319607.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "guideline11",
+      "sha256": "9bbdfbb3c432c6557b251b5befd064ca2f7136af0a83954c86b7deb6511eb354",
+      "source_label": "labels_guideline11/train/guideline11__coco_000000319607.txt"
+    },
+    {
+      "image": "images/train/guideline11__coco_000000334371.jpg",
+      "source": "robotaxi-guideline11-seg/images/train/coco_000000334371.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "guideline11",
+      "sha256": "92974746d650d1562788bde333d087df29ca666662b5b35855cac1f9e62f21b8",
+      "source_label": "labels_guideline11/train/guideline11__coco_000000334371.txt"
+    },
+    {
+      "image": "images/train/guideline11__coco_000000396200.jpg",
+      "source": "robotaxi-guideline11-seg/images/train/coco_000000396200.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "guideline11",
+      "sha256": "492978cb3d7411c8ffe2667b13c6d3e381e646874ec7237fb3ac65dbbef58a73",
+      "source_label": "labels_guideline11/train/guideline11__coco_000000396200.txt"
+    },
+    {
+      "image": "images/train/guideline11__coco_000000453841.jpg",
+      "source": "robotaxi-guideline11-seg/images/train/coco_000000453841.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "guideline11",
+      "sha256": "adf4b5c957aee8afdecd9c10efa3521026bb94e81fa37278604a6dcb45652fa2",
+      "source_label": "labels_guideline11/train/guideline11__coco_000000453841.txt"
+    },
+    {
+      "image": "images/train/guideline11__coco_000000454661.jpg",
+      "source": "robotaxi-guideline11-seg/images/train/coco_000000454661.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "guideline11",
+      "sha256": "e2867af244564b4dc6a549d12bfacf294fb524d9e10f8b1e32da40169af734f8",
+      "source_label": "labels_guideline11/train/guideline11__coco_000000454661.txt"
+    },
+    {
+      "image": "images/train/guideline11__coco_000000475484.jpg",
+      "source": "robotaxi-guideline11-seg/images/train/coco_000000475484.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "guideline11",
+      "sha256": "e1f307ba2c5905702d019ae7aeea4a18fa24e6fb412f33acffe906ea7e03d838",
+      "source_label": "labels_guideline11/train/guideline11__coco_000000475484.txt"
+    },
+    {
+      "image": "images/train/guideline11__coco_000000492077.jpg",
+      "source": "robotaxi-guideline11-seg/images/train/coco_000000492077.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "guideline11",
+      "sha256": "16c697f38aa036da979494b579d337c41fc7a4529802372f7e7c535478b6103d",
+      "source_label": "labels_guideline11/train/guideline11__coco_000000492077.txt"
+    },
+    {
+      "image": "images/train/guideline11__coco_000000499181.jpg",
+      "source": "robotaxi-guideline11-seg/images/train/coco_000000499181.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "guideline11",
+      "sha256": "2b4d8a5404d27eca2b0e3a3d79e2a7129485ba5af33b0f209dcfac06458dfb26",
+      "source_label": "labels_guideline11/train/guideline11__coco_000000499181.txt"
+    },
+    {
+      "image": "images/train/guideline11__coco_000000505942.jpg",
+      "source": "robotaxi-guideline11-seg/images/train/coco_000000505942.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "guideline11",
+      "sha256": "2d4a220296d966f7a37cfbcf97f4693fe52787fc66d1a5a7817caa5f3b4355aa",
+      "source_label": "labels_guideline11/train/guideline11__coco_000000505942.txt"
+    },
+    {
+      "image": "images/train/guideline11__coco_000000520009.jpg",
+      "source": "robotaxi-guideline11-seg/images/train/coco_000000520009.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "guideline11",
+      "sha256": "54617d5196a0d66e47f083ce2ecc67c990b5415eca52302dafdc0591597d4e02",
+      "source_label": "labels_guideline11/train/guideline11__coco_000000520009.txt"
+    },
+    {
+      "image": "images/train/guideline11__coco_000000526392.jpg",
+      "source": "robotaxi-guideline11-seg/images/train/coco_000000526392.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "guideline11",
+      "sha256": "e5d5df3b0b7203eb60aa9c605a658cb026d1f6825edebda3dc6c86665724bdc2",
+      "source_label": "labels_guideline11/train/guideline11__coco_000000526392.txt"
+    },
+    {
+      "image": "images/train/guideline11__coco_000000553511.jpg",
+      "source": "robotaxi-guideline11-seg/images/train/coco_000000553511.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "guideline11",
+      "sha256": "0f71120e00e049ac2e39e5dd3b6f27bf695e9a62309baad12b90b27b964c00c2",
+      "source_label": "labels_guideline11/train/guideline11__coco_000000553511.txt"
+    },
+    {
+      "image": "images/train/guideline11__coco_000000555050.jpg",
+      "source": "robotaxi-guideline11-seg/images/train/coco_000000555050.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "guideline11",
+      "sha256": "ed39786969f33646d5cafcca041df8c684dbdc17359fc7244a833d8738baa8f8",
+      "source_label": "labels_guideline11/train/guideline11__coco_000000555050.txt"
+    },
+    {
+      "image": "images/train/guideline11__coco_000000569030.jpg",
+      "source": "robotaxi-guideline11-seg/images/train/coco_000000569030.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "guideline11",
+      "sha256": "b2d3d4287c0dc942c4b0acc34135c02dac8a2aa4088031647c418ba2fbc789d7",
+      "source_label": "labels_guideline11/train/guideline11__coco_000000569030.txt"
+    },
+    {
+      "image": "images/test/guideline11__coco_000000011197.jpg",
+      "source": "robotaxi-guideline11-seg/images/test/coco_000000011197.jpg",
+      "source_split": "test",
+      "split": "test",
+      "source_schema": "guideline11",
+      "sha256": "b6dbcc5c9e52f51480c4974ae6b15003ce25cd98fb936e2f26694fb7058fdbcb",
+      "source_label": "labels_guideline11/test/guideline11__coco_000000011197.txt"
+    },
+    {
+      "image": "images/test/guideline11__coco_000000142585.jpg",
+      "source": "robotaxi-guideline11-seg/images/test/coco_000000142585.jpg",
+      "source_split": "test",
+      "split": "test",
+      "source_schema": "guideline11",
+      "sha256": "41277a4ea32031b3486e839d18ca61506931002fca4ff9214686c63e9c6bb983",
+      "source_label": "labels_guideline11/test/guideline11__coco_000000142585.txt"
+    },
+    {
+      "image": "images/test/guideline11__coco_000000212573.jpg",
+      "source": "robotaxi-guideline11-seg/images/test/coco_000000212573.jpg",
+      "source_split": "test",
+      "split": "test",
+      "source_schema": "guideline11",
+      "sha256": "8c0f1cae223eb12fa98f429f523b7623da66cc84d51c3330c0a4aea35bbf3986",
+      "source_label": "labels_guideline11/test/guideline11__coco_000000212573.txt"
+    },
+    {
+      "image": "images/test/guideline11__coco_000000215723.jpg",
+      "source": "robotaxi-guideline11-seg/images/test/coco_000000215723.jpg",
+      "source_split": "test",
+      "split": "test",
+      "source_schema": "guideline11",
+      "sha256": "20e15853e22f5d69312b821e846671af204a12dc24631bc46f4ef8e72da19be7",
+      "source_label": "labels_guideline11/test/guideline11__coco_000000215723.txt"
+    },
+    {
+      "image": "images/test/guideline11__coco_000000221754.jpg",
+      "source": "robotaxi-guideline11-seg/images/test/coco_000000221754.jpg",
+      "source_split": "test",
+      "split": "test",
+      "source_schema": "guideline11",
+      "sha256": "adf36fb773d771873de8b852f975540d1faa239930292cc20704850fab72cc3d",
+      "source_label": "labels_guideline11/test/guideline11__coco_000000221754.txt"
+    },
+    {
+      "image": "images/test/guideline11__coco_000000269942.jpg",
+      "source": "robotaxi-guideline11-seg/images/test/coco_000000269942.jpg",
+      "source_split": "test",
+      "split": "test",
+      "source_schema": "guideline11",
+      "sha256": "b0185e227082a1aa4406912643dcd320ae48e6713ab2bdeae35566f1597a9e31",
+      "source_label": "labels_guideline11/test/guideline11__coco_000000269942.txt"
+    },
+    {
+      "image": "images/test/guideline11__coco_000000289222.jpg",
+      "source": "robotaxi-guideline11-seg/images/test/coco_000000289222.jpg",
+      "source_split": "test",
+      "split": "test",
+      "source_schema": "guideline11",
+      "sha256": "3a184bfd08f6a64fbaeeae674ecdd25ca524604f48640586d8831a33d6db3210",
+      "source_label": "labels_guideline11/test/guideline11__coco_000000289222.txt"
+    },
+    {
+      "image": "images/test/guideline11__coco_000000377946.jpg",
+      "source": "robotaxi-guideline11-seg/images/test/coco_000000377946.jpg",
+      "source_split": "test",
+      "split": "test",
+      "source_schema": "guideline11",
+      "sha256": "85dd1fc393009264d88be57018aa813c3412fbbe5258af6fd2732552e92433a7",
+      "source_label": "labels_guideline11/test/guideline11__coco_000000377946.txt"
+    },
+    {
+      "image": "images/test/guideline11__coco_000000480944.jpg",
+      "source": "robotaxi-guideline11-seg/images/test/coco_000000480944.jpg",
+      "source_split": "test",
+      "split": "test",
+      "source_schema": "guideline11",
+      "sha256": "d93e279fe681bff9f79cda02129731ce9abf2596a573aed2dbb3f2c237d9c7e2",
+      "source_label": "labels_guideline11/test/guideline11__coco_000000480944.txt"
+    },
+    {
+      "image": "images/test/guideline11__coco_000000531134.jpg",
+      "source": "robotaxi-guideline11-seg/images/test/coco_000000531134.jpg",
+      "source_split": "test",
+      "split": "test",
+      "source_schema": "guideline11",
+      "sha256": "9a37ef33672e6bb0a0619458dfd1bdbcd1f0df2f1a0b72e452776fb64b2197ea",
+      "source_label": "labels_guideline11/test/guideline11__coco_000000531134.txt"
+    },
+    {
+      "image": "images/val/guideline11__coco_000000157756.jpg",
+      "source": "robotaxi-guideline11-seg/images/val/coco_000000157756.jpg",
+      "source_split": "val",
+      "split": "val",
+      "source_schema": "guideline11",
+      "sha256": "d46a285172f857e1bbce63263da95a0e0d632f8f118c158ecbf233f83012f913",
+      "source_label": "labels_guideline11/val/guideline11__coco_000000157756.txt"
+    },
+    {
+      "image": "images/val/guideline11__coco_000000198928.jpg",
+      "source": "robotaxi-guideline11-seg/images/val/coco_000000198928.jpg",
+      "source_split": "val",
+      "split": "val",
+      "source_schema": "guideline11",
+      "sha256": "9c981890805bdd497f2524632dc68158080a0d3b2da3c134cff7f2b2c7d87217",
+      "source_label": "labels_guideline11/val/guideline11__coco_000000198928.txt"
+    },
+    {
+      "image": "images/val/guideline11__coco_000000354753.jpg",
+      "source": "robotaxi-guideline11-seg/images/val/coco_000000354753.jpg",
+      "source_split": "val",
+      "split": "val",
+      "source_schema": "guideline11",
+      "sha256": "88961147f216d1cd45c6becdbdea7514c1664deeeb660e4fec9f961d0bd33865",
+      "source_label": "labels_guideline11/val/guideline11__coco_000000354753.txt"
+    },
+    {
+      "image": "images/val/guideline11__coco_000000467511.jpg",
+      "source": "robotaxi-guideline11-seg/images/val/coco_000000467511.jpg",
+      "source_split": "val",
+      "split": "val",
+      "source_schema": "guideline11",
+      "sha256": "19b802f8dd06dcad456ef8577e8994b9192c1a1187a7f85b5b26a3d7899d9a09",
+      "source_label": "labels_guideline11/val/guideline11__coco_000000467511.txt"
+    },
+    {
+      "image": "images/val/guideline11__coco_000000577932.jpg",
+      "source": "robotaxi-guideline11-seg/images/val/coco_000000577932.jpg",
+      "source_split": "val",
+      "split": "val",
+      "source_schema": "guideline11",
+      "sha256": "593d4d8a69f21f4821e0bdd1d9f90e77084b31fb951090b549915a986b0633fe",
+      "source_label": "labels_guideline11/val/guideline11__coco_000000577932.txt"
+    },
+    {
+      "image": "images/train/pending__dataset__1.jpg",
+      "source": "robotaxi-guideline11-pending-labels/images/train/dataset__1.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "pending",
+      "sha256": "ca4f2eda6657eed9abd884c43352062f8ebfe31250f52f4352a67d41c727bcdd"
+    },
+    {
+      "image": "images/train/pending__dataset__10.jpg",
+      "source": "robotaxi-guideline11-pending-labels/images/train/dataset__10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "pending",
+      "sha256": "5f1b3b579af5a78c5d073cc6c42acfc3d46d0d7df132ea1e77a812806578fbcb"
+    },
+    {
+      "image": "images/train/pending__dataset__12.jpg",
+      "source": "robotaxi-guideline11-pending-labels/images/train/dataset__12.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "pending",
+      "sha256": "de1e1840531d888dba1a4bf053603baae31f118d164e7524d35f84383339e4a7"
+    },
+    {
+      "image": "images/train/pending__dataset__13.jpg",
+      "source": "robotaxi-guideline11-pending-labels/images/train/dataset__13.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "pending",
+      "sha256": "63630dd500144b71ee5f51745c7fdcbfe2809b6566ec50c08994359fa96c51d8"
+    },
+    {
+      "image": "images/train/pending__dataset__3.jpg",
+      "source": "robotaxi-guideline11-pending-labels/images/train/dataset__3.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "pending",
+      "sha256": "830978e0acda1562b99a399885f331b4d75cf7d054f88b1d04fc2536b00ab359"
+    },
+    {
+      "image": "images/train/pending__dataset__4.jpg",
+      "source": "robotaxi-guideline11-pending-labels/images/train/dataset__4.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "pending",
+      "sha256": "f9d59bada020a50cddabe345b6fde23432be85b787b66e115a13297b1e546c97"
+    },
+    {
+      "image": "images/train/pending__dataset__6.jpg",
+      "source": "robotaxi-guideline11-pending-labels/images/train/dataset__6.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "pending",
+      "sha256": "1c1ab10717f22899af0ed786c0aebf6854a02f28b5f3ec0c7692a3f1868378bc"
+    },
+    {
+      "image": "images/train/pending__dataset__8.jpg",
+      "source": "robotaxi-guideline11-pending-labels/images/train/dataset__8.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "pending",
+      "sha256": "02c05b2d4e2cdba73b0685c44859e185ca60e22d0b9a86110f1857c93af45ea3"
+    },
+    {
+      "image": "images/train/pending__dataset__9.jpg",
+      "source": "robotaxi-guideline11-pending-labels/images/train/dataset__9.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "pending",
+      "sha256": "66af9b9ac96d67f5dc8ae719e4c052c4a6eebd5aa9e16a5a9f7e4329bfda1952"
+    },
+    {
+      "image": "images/train/pending__xe_tho_so__img_003.jpg",
+      "source": "robotaxi-guideline11-pending-labels/images/train/xe_tho_so__img_003.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "pending",
+      "sha256": "8c2682682b89753bfa9de78b9dea93abb91937d2baed53fbf8c9fce6aa6a604a"
+    },
+    {
+      "image": "images/train/pending__xe_tho_so__img_009.jpg",
+      "source": "robotaxi-guideline11-pending-labels/images/train/xe_tho_so__img_009.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "pending",
+      "sha256": "c393715075640aae17a8268f85f63bea2f35970a2299082e688e6f9d59cac8ab"
+    },
+    {
+      "image": "images/train/pending__xe_tho_so__img_010.jpg",
+      "source": "robotaxi-guideline11-pending-labels/images/train/xe_tho_so__img_010.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "pending",
+      "sha256": "1b1398bd5221f9d72989af0fc1d8a8ee87df8af03343bb1d68ce365412224d3c"
+    },
+    {
+      "image": "images/train/pending__xe_tho_so__img_014.jpg",
+      "source": "robotaxi-guideline11-pending-labels/images/train/xe_tho_so__img_014.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "pending",
+      "sha256": "571ec1c8214e87c2b4da520d25acd68d3726d667939e9351c49f51aa971f6dbb"
+    },
+    {
+      "image": "images/train/pending__xe_tho_so__img_021.jpg",
+      "source": "robotaxi-guideline11-pending-labels/images/train/xe_tho_so__img_021.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "pending",
+      "sha256": "d035d96b613f152a27c6eec55b6a2aa5117ac09725b8a6e302832980dd98b6fa"
+    },
+    {
+      "image": "images/train/pending__xe_tho_so__img_026.jpg",
+      "source": "robotaxi-guideline11-pending-labels/images/train/xe_tho_so__img_026.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "pending",
+      "sha256": "1dcec1a169e2a679a778b8e3ccff6536f0568fcdf0735492c0ded2c28dffb939"
+    },
+    {
+      "image": "images/train/pending__xe_tho_so__img_029.jpg",
+      "source": "robotaxi-guideline11-pending-labels/images/train/xe_tho_so__img_029.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "pending",
+      "sha256": "7c11f73db3534502ba10e56f82c13e6fad35e9acd303f908a04e0f142726376a"
+    },
+    {
+      "image": "images/train/pending__xe_tho_so__img_031.jpg",
+      "source": "robotaxi-guideline11-pending-labels/images/train/xe_tho_so__img_031.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "pending",
+      "sha256": "c0a1dc1b08e031704dfdcf36a3f9d90f487a148cc50706a74a01415cd81f2c9d"
+    },
+    {
+      "image": "images/train/pending__xe_tho_so__img_034.jpg",
+      "source": "robotaxi-guideline11-pending-labels/images/train/xe_tho_so__img_034.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "pending",
+      "sha256": "1fcbf2466e3d35c948c324f3d7d92ef68a2b3a55c7794b9d525b8c0a0e79e7c8"
+    },
+    {
+      "image": "images/train/pending__xe_tho_so__img_039.jpg",
+      "source": "robotaxi-guideline11-pending-labels/images/train/xe_tho_so__img_039.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "pending",
+      "sha256": "a365c96735aa053247ccb5b6dcd96c5367d781c2b1d8f83a6802bd0fcef305a7"
+    },
+    {
+      "image": "images/test/pending__dataset__11.jpg",
+      "source": "robotaxi-guideline11-pending-labels/images/test/dataset__11.jpg",
+      "source_split": "test",
+      "split": "test",
+      "source_schema": "pending",
+      "sha256": "cfb80fa9dff1b4cd47241360ccdf7e9c14bce00c7862a3274eba0ae81f411948"
+    },
+    {
+      "image": "images/test/pending__dataset__5.jpg",
+      "source": "robotaxi-guideline11-pending-labels/images/test/dataset__5.jpg",
+      "source_split": "test",
+      "split": "test",
+      "source_schema": "pending",
+      "sha256": "fb5fe9340b1eeec3148ae92029c4f94b93696cbdef3043b1831e98910599a6c3"
+    },
+    {
+      "image": "images/test/pending__dataset__7.jpg",
+      "source": "robotaxi-guideline11-pending-labels/images/test/dataset__7.jpg",
+      "source_split": "test",
+      "split": "test",
+      "source_schema": "pending",
+      "sha256": "fac8e8161703ba1d80e0e652f1ef1e82bc9bc5555dc94aa5a8335b57abd6ae9f"
+    },
+    {
+      "image": "images/test/pending__xe_tho_so__img_005.jpg",
+      "source": "robotaxi-guideline11-pending-labels/images/test/xe_tho_so__img_005.jpg",
+      "source_split": "test",
+      "split": "test",
+      "source_schema": "pending",
+      "sha256": "8807a048e945b0eff1a6489a66f3cf97751da88f95b6b661e5912e9d8f1793a4"
+    },
+    {
+      "image": "images/test/pending__xe_tho_so__img_023.jpg",
+      "source": "robotaxi-guideline11-pending-labels/images/test/xe_tho_so__img_023.jpg",
+      "source_split": "test",
+      "split": "test",
+      "source_schema": "pending",
+      "sha256": "88d5cf72ad87df5af3d59421c3148f463addc4efb0a3e032949ada8c1c39f2b0"
+    },
+    {
+      "image": "images/val/pending__dataset__2.jpg",
+      "source": "robotaxi-guideline11-pending-labels/images/val/dataset__2.jpg",
+      "source_split": "val",
+      "split": "val",
+      "source_schema": "pending",
+      "sha256": "a10d69253e7f26385797af4d6eca9e1d5f892249ab18c3a9af946b65d8cc6e98"
+    },
+    {
+      "image": "images/val/pending__xe_tho_so__img_006.jpg",
+      "source": "robotaxi-guideline11-pending-labels/images/val/xe_tho_so__img_006.jpg",
+      "source_split": "val",
+      "split": "val",
+      "source_schema": "pending",
+      "sha256": "0d5ba9d4e419511a0d7a937eec2a2f4a2a22a095964718e75ca8600250fea203"
+    },
+    {
+      "image": "images/val/pending__xe_tho_so__img_008.jpg",
+      "source": "robotaxi-guideline11-pending-labels/images/val/xe_tho_so__img_008.jpg",
+      "source_split": "val",
+      "split": "val",
+      "source_schema": "pending",
+      "sha256": "0006963df478decb7a93189f896c715f329e67ca51e1e767894a7579948929cb"
+    },
+    {
+      "image": "images/train/kitti7__000000_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000000_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "bec7b9776c223a05b603b82c006dce84dce738dda6aeaf661a8adb139887b7d3",
+      "source_label": "labels_kitti7/train/kitti7__000000_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000001_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000001_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "d9613b77d489b29b1c2b02277c598862b98c72d9dcde76271f5b0a3efcd1c2c3",
+      "source_label": "labels_kitti7/train/kitti7__000001_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000002_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000002_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "9fb6786150dba6945b9496e610ecb4817bac1c28e0f85288b04d3e9ede4ecaad",
+      "source_label": "labels_kitti7/train/kitti7__000002_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000003_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000003_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "eb50e8bc331aaacf65d662069c9480e93cb346c75f85af7fdf9e48bbdabbd6d3",
+      "source_label": "labels_kitti7/train/kitti7__000003_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000004_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000004_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "e91f9d4651762256b7c8a74f66650f7bf19a8d4dd8778e6a9b22e1fab01414ae",
+      "source_label": "labels_kitti7/train/kitti7__000004_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000005_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000005_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "759ec98310c7d4df80823b81463114ffc14a447312eb059e01507f76b3346c27",
+      "source_label": "labels_kitti7/train/kitti7__000005_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000006_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000006_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "7f86d561299562cc633f9e4c571e07700d51619f2cfd9a867580cc964163d688",
+      "source_label": "labels_kitti7/train/kitti7__000006_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000007_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000007_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "6b98cd605fc7ceef35ee0713eadc27fc8d352186bb12016a0fc2152de7f1df30",
+      "source_label": "labels_kitti7/train/kitti7__000007_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000008_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000008_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "75861bbf4a9c3df9d8b85ce8ff216a3aa7697dfcb0a355030650fe82855be157",
+      "source_label": "labels_kitti7/train/kitti7__000008_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000009_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000009_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "5ae4e49647ae103769f787aa27906083373cebd2ad91524d78daf9b2cbfd02a6",
+      "source_label": "labels_kitti7/train/kitti7__000009_10.txt"
+    },
+    {
+      "image": "images/test/kitti7__000010_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000010_10.jpg",
+      "source_split": "train",
+      "split": "test",
+      "source_schema": "kitti7",
+      "sha256": "453e41c2e799aaf60610612f00c1921276c0e0db9ce3dbc20b94c76b788ddef9",
+      "source_label": "labels_kitti7/test/kitti7__000010_10.txt"
+    },
+    {
+      "image": "images/test/kitti7__000011_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000011_10.jpg",
+      "source_split": "train",
+      "split": "test",
+      "source_schema": "kitti7",
+      "sha256": "a4f15e006311022ea62f48c2d2ae75f95a7ff370749531a0fad90e09d01e9cde",
+      "source_label": "labels_kitti7/test/kitti7__000011_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000012_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000012_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "0f87190d8168f858262fde4155a24a5569f4b161b36c5a8dfc459035f28560e6",
+      "source_label": "labels_kitti7/train/kitti7__000012_10.txt"
+    },
+    {
+      "image": "images/val/kitti7__000013_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000013_10.jpg",
+      "source_split": "train",
+      "split": "val",
+      "source_schema": "kitti7",
+      "sha256": "c35d8339a85b4a50d00ac06508b6e08f8d43cfbaa9c7d49a492197d30cc86940",
+      "source_label": "labels_kitti7/val/kitti7__000013_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000014_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000014_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "3ad0b899d7f1a0fed1f0e7cda75a12addb9dd136d28744dec31f10ef59def547",
+      "source_label": "labels_kitti7/train/kitti7__000014_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000016_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000016_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "ca61650073e3aaff59ccf8d1ee9d08b6885a6c360141f70487940a02584c61eb",
+      "source_label": "labels_kitti7/train/kitti7__000016_10.txt"
+    },
+    {
+      "image": "images/test/kitti7__000017_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000017_10.jpg",
+      "source_split": "train",
+      "split": "test",
+      "source_schema": "kitti7",
+      "sha256": "7f1a429ac7ed23a12f3158dfaee6eaec29a85e2e9cece794f49d3fa3126fa720",
+      "source_label": "labels_kitti7/test/kitti7__000017_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000018_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000018_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "4d093b5a5e15b8d91b739a0f880d616c5a6a29e48262c3b799296079f8c16c9b",
+      "source_label": "labels_kitti7/train/kitti7__000018_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000019_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000019_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "7b20c1110acf15f907260e465950d1f7d139281053872547c42f2b066449ea21",
+      "source_label": "labels_kitti7/train/kitti7__000019_10.txt"
+    },
+    {
+      "image": "images/test/kitti7__000021_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000021_10.jpg",
+      "source_split": "train",
+      "split": "test",
+      "source_schema": "kitti7",
+      "sha256": "7f9612c4197d035718db495e4e8547659e00d52c30d379de1c3263ca8e34e612",
+      "source_label": "labels_kitti7/test/kitti7__000021_10.txt"
+    },
+    {
+      "image": "images/test/kitti7__000022_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000022_10.jpg",
+      "source_split": "train",
+      "split": "test",
+      "source_schema": "kitti7",
+      "sha256": "edc91c5f8dbd57c7668d9b3d6b796252968d81fcc33748ddfd22854e2016e623",
+      "source_label": "labels_kitti7/test/kitti7__000022_10.txt"
+    },
+    {
+      "image": "images/test/kitti7__000023_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000023_10.jpg",
+      "source_split": "train",
+      "split": "test",
+      "source_schema": "kitti7",
+      "sha256": "1afc62d397f1a633df975589c57efb8e96b6ff9cd069184a4c2edf6d495c7c86",
+      "source_label": "labels_kitti7/test/kitti7__000023_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000024_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000024_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "ad4739f2362f2d8c36d742d42882a84b32b10e77db86120fb7b0c4b125a23eff",
+      "source_label": "labels_kitti7/train/kitti7__000024_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000025_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000025_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "11939b808c843dab1cf90d3228e5940af1c4e4fbf129a8d676433d4bec2959ce",
+      "source_label": "labels_kitti7/train/kitti7__000025_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000026_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000026_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "f428a14c1d9756d05dea219f8468c9628d451ef3d04c64c47d2362a135019373",
+      "source_label": "labels_kitti7/train/kitti7__000026_10.txt"
+    },
+    {
+      "image": "images/test/kitti7__000029_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000029_10.jpg",
+      "source_split": "train",
+      "split": "test",
+      "source_schema": "kitti7",
+      "sha256": "fe805c13343f8c2bb5924824c03d6ce2005b4a8de2116364b42473f19aca865e",
+      "source_label": "labels_kitti7/test/kitti7__000029_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000030_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000030_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "e034bd7bfbbbc3f4ae63dd0f3f0734480eeade2a23937434c901dce262889760",
+      "source_label": "labels_kitti7/train/kitti7__000030_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000031_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000031_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "58250354d9494845fc2de74674dbb9feded82455d0eb4e2f6f2a31abd397f105",
+      "source_label": "labels_kitti7/train/kitti7__000031_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000032_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000032_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "156412d24a165435b8b4a58d07e5b548fadf794d2e606476bff388075e18a08f",
+      "source_label": "labels_kitti7/train/kitti7__000032_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000033_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000033_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "732b019ebc994a24ed5e8aa38770d297f7cc0f151bbc2b7b6192f8f8e353940b",
+      "source_label": "labels_kitti7/train/kitti7__000033_10.txt"
+    },
+    {
+      "image": "images/test/kitti7__000034_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000034_10.jpg",
+      "source_split": "train",
+      "split": "test",
+      "source_schema": "kitti7",
+      "sha256": "c8354e5fc4a6599a44e00c7600ff689683ad82f61dc00c625f0e2aa8c01690ee",
+      "source_label": "labels_kitti7/test/kitti7__000034_10.txt"
+    },
+    {
+      "image": "images/val/kitti7__000035_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000035_10.jpg",
+      "source_split": "train",
+      "split": "val",
+      "source_schema": "kitti7",
+      "sha256": "fcd243463434183171b86ac00bef5fa4124344260885da0c9e2c76934e264a42",
+      "source_label": "labels_kitti7/val/kitti7__000035_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000036_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000036_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "9b800235f4d9bf1237cf83ab8f09674abcc963592f6a189890297849b3e7d813",
+      "source_label": "labels_kitti7/train/kitti7__000036_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000037_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000037_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "1e0d52e70dc4e70ab3a87828b7370e58062589bb35646ef65f683f1214423952",
+      "source_label": "labels_kitti7/train/kitti7__000037_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000040_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000040_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "8929851f769ca1dfd04c7aa5aa0271a06cb70fcbbfe62fc490afdd719ea7e965",
+      "source_label": "labels_kitti7/train/kitti7__000040_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000041_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000041_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "4bfec382e755c883d43c2e0449cb92a66c0fd726ce0108e7c613b39920a62395",
+      "source_label": "labels_kitti7/train/kitti7__000041_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000042_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000042_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "1b1a3f757898bcc2ab37fa12bdf23edd766a6b44a27b254ef11c88395f790ff6",
+      "source_label": "labels_kitti7/train/kitti7__000042_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000043_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000043_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "9f17db523d0b2085d66ad41fb566b431133cb6214c09cd40f1e82b2cef600963",
+      "source_label": "labels_kitti7/train/kitti7__000043_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000044_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000044_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "dd9410426762345c2a693ef0b7a895bf44c1d5b090acd929a789ff1dd95487bd",
+      "source_label": "labels_kitti7/train/kitti7__000044_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000045_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000045_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "57490c56ed95ff0125d01b4b8a75b7faef5e440670d5ffbf25afe1b409efd310",
+      "source_label": "labels_kitti7/train/kitti7__000045_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000046_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000046_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "8c357c328ba9ceaf6d3e2cec8a5fdfd9dda0b36b92a0a2c6d5459663f74bbd55",
+      "source_label": "labels_kitti7/train/kitti7__000046_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000047_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000047_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "c409e6d4ac159be90706da302fa656e0d5bf7e3b2837157b2d8fa809e415bf85",
+      "source_label": "labels_kitti7/train/kitti7__000047_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000049_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000049_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "eeea59168fc1784091624b4399477972cd4ef3bfb71be9413bb9283f03888eba",
+      "source_label": "labels_kitti7/train/kitti7__000049_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000052_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000052_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "773f6adbe82f29ac92f3d98534db4d5e1bcfe1756c774114b3dcd846b76e8ee2",
+      "source_label": "labels_kitti7/train/kitti7__000052_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000053_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000053_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "4c3c0def22796f92543e3a4a9b688a03302eb552e37ad868f5175204248adb24",
+      "source_label": "labels_kitti7/train/kitti7__000053_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000054_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000054_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "1e552a9e5178c718edf6e5e20cec21f17b67d2b1d618c14270fceba422db537c",
+      "source_label": "labels_kitti7/train/kitti7__000054_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000055_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000055_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "17c0ea427ad10bf5e25f4f184581a36618c1878551afceb72bb6b0813beed0fd",
+      "source_label": "labels_kitti7/train/kitti7__000055_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000056_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000056_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "3f90e16dd88d2ac625fafeee76ee934ee2a91f4a3428336864e26dc4ce9f9dea",
+      "source_label": "labels_kitti7/train/kitti7__000056_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000057_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000057_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "a2c226b8473ab7363cb916fe921817028c195337540b3fa24206df16a577c942",
+      "source_label": "labels_kitti7/train/kitti7__000057_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000058_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000058_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "fa9aefd806d06e270d0f1a34b8d3fc47721673e33c4d57f94e6db752f2c5d059",
+      "source_label": "labels_kitti7/train/kitti7__000058_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000059_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000059_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "84889f6fe30df7c9caa08f21a48766abae99118557d37fb56e16b97e3926c1cf",
+      "source_label": "labels_kitti7/train/kitti7__000059_10.txt"
+    },
+    {
+      "image": "images/test/kitti7__000061_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000061_10.jpg",
+      "source_split": "train",
+      "split": "test",
+      "source_schema": "kitti7",
+      "sha256": "9ae80bf8b582be49d0e823c25ebad06ce14ff97089c470a2871d5ef900d7b692",
+      "source_label": "labels_kitti7/test/kitti7__000061_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000062_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000062_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "5718fbce397e5ab0e48ac426306cf673798cdf7963b41c0d8402c5d11a596720",
+      "source_label": "labels_kitti7/train/kitti7__000062_10.txt"
+    },
+    {
+      "image": "images/test/kitti7__000063_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000063_10.jpg",
+      "source_split": "train",
+      "split": "test",
+      "source_schema": "kitti7",
+      "sha256": "061aa8c1490176ff565ae1849ec264e307d30c3fb8f0e680047a01367c8793d7",
+      "source_label": "labels_kitti7/test/kitti7__000063_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000064_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000064_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "afd8fd59d388b9cc4722106bec848e46592c3d43f41386a0146f0db819085d9d",
+      "source_label": "labels_kitti7/train/kitti7__000064_10.txt"
+    },
+    {
+      "image": "images/val/kitti7__000065_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000065_10.jpg",
+      "source_split": "train",
+      "split": "val",
+      "source_schema": "kitti7",
+      "sha256": "971d7af26ed620b29a62dc5773249611c0827b90dfeaa28baba87da6cdfc0d54",
+      "source_label": "labels_kitti7/val/kitti7__000065_10.txt"
+    },
+    {
+      "image": "images/test/kitti7__000066_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000066_10.jpg",
+      "source_split": "train",
+      "split": "test",
+      "source_schema": "kitti7",
+      "sha256": "87195059c559ff39cf63e7dcf312d8df2582959b990fac9aff3b9368b9159970",
+      "source_label": "labels_kitti7/test/kitti7__000066_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000068_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000068_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "783a7da900731a76af5cb7e509fef77d875bc8c3baeabc540fba3aa6def08ea5",
+      "source_label": "labels_kitti7/train/kitti7__000068_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000069_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000069_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "48634ff53afd4a7d13229b1aca64bfb0d1d69f00ca174701096a24d42b48115c",
+      "source_label": "labels_kitti7/train/kitti7__000069_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000070_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000070_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "c0414f0e3640b570607f51b5136854c906e1fb65064d223708b25859a8aff594",
+      "source_label": "labels_kitti7/train/kitti7__000070_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000071_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000071_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "ae1f489d798890f7e6398de040c85f2eafd9a3656c796e6642a162f06348adf3",
+      "source_label": "labels_kitti7/train/kitti7__000071_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000073_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000073_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "b5088697616c2f4ea1500ced7b388bb3c2380450651d9f8e070dca57335e4902",
+      "source_label": "labels_kitti7/train/kitti7__000073_10.txt"
+    },
+    {
+      "image": "images/val/kitti7__000074_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000074_10.jpg",
+      "source_split": "train",
+      "split": "val",
+      "source_schema": "kitti7",
+      "sha256": "4bccb09033d3b7efe7cf638cd28a3f5acf1c1b5498ff0de7af5c8e7c93303e21",
+      "source_label": "labels_kitti7/val/kitti7__000074_10.txt"
+    },
+    {
+      "image": "images/val/kitti7__000075_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000075_10.jpg",
+      "source_split": "train",
+      "split": "val",
+      "source_schema": "kitti7",
+      "sha256": "7959716b32edd438774d18c3be76f1dc48519ea9ad8c7c6332d93dc145750590",
+      "source_label": "labels_kitti7/val/kitti7__000075_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000076_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000076_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "b09cd91056953c5ea098825b25480d1addd0159ef1381058af582ad8d3e4d579",
+      "source_label": "labels_kitti7/train/kitti7__000076_10.txt"
+    },
+    {
+      "image": "images/val/kitti7__000077_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000077_10.jpg",
+      "source_split": "train",
+      "split": "val",
+      "source_schema": "kitti7",
+      "sha256": "1b420ced3c99fa26a8a08560baa72a0c8fc7f75888411a936002be0cdfa18680",
+      "source_label": "labels_kitti7/val/kitti7__000077_10.txt"
+    },
+    {
+      "image": "images/val/kitti7__000078_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000078_10.jpg",
+      "source_split": "train",
+      "split": "val",
+      "source_schema": "kitti7",
+      "sha256": "34dc142edfe962291ba282c13edfe2d20f25e45dac03d33931e64750e35a4389",
+      "source_label": "labels_kitti7/val/kitti7__000078_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000079_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000079_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "fb93cc15860ccc8ad84419e96146d5d55ce01aefc3acb56ac97ace1a5059234f",
+      "source_label": "labels_kitti7/train/kitti7__000079_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000080_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000080_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "8f414fb619ed649d46c3e09d0f2f47b124851957245608a774f7743780bf9b04",
+      "source_label": "labels_kitti7/train/kitti7__000080_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000081_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000081_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "0e95cd5ae07dd1bebc2c29241f18a65af593b0d11e2116eae91b1ef002133c17",
+      "source_label": "labels_kitti7/train/kitti7__000081_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000083_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000083_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "4a916612653a5142102dbc3a6878787a7923c17ee031c7a8c1b7ee0d214efeec",
+      "source_label": "labels_kitti7/train/kitti7__000083_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000084_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000084_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "262ac86d42071429def3616397b48912a0345c1542891ece3665e3a8aa5d30f8",
+      "source_label": "labels_kitti7/train/kitti7__000084_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000085_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000085_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "7b323089dc1651d8ac0b5d98a38664db7a068f0949d06f2814d6efc1f860cb48",
+      "source_label": "labels_kitti7/train/kitti7__000085_10.txt"
+    },
+    {
+      "image": "images/val/kitti7__000086_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000086_10.jpg",
+      "source_split": "train",
+      "split": "val",
+      "source_schema": "kitti7",
+      "sha256": "7ceee3f4411edac6c816d05a61d1f89edf1fcdc2a6b3be8016a5bea2d8bb7c86",
+      "source_label": "labels_kitti7/val/kitti7__000086_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000087_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000087_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "bdf1cea256389faebd22a4075305716c11cac643aa4987ede4bd140e4e454496",
+      "source_label": "labels_kitti7/train/kitti7__000087_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000088_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000088_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "199cd86c5a270e1c65f20fe260e5a5d4b89a153691a7f093c744f1b8da141703",
+      "source_label": "labels_kitti7/train/kitti7__000088_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000089_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000089_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "3a8e538342ac4b45256ba49792cd40531665772759f9a2cd96e9712bd2e4f806",
+      "source_label": "labels_kitti7/train/kitti7__000089_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000090_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000090_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "7660dedb12d73f6416b5aa07e8d3f99c4d65a03ccea6a9730bf986259edbf6f7",
+      "source_label": "labels_kitti7/train/kitti7__000090_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000091_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000091_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "4d28f4f7237ce73774d484dfa2a46c47dd92ad93c1265fc305e53471e0fb6d72",
+      "source_label": "labels_kitti7/train/kitti7__000091_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000092_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000092_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "c74f5fb4127ad6f3ef22057a63c32260d3812c8fdc7a5db8edff2f9a9f507e99",
+      "source_label": "labels_kitti7/train/kitti7__000092_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000094_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000094_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "5d6ea0b41cc3cb980f9f5d290d1cac5f6f0e0ed246df15b0fdae07e14f3ea7c3",
+      "source_label": "labels_kitti7/train/kitti7__000094_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000095_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000095_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "9211b3057ab7fa9df39b8bc1bbb8dcd4ec91b525ca69f20350d95e78bfa23314",
+      "source_label": "labels_kitti7/train/kitti7__000095_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000096_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000096_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "06f0ca8e9a8f6d1623d2a30d8d5791e6680c724f1c8300b0edb132ebe97b10a3",
+      "source_label": "labels_kitti7/train/kitti7__000096_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000098_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000098_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "b2bce29411b8465e97cb91a28f9199de3fa92063ae820b37c11ab03eb7219ea2",
+      "source_label": "labels_kitti7/train/kitti7__000098_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000099_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000099_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "082db5973a7a639ec61d24fbe1e45efcb6df8088fcd68a6c8c821413bee189f0",
+      "source_label": "labels_kitti7/train/kitti7__000099_10.txt"
+    },
+    {
+      "image": "images/test/kitti7__000100_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000100_10.jpg",
+      "source_split": "train",
+      "split": "test",
+      "source_schema": "kitti7",
+      "sha256": "f7a12bdcc5f544c893a5aa3cf21f5391cdb13092fbefec0fe0fa99574664a28a",
+      "source_label": "labels_kitti7/test/kitti7__000100_10.txt"
+    },
+    {
+      "image": "images/test/kitti7__000101_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000101_10.jpg",
+      "source_split": "train",
+      "split": "test",
+      "source_schema": "kitti7",
+      "sha256": "aa5aea4d4ebb05a2cc860654422f18002daf9134ca120b50fd10593fcd58302e",
+      "source_label": "labels_kitti7/test/kitti7__000101_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000103_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000103_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "6c1d4c56cbb77da0d002981a344af81ce823e7737c84cf0b8a4cb4d9e43ad461",
+      "source_label": "labels_kitti7/train/kitti7__000103_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000105_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000105_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "066bdb1b72e3215732fdf28e83aacd4c42b94a1eb625afa1e5a691438fca7c66",
+      "source_label": "labels_kitti7/train/kitti7__000105_10.txt"
+    },
+    {
+      "image": "images/test/kitti7__000106_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000106_10.jpg",
+      "source_split": "train",
+      "split": "test",
+      "source_schema": "kitti7",
+      "sha256": "032c14a3d891330a12a8342ad32a11d0c1221ced62d5c08d67d5bde0c20e727c",
+      "source_label": "labels_kitti7/test/kitti7__000106_10.txt"
+    },
+    {
+      "image": "images/test/kitti7__000107_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000107_10.jpg",
+      "source_split": "train",
+      "split": "test",
+      "source_schema": "kitti7",
+      "sha256": "fdb51db8aefaa0b77ef416808d03c3a9a13105ca87f5ca74072e4b78d0c95d61",
+      "source_label": "labels_kitti7/test/kitti7__000107_10.txt"
+    },
+    {
+      "image": "images/val/kitti7__000108_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000108_10.jpg",
+      "source_split": "train",
+      "split": "val",
+      "source_schema": "kitti7",
+      "sha256": "b92f0e637287cd17eef1772c9b8303c281c26414ab88b15b909666cbd0915952",
+      "source_label": "labels_kitti7/val/kitti7__000108_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000109_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000109_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "df5d3979370456181f673a146693ebddcd1e4627135cd2727bfe2fbc1f0faee5",
+      "source_label": "labels_kitti7/train/kitti7__000109_10.txt"
+    },
+    {
+      "image": "images/val/kitti7__000110_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000110_10.jpg",
+      "source_split": "train",
+      "split": "val",
+      "source_schema": "kitti7",
+      "sha256": "bef8a96c3e2fbb901b82b7cca9586264716461ee580e72f579ef25971528ce99",
+      "source_label": "labels_kitti7/val/kitti7__000110_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000114_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000114_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "e0b957cd9a31e277ef184f464fc2f8beb459a932f56a56bd9ee0cb32f4f7d203",
+      "source_label": "labels_kitti7/train/kitti7__000114_10.txt"
+    },
+    {
+      "image": "images/test/kitti7__000116_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000116_10.jpg",
+      "source_split": "train",
+      "split": "test",
+      "source_schema": "kitti7",
+      "sha256": "7d591afbdff217ee9711f5d567d22a7269539d44167c2930577e04d8428af9e5",
+      "source_label": "labels_kitti7/test/kitti7__000116_10.txt"
+    },
+    {
+      "image": "images/val/kitti7__000117_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000117_10.jpg",
+      "source_split": "train",
+      "split": "val",
+      "source_schema": "kitti7",
+      "sha256": "e128d112314bf4eb7ccfaa1b6162b145232f72fb1fce6920c8d9ecae77095bfc",
+      "source_label": "labels_kitti7/val/kitti7__000117_10.txt"
+    },
+    {
+      "image": "images/test/kitti7__000118_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000118_10.jpg",
+      "source_split": "train",
+      "split": "test",
+      "source_schema": "kitti7",
+      "sha256": "ab57f2480980c1e77d5aae9b701a20c697b6a17e027174b7c1cc60555282df02",
+      "source_label": "labels_kitti7/test/kitti7__000118_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000119_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000119_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "4f18dba88e5786dce268b450e79f8802377b4685c8727a1b363c3285e9e1c387",
+      "source_label": "labels_kitti7/train/kitti7__000119_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000120_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000120_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "2e1b1b273a28b990520e2dae9caff8966cbe48bcf20d0840e5afbbce8c6d6444",
+      "source_label": "labels_kitti7/train/kitti7__000120_10.txt"
+    },
+    {
+      "image": "images/val/kitti7__000121_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000121_10.jpg",
+      "source_split": "train",
+      "split": "val",
+      "source_schema": "kitti7",
+      "sha256": "b1e5f2f19fdf11f584b28fe212a0acfa4f118b8816aeee9c5f61304eed9a6a8e",
+      "source_label": "labels_kitti7/val/kitti7__000121_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000122_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000122_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "c1fbdb20ed6d77c55b72e97b8c0f9aa26d425137dd4275ee503ce4c757693cb2",
+      "source_label": "labels_kitti7/train/kitti7__000122_10.txt"
+    },
+    {
+      "image": "images/test/kitti7__000123_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000123_10.jpg",
+      "source_split": "train",
+      "split": "test",
+      "source_schema": "kitti7",
+      "sha256": "574807412fda897ee330168dc3621eaec02d72af8b36a8aea7d44d081142b641",
+      "source_label": "labels_kitti7/test/kitti7__000123_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000124_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000124_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "3f0052ac5ee6831780b8b4107225fcaddbc7decb8fe08ad5d4ccef562d18bc8b",
+      "source_label": "labels_kitti7/train/kitti7__000124_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000125_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000125_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "722c8c969f4e7eb84bb0ac31644a84dd437001d291509d4d16a5c61eb4fa7bb3",
+      "source_label": "labels_kitti7/train/kitti7__000125_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000126_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000126_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "099dce74ce46f2732374b33f13cdb9df70a2401fc4071c163b66a176be3034ad",
+      "source_label": "labels_kitti7/train/kitti7__000126_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000127_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000127_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "ab2cbe5c78f1e942b6b1ac6d0ae7f620621cf60498aaaffe7d866c2f663c481a",
+      "source_label": "labels_kitti7/train/kitti7__000127_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000128_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000128_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "02f710766f2511f6995649970e2183b9a71e9e4090265719e7453930e4ad8199",
+      "source_label": "labels_kitti7/train/kitti7__000128_10.txt"
+    },
+    {
+      "image": "images/test/kitti7__000129_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000129_10.jpg",
+      "source_split": "train",
+      "split": "test",
+      "source_schema": "kitti7",
+      "sha256": "3fbb563d192866a751c0a98a1b7fb02454129321b3d3390053bf49f14c8ca357",
+      "source_label": "labels_kitti7/test/kitti7__000129_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000130_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000130_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "038c42d7a66e9debe7a28e5f343063bf666b85a4bf4a9c963d495987d33a6bed",
+      "source_label": "labels_kitti7/train/kitti7__000130_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000131_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000131_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "731b1eeb076d96504e0012deaa58e414202c90a41ea4d349016ffe8b7f2350c6",
+      "source_label": "labels_kitti7/train/kitti7__000131_10.txt"
+    },
+    {
+      "image": "images/test/kitti7__000132_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000132_10.jpg",
+      "source_split": "train",
+      "split": "test",
+      "source_schema": "kitti7",
+      "sha256": "29986bb4e2d144045db79555838b5fea31a5c226c1b357c7d849afbda1dbf417",
+      "source_label": "labels_kitti7/test/kitti7__000132_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000133_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000133_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "1023bfc830e289b034acb9985e2a83d937b545a0b1794c560afd2c5f21cf3971",
+      "source_label": "labels_kitti7/train/kitti7__000133_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000134_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000134_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "62642930982d81e30421d68150195e600802d2c8b727aaf5d1abe0084142495b",
+      "source_label": "labels_kitti7/train/kitti7__000134_10.txt"
+    },
+    {
+      "image": "images/val/kitti7__000136_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000136_10.jpg",
+      "source_split": "train",
+      "split": "val",
+      "source_schema": "kitti7",
+      "sha256": "9873241182363c62ce6bbcb7b65672a25486f8e3eb833da9b51dd14558444b8a",
+      "source_label": "labels_kitti7/val/kitti7__000136_10.txt"
+    },
+    {
+      "image": "images/test/kitti7__000137_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000137_10.jpg",
+      "source_split": "train",
+      "split": "test",
+      "source_schema": "kitti7",
+      "sha256": "9fe6a70e1eb324cb3f15266fe7d03c739f763e3d1cfc7a485d5ae4cfdefc2f10",
+      "source_label": "labels_kitti7/test/kitti7__000137_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000138_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000138_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "6e352267f6dbc2ea5bd490624360c83973351f68ecc06ad474f7f1bea095a0c7",
+      "source_label": "labels_kitti7/train/kitti7__000138_10.txt"
+    },
+    {
+      "image": "images/test/kitti7__000139_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000139_10.jpg",
+      "source_split": "train",
+      "split": "test",
+      "source_schema": "kitti7",
+      "sha256": "75605634db44bfe2c40f8c53e828ee0944a648820f18ab7dfe1c3f1936c027d2",
+      "source_label": "labels_kitti7/test/kitti7__000139_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000140_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000140_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "5c5da6838140dad908d2620f5c2652742622c46c7f6be2e9f5fbdd03583c8b31",
+      "source_label": "labels_kitti7/train/kitti7__000140_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000142_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000142_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "4fb0b56a30ac518057ddcd880f106de7192eec3dfe3b21b81ad50b8b001efe24",
+      "source_label": "labels_kitti7/train/kitti7__000142_10.txt"
+    },
+    {
+      "image": "images/test/kitti7__000143_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000143_10.jpg",
+      "source_split": "train",
+      "split": "test",
+      "source_schema": "kitti7",
+      "sha256": "bf90c7bc6c6de84486a37d700aa6d18c0fb739c70d047bfb564c39f59e5aa8a6",
+      "source_label": "labels_kitti7/test/kitti7__000143_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000144_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000144_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "a05da0c0c8c073bf8d0a63b32c0bb7f008ec3fb1e96d658f37dc05d66461bf2f",
+      "source_label": "labels_kitti7/train/kitti7__000144_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000147_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000147_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "0f1b3e89c5cb480be16407068149b862f2ea282b36a0391fe8863a5cbcd2e851",
+      "source_label": "labels_kitti7/train/kitti7__000147_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000148_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000148_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "1ef475c3ff4578fa7e22333d91d569dea3eb2d4bf9ba9f819b31666d92a91714",
+      "source_label": "labels_kitti7/train/kitti7__000148_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000150_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000150_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "91b2bbcd6b6262c14e268a52d39f77f93aa852097d12048a0955a83e8c45adcf",
+      "source_label": "labels_kitti7/train/kitti7__000150_10.txt"
+    },
+    {
+      "image": "images/val/kitti7__000151_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000151_10.jpg",
+      "source_split": "train",
+      "split": "val",
+      "source_schema": "kitti7",
+      "sha256": "651d9fac5da771bb6fc5553877c9489d29473a883594a1a68bb69cd73d7a7b65",
+      "source_label": "labels_kitti7/val/kitti7__000151_10.txt"
+    },
+    {
+      "image": "images/test/kitti7__000152_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000152_10.jpg",
+      "source_split": "train",
+      "split": "test",
+      "source_schema": "kitti7",
+      "sha256": "6c01740684372211f613ed01955700d953eb5b958e619191e6eb4e9249fc1cfd",
+      "source_label": "labels_kitti7/test/kitti7__000152_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000154_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000154_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "974ed98f81e32222d8d3589c76c812e4d55d6806bbf2c2e965674c8f3f781815",
+      "source_label": "labels_kitti7/train/kitti7__000154_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000155_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000155_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "48709d0ddd282eea531a88a086c9aba0d9b787a41aab353d46ef23ea462a4751",
+      "source_label": "labels_kitti7/train/kitti7__000155_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000156_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000156_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "d903956f2e4eb63bacc754440bd43d5c453c0784a2b341275568a19cce948518",
+      "source_label": "labels_kitti7/train/kitti7__000156_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000157_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000157_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "ac88253ae1f85085bdc5039f74c952f1a5523fedd947bb576b69880f09c6b2c4",
+      "source_label": "labels_kitti7/train/kitti7__000157_10.txt"
+    },
+    {
+      "image": "images/test/kitti7__000158_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000158_10.jpg",
+      "source_split": "train",
+      "split": "test",
+      "source_schema": "kitti7",
+      "sha256": "565e7aa553f1f0eabfdd758a36e9d48473dfacccfa34bc67ab71583743e4aea3",
+      "source_label": "labels_kitti7/test/kitti7__000158_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000159_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000159_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "6fdfdd44bfa34b118239e4a03056184c4418ea896143ddab92efe4514a1a100d",
+      "source_label": "labels_kitti7/train/kitti7__000159_10.txt"
+    },
+    {
+      "image": "images/test/kitti7__000160_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000160_10.jpg",
+      "source_split": "train",
+      "split": "test",
+      "source_schema": "kitti7",
+      "sha256": "59794746884a8954b86556396c123268cf51c3135d5892a0e1cf588f4743c5cb",
+      "source_label": "labels_kitti7/test/kitti7__000160_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000161_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000161_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "17355d88a94de7b3f1dfc745504b86fb813796752be766330a4d76f6d9ac0143",
+      "source_label": "labels_kitti7/train/kitti7__000161_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000165_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000165_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "7f99583b8e14b6a01d0f204e0e8fcb91fc87f85cafc9690e89b136645f88c26e",
+      "source_label": "labels_kitti7/train/kitti7__000165_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000166_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000166_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "366c03b4001373dfde6f29b3d9b5e2c704460309a5cd9ec4ba5e6562228dd6bb",
+      "source_label": "labels_kitti7/train/kitti7__000166_10.txt"
+    },
+    {
+      "image": "images/test/kitti7__000169_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000169_10.jpg",
+      "source_split": "train",
+      "split": "test",
+      "source_schema": "kitti7",
+      "sha256": "ca50b4891cba6e1d610fedb0fcabb6d1f22a4f1507474ee733cc51e64bdd4051",
+      "source_label": "labels_kitti7/test/kitti7__000169_10.txt"
+    },
+    {
+      "image": "images/test/kitti7__000172_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000172_10.jpg",
+      "source_split": "train",
+      "split": "test",
+      "source_schema": "kitti7",
+      "sha256": "5926b8d34dc1a32e34a7fb7661d0e568392964adb3cb6f3f0da88abd0eaecc3e",
+      "source_label": "labels_kitti7/test/kitti7__000172_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000173_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000173_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "a3fd4b579606539f0450bd323c408711942e2b3ff1e6ab5bebb3500dc8ce018c",
+      "source_label": "labels_kitti7/train/kitti7__000173_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000174_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000174_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "8e5d21c16d664cf2f1c4fbe1ac2897ea13d143667eb7bb5f409e9981b0f9c4cf",
+      "source_label": "labels_kitti7/train/kitti7__000174_10.txt"
+    },
+    {
+      "image": "images/test/kitti7__000176_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000176_10.jpg",
+      "source_split": "train",
+      "split": "test",
+      "source_schema": "kitti7",
+      "sha256": "d907bdd6034e674e905fb8be324ecb40977e9761f270fd29fed2a0d7d73f1ece",
+      "source_label": "labels_kitti7/test/kitti7__000176_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000177_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000177_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "268e4a7aa0f8e6282292dd71756e5df75d39ba47d143156d7793fe427594d1bc",
+      "source_label": "labels_kitti7/train/kitti7__000177_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000178_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000178_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "dc3bad49d1e15e9686566a250b40e2004ff29e063386e82d98c67487fbfd2e46",
+      "source_label": "labels_kitti7/train/kitti7__000178_10.txt"
+    },
+    {
+      "image": "images/test/kitti7__000180_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000180_10.jpg",
+      "source_split": "train",
+      "split": "test",
+      "source_schema": "kitti7",
+      "sha256": "6bb30a4d5f2378498676ee3eb370cb23f3639f85e9a08ce8c93d5b475820bfcd",
+      "source_label": "labels_kitti7/test/kitti7__000180_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000181_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000181_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "9577d8a407b4984bf6d9fe2e1a69f18da70666052c5a4f3adfc923fb6bcb61e4",
+      "source_label": "labels_kitti7/train/kitti7__000181_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000182_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000182_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "00f442fef4ec60589fe9ade039853a74b155f5c600e2f95700d237ca15261e0c",
+      "source_label": "labels_kitti7/train/kitti7__000182_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000183_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000183_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "93f62c3260b528e58800153f3107b4b9b6f1a0a11bff4ed3cc423f36996f0b2c",
+      "source_label": "labels_kitti7/train/kitti7__000183_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000185_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000185_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "d81f58aafb761e25925ef8fb5c97729d56ea9865b90a2caea02df442ed646eb5",
+      "source_label": "labels_kitti7/train/kitti7__000185_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000186_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000186_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "f66762559bd59d7aad1cb6365173cec0fef4795b82da71230e1b91566052a7f7",
+      "source_label": "labels_kitti7/train/kitti7__000186_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000187_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000187_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "524d6263d5691fe867a507966ece42f5480c4de66e77ee69891d715130d13d6a",
+      "source_label": "labels_kitti7/train/kitti7__000187_10.txt"
+    },
+    {
+      "image": "images/val/kitti7__000188_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000188_10.jpg",
+      "source_split": "train",
+      "split": "val",
+      "source_schema": "kitti7",
+      "sha256": "490fa464c2049fe7c1c61a30918a03ecfc50675582e15805cdee560eb1d2c8b3",
+      "source_label": "labels_kitti7/val/kitti7__000188_10.txt"
+    },
+    {
+      "image": "images/test/kitti7__000189_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000189_10.jpg",
+      "source_split": "train",
+      "split": "test",
+      "source_schema": "kitti7",
+      "sha256": "aa878d60cfb8a9abf98e1409cf7765edc880e94290ed6e15b2fb5445f7003e99",
+      "source_label": "labels_kitti7/test/kitti7__000189_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000191_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000191_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "3234c645f5a901da0d439344c186fe8219b2c5b3b05a03acce8e4dbe0c85107c",
+      "source_label": "labels_kitti7/train/kitti7__000191_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000192_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000192_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "65381996c2e0d14b8b937aab150cb64a8f8058ad9a47c7e27771ce373d69dab6",
+      "source_label": "labels_kitti7/train/kitti7__000192_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000193_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000193_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "df6da42967b611fbcccc8667722b123ac757881545a2d26343fb9aa649ce6e3d",
+      "source_label": "labels_kitti7/train/kitti7__000193_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000195_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000195_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "3ae686db0c1f9b458c49453d9355850d180151f93c4a295639e74006605af33c",
+      "source_label": "labels_kitti7/train/kitti7__000195_10.txt"
+    },
+    {
+      "image": "images/test/kitti7__000196_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000196_10.jpg",
+      "source_split": "train",
+      "split": "test",
+      "source_schema": "kitti7",
+      "sha256": "84d08cd2c3c93c624b2b95cbe9095eb6f06a9b63bfcee2dfa068aafc012f31d2",
+      "source_label": "labels_kitti7/test/kitti7__000196_10.txt"
+    },
+    {
+      "image": "images/test/kitti7__000197_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000197_10.jpg",
+      "source_split": "train",
+      "split": "test",
+      "source_schema": "kitti7",
+      "sha256": "3d34a004391c470a219f32dffac6949e4169d819bec930e838c9d2cf218ec50b",
+      "source_label": "labels_kitti7/test/kitti7__000197_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000198_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/train/000198_10.jpg",
+      "source_split": "train",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "40f8a07cdc500b54a6a78829030c027e4f5142926bd25965f3beafbfe2f1d187",
+      "source_label": "labels_kitti7/train/kitti7__000198_10.txt"
+    },
+    {
+      "image": "images/test/kitti7__000015_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/val/000015_10.jpg",
+      "source_split": "val",
+      "split": "test",
+      "source_schema": "kitti7",
+      "sha256": "18be846d5e0955d33928084320e98ae2b0909268399540b93aa35a0d2877593f",
+      "source_label": "labels_kitti7/test/kitti7__000015_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000020_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/val/000020_10.jpg",
+      "source_split": "val",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "59c356c2d44feae50ae2a0b1da88cd10f22b83c2b7e03e958fb85ac8cc9bcbcf",
+      "source_label": "labels_kitti7/train/kitti7__000020_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000027_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/val/000027_10.jpg",
+      "source_split": "val",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "d064f4bb8beca8ad034a381a0ed10bea5f4ce55fadb2106ea452ac9e8f2a5734",
+      "source_label": "labels_kitti7/train/kitti7__000027_10.txt"
+    },
+    {
+      "image": "images/val/kitti7__000028_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/val/000028_10.jpg",
+      "source_split": "val",
+      "split": "val",
+      "source_schema": "kitti7",
+      "sha256": "594d301deede41fab78da1b0ae0ac24bd066c2516ad74275a57a2ca2f5dc6373",
+      "source_label": "labels_kitti7/val/kitti7__000028_10.txt"
+    },
+    {
+      "image": "images/test/kitti7__000038_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/val/000038_10.jpg",
+      "source_split": "val",
+      "split": "test",
+      "source_schema": "kitti7",
+      "sha256": "f6c3e1f2cfc360170605fd4b0a91c8aa22bc32a1af9463cc1663b0826f0b9faa",
+      "source_label": "labels_kitti7/test/kitti7__000038_10.txt"
+    },
+    {
+      "image": "images/test/kitti7__000039_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/val/000039_10.jpg",
+      "source_split": "val",
+      "split": "test",
+      "source_schema": "kitti7",
+      "sha256": "f1c315fb7b010ab75a1194703e16bbc257901f5161a9b081fb03628546a7affb",
+      "source_label": "labels_kitti7/test/kitti7__000039_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000048_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/val/000048_10.jpg",
+      "source_split": "val",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "a04fbc9dd6e448a41049cfa81f200b0ae7c82d94904b49679234f71cf1ab1e3f",
+      "source_label": "labels_kitti7/train/kitti7__000048_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000050_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/val/000050_10.jpg",
+      "source_split": "val",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "23c19697ce1c56cf818fdcf833aa43ba103212800a98a3183a6f54f692a05665",
+      "source_label": "labels_kitti7/train/kitti7__000050_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000051_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/val/000051_10.jpg",
+      "source_split": "val",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "17aa88b06e8f42bfeb9337dac96e33e047f7531bd7199187dded7aad74d77d95",
+      "source_label": "labels_kitti7/train/kitti7__000051_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000060_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/val/000060_10.jpg",
+      "source_split": "val",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "1b2ab121358ea2e9d9679f066bd77fba5b3d09604bfa1c7ed2a7243e3e0cef72",
+      "source_label": "labels_kitti7/train/kitti7__000060_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000067_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/val/000067_10.jpg",
+      "source_split": "val",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "8a570eb175d38093f2d45720b5c894a1875f4041d28b5da9b352d8f57b5a230c",
+      "source_label": "labels_kitti7/train/kitti7__000067_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000072_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/val/000072_10.jpg",
+      "source_split": "val",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "0c323766d8cf76f65ffb4d44d945ef38acc1a29047f4edd651b6ba66cc9fa64e",
+      "source_label": "labels_kitti7/train/kitti7__000072_10.txt"
+    },
+    {
+      "image": "images/test/kitti7__000082_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/val/000082_10.jpg",
+      "source_split": "val",
+      "split": "test",
+      "source_schema": "kitti7",
+      "sha256": "a29e9215be0f4365437c89e0e71f7f6a6ffa0d535b46cb52b02131bf8be96c16",
+      "source_label": "labels_kitti7/test/kitti7__000082_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000093_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/val/000093_10.jpg",
+      "source_split": "val",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "b17f91a6a51c36c3963a7a778e3d493cce078badbf4e7c56fb308c19cfe9a99d",
+      "source_label": "labels_kitti7/train/kitti7__000093_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000097_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/val/000097_10.jpg",
+      "source_split": "val",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "f2c4345a6b7eeab3fff151f3b84a1fdc3ea33dc014399565bde8bd1d6a92efb6",
+      "source_label": "labels_kitti7/train/kitti7__000097_10.txt"
+    },
+    {
+      "image": "images/test/kitti7__000102_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/val/000102_10.jpg",
+      "source_split": "val",
+      "split": "test",
+      "source_schema": "kitti7",
+      "sha256": "cb6cb623761cc6be5a2ad222b23b54f44185f70db191a290fc9f8b2b90ddf0a5",
+      "source_label": "labels_kitti7/test/kitti7__000102_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000104_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/val/000104_10.jpg",
+      "source_split": "val",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "f5ba5cd6aa3ef894b22d2efdde6af1d4bb568894d9ef863b2fdd4be1002e909b",
+      "source_label": "labels_kitti7/train/kitti7__000104_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000111_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/val/000111_10.jpg",
+      "source_split": "val",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "6a4c956480e07b3e3a089de69068099cd0f36d22bac8522cbf9a3b8e09bf23c1",
+      "source_label": "labels_kitti7/train/kitti7__000111_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000112_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/val/000112_10.jpg",
+      "source_split": "val",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "4b9572d19e8f02e4ee76e4ae54d2bb2efca15bfa5e70c5144a93506f30db7aa7",
+      "source_label": "labels_kitti7/train/kitti7__000112_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000113_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/val/000113_10.jpg",
+      "source_split": "val",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "0cc3399bd706b475a5d6b6ac7575a8dc606d7daec0e63f22a5164ebcff0829a9",
+      "source_label": "labels_kitti7/train/kitti7__000113_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000115_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/val/000115_10.jpg",
+      "source_split": "val",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "1be088c6dc9c68e20f161236532e80fcd05a1d72047d0cfa1ebea3072b3399c3",
+      "source_label": "labels_kitti7/train/kitti7__000115_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000135_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/val/000135_10.jpg",
+      "source_split": "val",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "24a40fe25a908a917ab99b32f1c5cfe8ca54aada31fcf1af23cac7cd257d84b8",
+      "source_label": "labels_kitti7/train/kitti7__000135_10.txt"
+    },
+    {
+      "image": "images/test/kitti7__000141_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/val/000141_10.jpg",
+      "source_split": "val",
+      "split": "test",
+      "source_schema": "kitti7",
+      "sha256": "b324850f34196e474b1f094e38376c8274e0f756d4ae8bb59b950369d5df0a45",
+      "source_label": "labels_kitti7/test/kitti7__000141_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000145_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/val/000145_10.jpg",
+      "source_split": "val",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "ef2a7c1a0543ea827acbfae8b0ec2cf519462811116e61bbf1110815c4dd73d8",
+      "source_label": "labels_kitti7/train/kitti7__000145_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000146_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/val/000146_10.jpg",
+      "source_split": "val",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "efaf1f25d9e5f5e223b516db8014fc795a7ef88b0fea2db1d1d58245363b99f8",
+      "source_label": "labels_kitti7/train/kitti7__000146_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000149_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/val/000149_10.jpg",
+      "source_split": "val",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "6393363ca799efcda36bc6af7cf387ee78108664a2915868991ab999808d154f",
+      "source_label": "labels_kitti7/train/kitti7__000149_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000153_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/val/000153_10.jpg",
+      "source_split": "val",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "d6a51a1c86ffdaf770a14032ed86f4c50c74f7e2a992e1cdb9937c537156b09d",
+      "source_label": "labels_kitti7/train/kitti7__000153_10.txt"
+    },
+    {
+      "image": "images/val/kitti7__000162_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/val/000162_10.jpg",
+      "source_split": "val",
+      "split": "val",
+      "source_schema": "kitti7",
+      "sha256": "ccac834a1572b5bf5319d4847ae42bee510f427fb095d246b04b14c42c3a32c3",
+      "source_label": "labels_kitti7/val/kitti7__000162_10.txt"
+    },
+    {
+      "image": "images/val/kitti7__000163_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/val/000163_10.jpg",
+      "source_split": "val",
+      "split": "val",
+      "source_schema": "kitti7",
+      "sha256": "d58debdaf5d3f7e15e8c7957631dae2ae8d61bf334566a53bb4b6324e60a0270",
+      "source_label": "labels_kitti7/val/kitti7__000163_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000164_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/val/000164_10.jpg",
+      "source_split": "val",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "4a25f3e7d7b8ccae00c6915015784116ef63f61e8e106cce3aeabb68f0c7707d",
+      "source_label": "labels_kitti7/train/kitti7__000164_10.txt"
+    },
+    {
+      "image": "images/test/kitti7__000167_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/val/000167_10.jpg",
+      "source_split": "val",
+      "split": "test",
+      "source_schema": "kitti7",
+      "sha256": "7093b8869be7ae29565a8af8f3117ef56770eb835c5a986b3703507e97093e6e",
+      "source_label": "labels_kitti7/test/kitti7__000167_10.txt"
+    },
+    {
+      "image": "images/val/kitti7__000168_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/val/000168_10.jpg",
+      "source_split": "val",
+      "split": "val",
+      "source_schema": "kitti7",
+      "sha256": "0c062332dca0b1d12214473788e361abaa2b6e5b517e4a30dc27b6cd7bc1dabf",
+      "source_label": "labels_kitti7/val/kitti7__000168_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000170_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/val/000170_10.jpg",
+      "source_split": "val",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "1ee6fe540867a052daf0578ccb377033f2a619b12ecffe4969fe2701b75ac6e4",
+      "source_label": "labels_kitti7/train/kitti7__000170_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000171_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/val/000171_10.jpg",
+      "source_split": "val",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "d6e79be20e097031ecbb07689e9aa8293f0abb82af86f12a7806575eae26900f",
+      "source_label": "labels_kitti7/train/kitti7__000171_10.txt"
+    },
+    {
+      "image": "images/val/kitti7__000175_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/val/000175_10.jpg",
+      "source_split": "val",
+      "split": "val",
+      "source_schema": "kitti7",
+      "sha256": "a05998a8cfb480cf3bfdda2a10e33cea465d1b02a209074cce6f4e97ad508de2",
+      "source_label": "labels_kitti7/val/kitti7__000175_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000179_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/val/000179_10.jpg",
+      "source_split": "val",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "6a21f50bce99435f642745aeda8e3c37e6829d4e78048f1573146b55f79c709d",
+      "source_label": "labels_kitti7/train/kitti7__000179_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000184_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/val/000184_10.jpg",
+      "source_split": "val",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "f37b4a115410679b07ebc0f8153858dd103cf8217cddb50e13c44c727a798442",
+      "source_label": "labels_kitti7/train/kitti7__000184_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000190_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/val/000190_10.jpg",
+      "source_split": "val",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "2506a18c7e2626c732a1247712452f3daff43dbb7fa6d6fb99701597999deb3a",
+      "source_label": "labels_kitti7/train/kitti7__000190_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000194_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/val/000194_10.jpg",
+      "source_split": "val",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "b5908fa0eba49cb3f0d60e997bfaa2c8ff86f6d06cd69ccca946423fc4aa381c",
+      "source_label": "labels_kitti7/train/kitti7__000194_10.txt"
+    },
+    {
+      "image": "images/train/kitti7__000199_10.jpg",
+      "source": "robotaxi-kitti200-seg/images/val/000199_10.jpg",
+      "source_split": "val",
+      "split": "train",
+      "source_schema": "kitti7",
+      "sha256": "ff79d56359edd7d8099dd0a0571be24b39244a22e6b54ada2247a303446e9906",
+      "source_label": "labels_kitti7/train/kitti7__000199_10.txt"
+    }
+  ]
+}

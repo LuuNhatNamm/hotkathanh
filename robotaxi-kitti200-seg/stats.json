@@ -1,0 +1,43 @@
+{
+  "source": "KITTI Semantic Instance Segmentation, official training split",
+  "classes": [
+    "person",
+    "rider",
+    "car",
+    "truck",
+    "bus",
+    "motorcycle",
+    "bicycle"
+  ],
+  "splits": {
+    "train": {
+      "images": 160,
+      "empty_labels": 0,
+      "instances": [
+        74,
+        22,
+        1333,
+        82,
+        15,
+        6,
+        38
+      ]
+    },
+    "val": {
+      "images": 40,
+      "empty_labels": 0,
+      "instances": [
+        26,
+        7,
+        345,
+        19,
+        4,
+        1,
+        9
+      ]
+    }
+  },
+  "instances_skipped_no_positive_area_polygon": 1,
+  "polygon_mask_iou_mean": 0.9958,
+  "polygon_mask_iou_p05": 0.9744
+}

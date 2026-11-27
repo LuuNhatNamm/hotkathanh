@@ -1,0 +1,173 @@
+{
+  "seed": 42,
+  "ratios": {
+    "train": 0.7,
+    "test": 0.2,
+    "val": 0.1
+  },
+  "status": "unlabeled",
+  "splits": {
+    "train": {
+      "images": 19,
+      "sources": {
+        "dataset": 9,
+        "xe_tho_so": 10
+      },
+      "files": [
+        {
+          "image": "images/train/dataset__1.jpg",
+          "source": "dataset/1.jpg",
+          "sha256": "ca4f2eda6657eed9abd884c43352062f8ebfe31250f52f4352a67d41c727bcdd"
+        },
+        {
+          "image": "images/train/dataset__13.jpg",
+          "source": "dataset/13.jpg",
+          "sha256": "63630dd500144b71ee5f51745c7fdcbfe2809b6566ec50c08994359fa96c51d8"
+        },
+        {
+          "image": "images/train/dataset__10.jpg",
+          "source": "dataset/10.jpg",
+          "sha256": "5f1b3b579af5a78c5d073cc6c42acfc3d46d0d7df132ea1e77a812806578fbcb"
+        },
+        {
+          "image": "images/train/dataset__9.jpg",
+          "source": "dataset/9.jpg",
+          "sha256": "66af9b9ac96d67f5dc8ae719e4c052c4a6eebd5aa9e16a5a9f7e4329bfda1952"
+        },
+        {
+          "image": "images/train/dataset__4.jpg",
+          "source": "dataset/4.jpg",
+          "sha256": "f9d59bada020a50cddabe345b6fde23432be85b787b66e115a13297b1e546c97"
+        },
+        {
+          "image": "images/train/dataset__3.jpg",
+          "source": "dataset/3.jpg",
+          "sha256": "830978e0acda1562b99a399885f331b4d75cf7d054f88b1d04fc2536b00ab359"
+        },
+        {
+          "image": "images/train/dataset__12.jpg",
+          "source": "dataset/12.jpg",
+          "sha256": "de1e1840531d888dba1a4bf053603baae31f118d164e7524d35f84383339e4a7"
+        },
+        {
+          "image": "images/train/dataset__6.jpg",
+          "source": "dataset/6.jpg",
+          "sha256": "1c1ab10717f22899af0ed786c0aebf6854a02f28b5f3ec0c7692a3f1868378bc"
+        },
+        {
+          "image": "images/train/dataset__8.jpg",
+          "source": "dataset/8.jpg",
+          "sha256": "02c05b2d4e2cdba73b0685c44859e185ca60e22d0b9a86110f1857c93af45ea3"
+        },
+        {
+          "image": "images/train/xe_tho_so__img_026.jpg",
+          "source": "xe_tho_so/img_026.jpg",
+          "sha256": "1dcec1a169e2a679a778b8e3ccff6536f0568fcdf0735492c0ded2c28dffb939"
+        },
+        {
+          "image": "images/train/xe_tho_so__img_014.jpg",
+          "source": "xe_tho_so/img_014.jpg",
+          "sha256": "571ec1c8214e87c2b4da520d25acd68d3726d667939e9351c49f51aa971f6dbb"
+        },
+        {
+          "image": "images/train/xe_tho_so__img_029.jpg",
+          "source": "xe_tho_so/img_029.jpg",
+          "sha256": "7c11f73db3534502ba10e56f82c13e6fad35e9acd303f908a04e0f142726376a"
+        },
+        {
+          "image": "images/train/xe_tho_so__img_034.jpg",
+          "source": "xe_tho_so/img_034.jpg",
+          "sha256": "1fcbf2466e3d35c948c324f3d7d92ef68a2b3a55c7794b9d525b8c0a0e79e7c8"
+        },
+        {
+          "image": "images/train/xe_tho_so__img_039.jpg",
+          "source": "xe_tho_so/img_039.jpg",
+          "sha256": "a365c96735aa053247ccb5b6dcd96c5367d781c2b1d8f83a6802bd0fcef305a7"
+        },
+        {
+          "image": "images/train/xe_tho_so__img_021.jpg",
+          "source": "xe_tho_so/img_021.jpg",
+          "sha256": "d035d96b613f152a27c6eec55b6a2aa5117ac09725b8a6e302832980dd98b6fa"
+        },
+        {
+          "image": "images/train/xe_tho_so__img_003.jpg",
+          "source": "xe_tho_so/img_003.jpg",
+          "sha256": "8c2682682b89753bfa9de78b9dea93abb91937d2baed53fbf8c9fce6aa6a604a"
+        },
+        {
+          "image": "images/train/xe_tho_so__img_009.jpg",
+          "source": "xe_tho_so/img_009.jpg",
+          "sha256": "c393715075640aae17a8268f85f63bea2f35970a2299082e688e6f9d59cac8ab"
+        },
+        {
+          "image": "images/train/xe_tho_so__img_031.jpg",
+          "source": "xe_tho_so/img_031.jpg",
+          "sha256": "c0a1dc1b08e031704dfdcf36a3f9d90f487a148cc50706a74a01415cd81f2c9d"
+        },
+        {
+          "image": "images/train/xe_tho_so__img_010.jpg",
+          "source": "xe_tho_so/img_010.jpg",
+          "sha256": "1b1398bd5221f9d72989af0fc1d8a8ee87df8af03343bb1d68ce365412224d3c"
+        }
+      ]
+    },
+    "test": {
+      "images": 5,
+      "sources": {
+        "dataset": 3,
+        "xe_tho_so": 2
+      },
+      "files": [
+        {
+          "image": "images/test/dataset__5.jpg",
+          "source": "dataset/5.jpg",
+          "sha256": "fb5fe9340b1eeec3148ae92029c4f94b93696cbdef3043b1831e98910599a6c3"
+        },
+        {
+          "image": "images/test/dataset__7.jpg",
+          "source": "dataset/7.jpg",
+          "sha256": "fac8e8161703ba1d80e0e652f1ef1e82bc9bc5555dc94aa5a8335b57abd6ae9f"
+        },
+        {
+          "image": "images/test/dataset__11.jpg",
+          "source": "dataset/11.jpg",
+          "sha256": "cfb80fa9dff1b4cd47241360ccdf7e9c14bce00c7862a3274eba0ae81f411948"
+        },
+        {
+          "image": "images/test/xe_tho_so__img_005.jpg",
+          "source": "xe_tho_so/img_005.jpg",
+          "sha256": "8807a048e945b0eff1a6489a66f3cf97751da88f95b6b661e5912e9d8f1793a4"
+        },
+        {
+          "image": "images/test/xe_tho_so__img_023.jpg",
+          "source": "xe_tho_so/img_023.jpg",
+          "sha256": "88d5cf72ad87df5af3d59421c3148f463addc4efb0a3e032949ada8c1c39f2b0"
+        }
+      ]
+    },
+    "val": {
+      "images": 3,
+      "sources": {
+        "dataset": 1,
+        "xe_tho_so": 2
+      },
+      "files": [
+        {
+          "image": "images/val/dataset__2.jpg",
+          "source": "dataset/2.jpg",
+          "sha256": "a10d69253e7f26385797af4d6eca9e1d5f892249ab18c3a9af946b65d8cc6e98"
+        },
+        {
+          "image": "images/val/xe_tho_so__img_006.jpg",
+          "source": "xe_tho_so/img_006.jpg",
+          "sha256": "0d5ba9d4e419511a0d7a937eec2a2f4a2a22a095964718e75ca8600250fea203"
+        },
+        {
+          "image": "images/val/xe_tho_so__img_008.jpg",
+          "source": "xe_tho_so/img_008.jpg",
+          "sha256": "0006963df478decb7a93189f896c715f329e67ca51e1e767894a7579948929cb"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "seed": 42,
+  "ratios": {
+    "train": 0.7,
+    "test": 0.2,
+    "val": 0.1
+  },
+  "status": "label_review_pending",
+  "splits": {
+    "train": {
+      "images": 35,
+      "sources": {
+        "traffic_light_50": 35
+      },
+      "files": [
+        {
+          "image": "images/train/coco_000000260266.jpg",
+          "source": "traffic_light_50/images/coco_000000260266.jpg",
+          "sha256": "a5193e5cc5a14ee137092638d926fe3de0132243aede2e40d54aaa2a7d3d344b"
+        },
+        {
+          "image": "images/train/coco_000000319607.jpg",
+          "source": "traffic_light_50/images/coco_000000319607.jpg",
+          "sha256": "9bbdfbb3c432c6557b251b5befd064ca2f7136af0a83954c86b7deb6511eb354"
+        },
+        {
+          "image": "images/train/coco_000000492077.jpg",
+          "source": "traffic_light_50/images/coco_000000492077.jpg",
+          "sha256": "16c697f38aa036da979494b579d337c41fc7a4529802372f7e7c535478b6103d"
+        },
+        {
+          "image": "images/train/coco_000000155451.jpg",
+          "source": "traffic_light_50/images/coco_000000155451.jpg",
+          "sha256": "d53c8637732ca8e9542fb324cba5bf8224b5816d0bdc86f3deb5bf9315534427"
+        },
+        {
+          "image": "images/train/coco_000000553511.jpg",
+          "source": "traffic_light_50/images/coco_000000553511.jpg",
+          "sha256": "0f71120e00e049ac2e39e5dd3b6f27bf695e9a62309baad12b90b27b964c00c2"
+        },
+        {
+          "image": "images/train/coco_000000193717.jpg",
+          "source": "traffic_light_50/images/coco_000000193717.jpg",
+          "sha256": "a2606516f5b4ff9ba6dd7e65ef87bff0c1621f837ba164954d41c688dc7da16e"
+        },
+        {
+          "image": "images/train/coco_000000169996.jpg",
+          "source": "traffic_light_50/images/coco_000000169996.jpg",
+          "sha256": "611bac47a27ce814dffb589dd2ed663f447b22aed5365b95fce142dbc6ddcc08"
+        },
+        {
+          "image": "images/train/coco_000000307074.jpg",
+          "source": "traffic_light_50/images/coco_000000307074.jpg",
+          "sha256": "59fca33672badaf0c9f0006ba0d1bcff367ea3cc25d2ba97af8eaaed3261c282"
+        },
+        {
+          "image": "images/train/coco_000000499181.jpg",
+          "source": "traffic_light_50/images/coco_000000499181.jpg",
+          "sha256": "2b4d8a5404d27eca2b0e3a3d79e2a7129485ba5af33b0f209dcfac06458dfb26"
+        },
+        {
+          "image": "images/train/coco_000000520009.jpg",
+          "source": "traffic_light_50/images/coco_000000520009.jpg",
+          "sha256": "54617d5196a0d66e47f083ce2ecc67c990b5415eca52302dafdc0591597d4e02"
+        },
+        {
+          "image": "images/train/coco_000000526392.jpg",
+          "source": "traffic_light_50/images/coco_000000526392.jpg",
+          "sha256": "e5d5df3b0b7203eb60aa9c605a658cb026d1f6825edebda3dc6c86665724bdc2"
+        },
+        {
+          "image": "images/train/coco_000000226417.jpg",
+          "source": "traffic_light_50/images/coco_000000226417.jpg",
+          "sha256": "3b9c08f91df2e02c28c663da9f5a7204768633fb278b8489330f595dd144f94d"
+        },
+        {
+          "image": "images/train/coco_000000301376.jpg",
+          "source": "traffic_light_50/images/coco_000000301376.jpg",
+          "sha256": "57ead4a94a6df986a161c014c0719b6c37b52ea2aa2246c297ec44db06eb7a2e"
+        },
+        {
+          "image": "images/train/coco_000000292997.jpg",
+          "source": "traffic_light_50/images/coco_000000292997.jpg",
+          "sha256": "9cbd814d4a5dd69d5652df7570f59b9a9570b3c3ad706bcf343a06805267771c"
+        },
+        {
+          "image": "images/train/coco_000000555050.jpg",
+          "source": "traffic_light_50/images/coco_000000555050.jpg",
+          "sha256": "ed39786969f33646d5cafcca041df8c684dbdc17359fc7244a833d8738baa8f8"
+        },
+        {
+          "image": "images/train/coco_000000475484.jpg",
+          "source": "traffic_light_50/images/coco_000000475484.jpg",
+          "sha256": "e1f307ba2c5905702d019ae7aeea4a18fa24e6fb412f33acffe906ea7e03d838"
+        },
+        {
+          "image": "images/train/coco_000000315450.jpg",
+          "source": "traffic_light_50/images/coco_000000315450.jpg",
+          "sha256": "bfe43280710dcd0e48252d914153699c46c31dcb4b5114ffc8d6d5febc8ef953"
+        },
+        {
+          "image": "images/train/coco_000000183709.jpg",
+          "source": "traffic_light_50/images/coco_000000183709.jpg",
+          "sha256": "89dabb8b6940b9c08d005d03f0a22573eea72896f8314fbb0d4c128a99c261a1"
+        },
+        {
+          "image": "images/train/coco_000000178982.jpg",
+          "source": "traffic_light_50/images/coco_000000178982.jpg",
+          "sha256": "8c7b1f2f6e44305b7ef5b05bb9c35a4c5935a7f51dfed9f4f5af56fff6f6100b"
+        },
+        {
+          "image": "images/train/coco_000000274272.jpg",
+          "source": "traffic_light_50/images/coco_000000274272.jpg",
+          "sha256": "e87ab7fa2006444ffb6f71b65a5743d33365313b30c96c8b559de7dc7891a404"
+        },
+        {
+          "image": "images/train/coco_000000109441.jpg",
+          "source": "traffic_light_50/images/coco_000000109441.jpg",
+          "sha256": "a6099acbb72ebec1c46e522ad26e874742446549d373c52048e0dc18ba15f5d3"
+        },
+        {
+          "image": "images/train/coco_000000287291.jpg",
+          "source": "traffic_light_50/images/coco_000000287291.jpg",
+          "sha256": "e6dfa7707e0369473b6ac5d90377963b4d92042f0fe68b238cb01ee3d93c8118"
+        },
+        {
+          "image": "images/train/coco_000000569030.jpg",
+          "source": "traffic_light_50/images/coco_000000569030.jpg",
+          "sha256": "b2d3d4287c0dc942c4b0acc34135c02dac8a2aa4088031647c418ba2fbc789d7"
+        },
+        {
+          "image": "images/train/coco_000000183246.jpg",
+          "source": "traffic_light_50/images/coco_000000183246.jpg",
+          "sha256": "25d6c62b5ee245a99b98de1f078ab5d827c6737dfe11c60815955146604b6e7b"
+        },
+        {
+          "image": "images/train/coco_000000204871.jpg",
+          "source": "traffic_light_50/images/coco_000000204871.jpg",
+          "sha256": "f471e48c808ea689a1e3a4a1214bc03e81a95195146b0c42601dbd6eaa006c89"
+        },
+        {
+          "image": "images/train/coco_000000165039.jpg",
+          "source": "traffic_light_50/images/coco_000000165039.jpg",
+          "sha256": "e33ff0c52506ec5f5eea55ca9a3306f3bdc2ba6596ceedefcadf3b59541c1458"
+        },
+        {
+          "image": "images/train/coco_000000505942.jpg",
+          "source": "traffic_light_50/images/coco_000000505942.jpg",
+          "sha256": "2d4a220296d966f7a37cfbcf97f4693fe52787fc66d1a5a7817caa5f3b4355aa"
+        },
+        {
+          "image": "images/train/coco_000000334371.jpg",
+          "source": "traffic_light_50/images/coco_000000334371.jpg",
+          "sha256": "92974746d650d1562788bde333d087df29ca666662b5b35855cac1f9e62f21b8"
+        },
+        {
+          "image": "images/train/coco_000000454661.jpg",
+          "source": "traffic_light_50/images/coco_000000454661.jpg",
+          "sha256": "e2867af244564b4dc6a549d12bfacf294fb524d9e10f8b1e32da40169af734f8"
+        },
+        {
+          "image": "images/train/coco_000000453841.jpg",
+          "source": "traffic_light_50/images/coco_000000453841.jpg",
+          "sha256": "adf4b5c957aee8afdecd9c10efa3521026bb94e81fa37278604a6dcb45652fa2"
+        },
+        {
+          "image": "images/train/coco_000000396200.jpg",
+          "source": "traffic_light_50/images/coco_000000396200.jpg",
+          "sha256": "492978cb3d7411c8ffe2667b13c6d3e381e646874ec7237fb3ac65dbbef58a73"
+        },
+        {
+          "image": "images/train/coco_000000133819.jpg",
+          "source": "traffic_light_50/images/coco_000000133819.jpg",
+          "sha256": "ddb32ae4d1057b76bbfcde96ef5b03c0df64811155bf2da75ca622f83ddc1f29"
+        },
+        {
+          "image": "images/train/coco_000000076417.jpg",
+          "source": "traffic_light_50/images/coco_000000076417.jpg",
+          "sha256": "740a8f0e6c980ad0587bb352a909308782f8c3a7fa3853cc6b06aa2ed1ff4675"
+        },
+        {
+          "image": "images/train/coco_000000115946.jpg",
+          "source": "traffic_light_50/images/coco_000000115946.jpg",
+          "sha256": "710c302c6a617ffbd271ebad8a4b1a15a6737f51e3cdaa35b4b009aee4046264"
+        },
+        {
+          "image": "images/train/coco_000000144706.jpg",
+          "source": "traffic_light_50/images/coco_000000144706.jpg",
+          "sha256": "0cca792ee55651c6cdda13c2f01a4047ee7423636ad1b6e8f4f124c4411f6b3f"
+        }
+      ],
+      "instances": {
+        "Car": 116,
+        "Bus": 17,
+        "Truck": 13,
+        "Other vehicle": 0,
+        "Motorcycle": 1,
+        "Motorcyclist": 6,
+        "Bicycle": 1,
+        "Cyclist": 8,
+        "Pedestrian": 86,
+        "Sign": 2,
+        "Traffic light": 143
+      }
+    },
+    "test": {
+      "images": 10,
+      "sources": {
+        "traffic_light_50": 10
+      },
+      "files": [
+        {
+          "image": "images/test/coco_000000289222.jpg",
+          "source": "traffic_light_50/images/coco_000000289222.jpg",
+          "sha256": "3a184bfd08f6a64fbaeeae674ecdd25ca524604f48640586d8831a33d6db3210"
+        },
+        {
+          "image": "images/test/coco_000000377946.jpg",
+          "source": "traffic_light_50/images/coco_000000377946.jpg",
+          "sha256": "85dd1fc393009264d88be57018aa813c3412fbbe5258af6fd2732552e92433a7"
+        },
+        {
+          "image": "images/test/coco_000000011197.jpg",
+          "source": "traffic_light_50/images/coco_000000011197.jpg",
+          "sha256": "b6dbcc5c9e52f51480c4974ae6b15003ce25cd98fb936e2f26694fb7058fdbcb"
+        },
+        {
+          "image": "images/test/coco_000000142585.jpg",
+          "source": "traffic_light_50/images/coco_000000142585.jpg",
+          "sha256": "41277a4ea32031b3486e839d18ca61506931002fca4ff9214686c63e9c6bb983"
+        },
+        {
+          "image": "images/test/coco_000000531134.jpg",
+          "source": "traffic_light_50/images/coco_000000531134.jpg",
+          "sha256": "9a37ef33672e6bb0a0619458dfd1bdbcd1f0df2f1a0b72e452776fb64b2197ea"
+        },
+        {
+          "image": "images/test/coco_000000480944.jpg",
+          "source": "traffic_light_50/images/coco_000000480944.jpg",
+          "sha256": "d93e279fe681bff9f79cda02129731ce9abf2596a573aed2dbb3f2c237d9c7e2"
+        },
+        {
+          "image": "images/test/coco_000000221754.jpg",
+          "source": "traffic_light_50/images/coco_000000221754.jpg",
+          "sha256": "adf36fb773d771873de8b852f975540d1faa239930292cc20704850fab72cc3d"
+        },
+        {
+          "image": "images/test/coco_000000212573.jpg",
+          "source": "traffic_light_50/images/coco_000000212573.jpg",
+          "sha256": "8c0f1cae223eb12fa98f429f523b7623da66cc84d51c3330c0a4aea35bbf3986"
+        },
+        {
+          "image": "images/test/coco_000000269942.jpg",
+          "source": "traffic_light_50/images/coco_000000269942.jpg",
+          "sha256": "b0185e227082a1aa4406912643dcd320ae48e6713ab2bdeae35566f1597a9e31"
+        },
+        {
+          "image": "images/test/coco_000000215723.jpg",
+          "source": "traffic_light_50/images/coco_000000215723.jpg",
+          "sha256": "20e15853e22f5d69312b821e846671af204a12dc24631bc46f4ef8e72da19be7"
+        }
+      ],
+      "instances": {
+        "Car": 30,
+        "Bus": 6,
+        "Truck": 5,
+        "Other vehicle": 0,
+        "Motorcycle": 0,
+        "Motorcyclist": 1,
+        "Bicycle": 1,
+        "Cyclist": 1,
+        "Pedestrian": 27,
+        "Sign": 1,
+        "Traffic light": 28
+      }
+    },
+    "val": {
+      "images": 5,
+      "sources": {
+        "traffic_light_50": 5
+      },
+      "files": [
+        {
+          "image": "images/val/coco_000000354753.jpg",
+          "source": "traffic_light_50/images/coco_000000354753.jpg",
+          "sha256": "88961147f216d1cd45c6becdbdea7514c1664deeeb660e4fec9f961d0bd33865"
+        },
+        {
+          "image": "images/val/coco_000000577932.jpg",
+          "source": "traffic_light_50/images/coco_000000577932.jpg",
+          "sha256": "593d4d8a69f21f4821e0bdd1d9f90e77084b31fb951090b549915a986b0633fe"
+        },
+        {
+          "image": "images/val/coco_000000467511.jpg",
+          "source": "traffic_light_50/images/coco_000000467511.jpg",
+          "sha256": "19b802f8dd06dcad456ef8577e8994b9192c1a1187a7f85b5b26a3d7899d9a09"
+        },
+        {
+          "image": "images/val/coco_000000198928.jpg",
+          "source": "traffic_light_50/images/coco_000000198928.jpg",
+          "sha256": "9c981890805bdd497f2524632dc68158080a0d3b2da3c134cff7f2b2c7d87217"
+        },
+        {
+          "image": "images/val/coco_000000157756.jpg",
+          "source": "traffic_light_50/images/coco_000000157756.jpg",
+          "sha256": "d46a285172f857e1bbce63263da95a0e0d632f8f118c158ecbf233f83012f913"
+        }
+      ],
+      "instances": {
+        "Car": 10,
+        "Bus": 1,
+        "Truck": 1,
+        "Other vehicle": 0,
+        "Motorcycle": 0,
+        "Motorcyclist": 1,
+        "Bicycle": 1,
+        "Cyclist": 1,
+        "Pedestrian": 19,
+        "Sign": 0,
+        "Traffic light": 14
+      }
+    }
+  }
+}
