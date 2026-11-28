@@ -1,0 +1,5994 @@
+{
+  "base_main": "637422e28412790829e3b99374c9e99641c7e593",
+  "branches": [
+    {
+      "branch": "Phu-1",
+      "commit": "b8f1205a3ee94c91c5f468477cd7cc4b66816b69",
+      "base": "6ecd2ec13f20cea197db8c6f42814f94e69cdba9"
+    },
+    {
+      "branch": "Phu-1b",
+      "commit": "6c02ac6f4fbb126f670b24ace92d99d9dd01b5d3",
+      "base": "4efc1ee0b2e3a67e98b388f67160b9a72bd4e41c"
+    },
+    {
+      "branch": "data/phan-2",
+      "commit": "586d661f0d77a8c8fc3fd8cb4a8e9f9db723aa6b",
+      "base": "6ecd2ec13f20cea197db8c6f42814f94e69cdba9"
+    },
+    {
+      "branch": "vietanh",
+      "commit": "e2dfd125de2ae278887324202290e9091322d5df",
+      "base": "a516b37918f4d90e9ed9b0d59a9cdfc8d5dd87fb"
+    },
+    {
+      "branch": "data/extra-batch",
+      "commit": "3642a8c44182dc3d0b630d86be6ef208cd71676e",
+      "base": "6ecd2ec13f20cea197db8c6f42814f94e69cdba9"
+    }
+  ],
+  "policy": {
+    "active_dataset": "data/images/{train,val}, data/labels/{train,val}",
+    "val": "preserve existing 50-image content and labels for comparable tuning",
+    "p3": "use latest valid train labels, preserve repaired main on geometry failures",
+    "duplicates": "file hash, decoded RGB hash, pHash <= 2 or dHash <= 2",
+    "review_boundary": "geometry and duplicate checks do not prove complete semantic labels"
+  },
+  "decisions": {
+    "duplicate_keep_existing_split_and_labels": 222,
+    "pending_scene_or_class_review_reported_by_member": 4,
+    "accept_new_train_pair": 20,
+    "accept_latest_member_train_label": 71,
+    "keep_repaired_main_label_pending_geometry": 5,
+    "already_current": 2,
+    "pending_guideline_review_from_prior_audit": 24
+  },
+  "items": [
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/cvat__VisDrone_0000193_02029_d_0000114.jpg",
+      "source_label": "data/labels/train/cvat__VisDrone_0000193_02029_d_0000114.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/cvat__VisDrone_0000193_02029_d_0000114.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/cvat__VisDrone_0000242_01475_d_0000007.jpg",
+      "source_label": "data/labels/train/cvat__VisDrone_0000242_01475_d_0000007.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/cvat__VisDrone_0000242_01475_d_0000007.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/cvat__VisDrone_0000244_04000_d_0000009.jpg",
+      "source_label": "data/labels/train/cvat__VisDrone_0000244_04000_d_0000009.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/cvat__VisDrone_0000244_04000_d_0000009.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/cvat__VisDrone_0000277_02001_d_0000549.jpg",
+      "source_label": "data/labels/train/cvat__VisDrone_0000277_02001_d_0000549.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/cvat__VisDrone_0000277_02001_d_0000549.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/cvat__VisDrone_0000291_02201_d_0000879.jpg",
+      "source_label": "data/labels/train/cvat__VisDrone_0000291_02201_d_0000879.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/cvat__VisDrone_0000291_02201_d_0000879.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/cvat__VisDrone_0000330_04201_d_0000821.jpg",
+      "source_label": "data/labels/train/cvat__VisDrone_0000330_04201_d_0000821.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/cvat__VisDrone_0000330_04201_d_0000821.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/cvat__VisDrone_0000346_02549_d_0000359.jpg",
+      "source_label": "data/labels/train/cvat__VisDrone_0000346_02549_d_0000359.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/cvat__VisDrone_0000346_02549_d_0000359.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/cvat__VisDrone_0000356_01569_d_0000637.jpg",
+      "source_label": "data/labels/train/cvat__VisDrone_0000356_01569_d_0000637.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/cvat__VisDrone_0000356_01569_d_0000637.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/cvat__VisDrone_0000360_07057_d_0000749.jpg",
+      "source_label": "data/labels/train/cvat__VisDrone_0000360_07057_d_0000749.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/cvat__VisDrone_0000360_07057_d_0000749.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/guideline11__coco_000000011197.jpg",
+      "source_label": "data/labels/train/guideline11__coco_000000011197.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/guideline11__coco_000000011197.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/guideline11__coco_000000144706.jpg",
+      "source_label": "data/labels/train/guideline11__coco_000000144706.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/guideline11__coco_000000144706.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/guideline11__coco_000000178982.jpg",
+      "source_label": "data/labels/train/guideline11__coco_000000178982.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/guideline11__coco_000000178982.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/guideline11__coco_000000183246.jpg",
+      "source_label": "data/labels/train/guideline11__coco_000000183246.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/guideline11__coco_000000183246.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/guideline11__coco_000000183709.jpg",
+      "source_label": "data/labels/train/guideline11__coco_000000183709.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/guideline11__coco_000000183709.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/guideline11__coco_000000215723.jpg",
+      "source_label": "data/labels/train/guideline11__coco_000000215723.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/guideline11__coco_000000215723.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/guideline11__coco_000000269942.jpg",
+      "source_label": "data/labels/train/guideline11__coco_000000269942.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/guideline11__coco_000000269942.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/guideline11__coco_000000287291.jpg",
+      "source_label": "data/labels/train/guideline11__coco_000000287291.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/guideline11__coco_000000287291.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [
+        {
+          "line": 9,
+          "error": "các cạnh tự cắt nhau (đa giác bị xoắn)"
+        }
+      ],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/guideline11__coco_000000301376.jpg",
+      "source_label": "data/labels/train/guideline11__coco_000000301376.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/guideline11__coco_000000301376.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/guideline11__coco_000000315450.jpg",
+      "source_label": "data/labels/train/guideline11__coco_000000315450.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/guideline11__coco_000000315450.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/guideline11__coco_000000526392.jpg",
+      "source_label": "data/labels/train/guideline11__coco_000000526392.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/guideline11__coco_000000526392.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/guideline11__coco_000000569030.jpg",
+      "source_label": "data/labels/train/guideline11__coco_000000569030.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/guideline11__coco_000000569030.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [
+        {
+          "line": 23,
+          "error": "các cạnh tự cắt nhau (đa giác bị xoắn)"
+        }
+      ],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/kitti7__000003_10.jpg",
+      "source_label": "data/labels/train/kitti7__000003_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000003_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/kitti7__000004_10.jpg",
+      "source_label": "data/labels/train/kitti7__000004_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000004_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/kitti7__000006_10.jpg",
+      "source_label": "data/labels/train/kitti7__000006_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000006_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/kitti7__000009_10.jpg",
+      "source_label": "data/labels/train/kitti7__000009_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000009_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [
+        {
+          "line": 11,
+          "error": "các cạnh tự cắt nhau (đa giác bị xoắn)"
+        }
+      ],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/kitti7__000011_10.jpg",
+      "source_label": "data/labels/train/kitti7__000011_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000011_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/kitti7__000014_10.jpg",
+      "source_label": "data/labels/train/kitti7__000014_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000014_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [
+        {
+          "line": 12,
+          "error": "các cạnh tự cắt nhau (đa giác bị xoắn)"
+        }
+      ],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/kitti7__000016_10.jpg",
+      "source_label": "data/labels/train/kitti7__000016_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000016_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/kitti7__000023_10.jpg",
+      "source_label": "data/labels/train/kitti7__000023_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000023_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/kitti7__000027_10.jpg",
+      "source_label": "data/labels/train/kitti7__000027_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000027_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/kitti7__000034_10.jpg",
+      "source_label": "data/labels/train/kitti7__000034_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000034_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [
+        {
+          "line": 14,
+          "error": "các cạnh tự cắt nhau (đa giác bị xoắn)"
+        }
+      ],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/kitti7__000040_10.jpg",
+      "source_label": "data/labels/train/kitti7__000040_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000040_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/kitti7__000041_10.jpg",
+      "source_label": "data/labels/train/kitti7__000041_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000041_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/kitti7__000044_10.jpg",
+      "source_label": "data/labels/train/kitti7__000044_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000044_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/kitti7__000053_10.jpg",
+      "source_label": "data/labels/train/kitti7__000053_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000053_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/kitti7__000054_10.jpg",
+      "source_label": "data/labels/train/kitti7__000054_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000054_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/kitti7__000058_10.jpg",
+      "source_label": "data/labels/train/kitti7__000058_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000058_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/kitti7__000063_10.jpg",
+      "source_label": "data/labels/train/kitti7__000063_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000063_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/kitti7__000068_10.jpg",
+      "source_label": "data/labels/train/kitti7__000068_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000068_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/kitti7__000069_10.jpg",
+      "source_label": "data/labels/train/kitti7__000069_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000069_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/kitti7__000082_10.jpg",
+      "source_label": "data/labels/train/kitti7__000082_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000082_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/kitti7__000093_10.jpg",
+      "source_label": "data/labels/train/kitti7__000093_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000093_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/kitti7__000098_10.jpg",
+      "source_label": "data/labels/train/kitti7__000098_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000098_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/kitti7__000099_10.jpg",
+      "source_label": "data/labels/train/kitti7__000099_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000099_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/kitti7__000102_10.jpg",
+      "source_label": "data/labels/train/kitti7__000102_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000102_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/kitti7__000111_10.jpg",
+      "source_label": "data/labels/train/kitti7__000111_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000111_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/kitti7__000112_10.jpg",
+      "source_label": "data/labels/train/kitti7__000112_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000112_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/kitti7__000113_10.jpg",
+      "source_label": "data/labels/train/kitti7__000113_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000113_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        },
+        {
+          "image": "data/images/train/kitti7__000114_10.jpg",
+          "split": "train",
+          "exact": false,
+          "phash": 10,
+          "dhash": 2
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/kitti7__000114_10.jpg",
+      "source_label": "data/labels/train/kitti7__000114_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000113_10.jpg",
+          "split": "train",
+          "exact": false,
+          "phash": 10,
+          "dhash": 2
+        },
+        {
+          "image": "data/images/train/kitti7__000114_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [
+        {
+          "line": 16,
+          "error": "các cạnh tự cắt nhau (đa giác bị xoắn)"
+        }
+      ],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/kitti7__000116_10.jpg",
+      "source_label": "data/labels/train/kitti7__000116_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000116_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/kitti7__000127_10.jpg",
+      "source_label": "data/labels/train/kitti7__000127_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000127_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/kitti7__000134_10.jpg",
+      "source_label": "data/labels/train/kitti7__000134_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000134_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/kitti7__000137_10.jpg",
+      "source_label": "data/labels/train/kitti7__000137_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000137_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/kitti7__000138_10.jpg",
+      "source_label": "data/labels/train/kitti7__000138_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000138_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        },
+        {
+          "image": "data/images/train/kitti7__000139_10.jpg",
+          "split": "train",
+          "exact": false,
+          "phash": 2,
+          "dhash": 5
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/kitti7__000140_10.jpg",
+      "source_label": "data/labels/train/kitti7__000140_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000140_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/kitti7__000153_10.jpg",
+      "source_label": "data/labels/train/kitti7__000153_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000153_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/kitti7__000156_10.jpg",
+      "source_label": "data/labels/train/kitti7__000156_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000156_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/kitti7__000172_10.jpg",
+      "source_label": "data/labels/train/kitti7__000172_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000172_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/kitti7__000180_10.jpg",
+      "source_label": "data/labels/train/kitti7__000180_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000180_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/kitti7__000186_10.jpg",
+      "source_label": "data/labels/train/kitti7__000186_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000186_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/kitti7__000187_10.jpg",
+      "source_label": "data/labels/train/kitti7__000187_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000187_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/kitti7__000189_10.jpg",
+      "source_label": "data/labels/train/kitti7__000189_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000189_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [
+        {
+          "line": 2,
+          "error": "các cạnh tự cắt nhau (đa giác bị xoắn)"
+        }
+      ],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/kitti7__000191_10.jpg",
+      "source_label": "data/labels/train/kitti7__000191_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000191_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/kitti7__000192_10.jpg",
+      "source_label": "data/labels/train/kitti7__000192_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000192_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/kitti7__000195_10.jpg",
+      "source_label": "data/labels/train/kitti7__000195_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000195_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/kitti7__000199_10.jpg",
+      "source_label": "data/labels/train/kitti7__000199_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000199_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/pending__dataset__12.jpg",
+      "source_label": "data/labels/train/pending__dataset__12.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/pending__dataset__12.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/pending__dataset__13.jpg",
+      "source_label": "data/labels/train/pending__dataset__13.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/pending__dataset__13.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/pending__dataset__4.jpg",
+      "source_label": "data/labels/train/pending__dataset__4.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/pending__dataset__4.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/pending__xe_tho_so__img_021.jpg",
+      "source_label": "data/labels/train/pending__xe_tho_so__img_021.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/pending__xe_tho_so__img_021.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [
+        {
+          "line": 14,
+          "error": "các cạnh tự cắt nhau (đa giác bị xoắn)"
+        }
+      ],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/pending__xe_tho_so__img_023.jpg",
+      "source_label": "data/labels/train/pending__xe_tho_so__img_023.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/pending__xe_tho_so__img_023.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/pending__xe_tho_so__img_026.jpg",
+      "source_label": "data/labels/train/pending__xe_tho_so__img_026.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/pending__xe_tho_so__img_026.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/vn_sign_30__zalo_1827.png",
+      "source_label": "data/labels/train/vn_sign_30__zalo_1827.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/vn_sign_30__zalo_1827.png",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/vn_sign_30__zalo_1995.png",
+      "source_label": "data/labels/train/vn_sign_30__zalo_1995.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/vn_sign_30__zalo_1995.png",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/vn_sign_30__zalo_5042.png",
+      "source_label": "data/labels/train/vn_sign_30__zalo_5042.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/vn_sign_30__zalo_5042.png",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [
+        {
+          "line": 19,
+          "error": "các cạnh tự cắt nhau (đa giác bị xoắn)"
+        }
+      ],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/vn_sign_30__zalo_6244.png",
+      "source_label": "data/labels/train/vn_sign_30__zalo_6244.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/vn_sign_30__zalo_6244.png",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/vn_sign_30__zalo_758.png",
+      "source_label": "data/labels/train/vn_sign_30__zalo_758.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/vn_sign_30__zalo_758.png",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1",
+      "source_image": "data/images/train/vn_sign_30__zalo_9000.png",
+      "source_label": "data/labels/train/vn_sign_30__zalo_9000.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/vn_sign_30__zalo_9000.png",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1b",
+      "source_image": "data/images/train/coco__000000102202.jpg",
+      "source_label": "data/labels/train/coco__000000102202.txt",
+      "split": "train",
+      "matches": [],
+      "polygon_errors": [],
+      "decision": "pending_scene_or_class_review_reported_by_member"
+    },
+    {
+      "branch": "Phu-1b",
+      "source_image": "data/images/train/coco__000000104800.jpg",
+      "source_label": "data/labels/train/coco__000000104800.txt",
+      "split": "train",
+      "matches": [],
+      "polygon_errors": [],
+      "decision": "accept_new_train_pair"
+    },
+    {
+      "branch": "Phu-1b",
+      "source_image": "data/images/train/coco__000000113521.jpg",
+      "source_label": "data/labels/train/coco__000000113521.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/traffic7__000000113521.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1b",
+      "source_image": "data/images/train/coco__000000114087.jpg",
+      "source_label": "data/labels/train/coco__000000114087.txt",
+      "split": "train",
+      "matches": [],
+      "polygon_errors": [],
+      "decision": "accept_new_train_pair"
+    },
+    {
+      "branch": "Phu-1b",
+      "source_image": "data/images/train/coco__000000114310.jpg",
+      "source_label": "data/labels/train/coco__000000114310.txt",
+      "split": "train",
+      "matches": [],
+      "polygon_errors": [],
+      "decision": "accept_new_train_pair"
+    },
+    {
+      "branch": "Phu-1b",
+      "source_image": "data/images/train/coco__000000124277.jpg",
+      "source_label": "data/labels/train/coco__000000124277.txt",
+      "split": "train",
+      "matches": [],
+      "polygon_errors": [],
+      "decision": "pending_scene_or_class_review_reported_by_member"
+    },
+    {
+      "branch": "Phu-1b",
+      "source_image": "data/images/train/coco__000000138979.jpg",
+      "source_label": "data/labels/train/coco__000000138979.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/val/traffic7__000000138979.jpg",
+          "split": "val",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "Phu-1b",
+      "source_image": "data/images/train/coco__000000139507.jpg",
+      "source_label": "data/labels/train/coco__000000139507.txt",
+      "split": "train",
+      "matches": [],
+      "polygon_errors": [],
+      "decision": "pending_scene_or_class_review_reported_by_member"
+    },
+    {
+      "branch": "Phu-1b",
+      "source_image": "data/images/train/coco__000000213605.jpg",
+      "source_label": "data/labels/train/coco__000000213605.txt",
+      "split": "train",
+      "matches": [],
+      "polygon_errors": [],
+      "decision": "accept_new_train_pair"
+    },
+    {
+      "branch": "Phu-1b",
+      "source_image": "data/images/train/coco__000000217886.jpg",
+      "source_label": "data/labels/train/coco__000000217886.txt",
+      "split": "train",
+      "matches": [],
+      "polygon_errors": [],
+      "decision": "accept_new_train_pair"
+    },
+    {
+      "branch": "Phu-1b",
+      "source_image": "data/images/train/coco__000000226148.jpg",
+      "source_label": "data/labels/train/coco__000000226148.txt",
+      "split": "train",
+      "matches": [],
+      "polygon_errors": [],
+      "decision": "accept_new_train_pair"
+    },
+    {
+      "branch": "Phu-1b",
+      "source_image": "data/images/train/coco__000000234352.jpg",
+      "source_label": "data/labels/train/coco__000000234352.txt",
+      "split": "train",
+      "matches": [],
+      "polygon_errors": [],
+      "decision": "accept_new_train_pair"
+    },
+    {
+      "branch": "Phu-1b",
+      "source_image": "data/images/train/coco__000000243825.jpg",
+      "source_label": "data/labels/train/coco__000000243825.txt",
+      "split": "train",
+      "matches": [],
+      "polygon_errors": [],
+      "decision": "accept_new_train_pair"
+    },
+    {
+      "branch": "Phu-1b",
+      "source_image": "data/images/train/minitraffic__bicycle15.jpg",
+      "source_label": "data/labels/train/minitraffic__bicycle15.txt",
+      "split": "train",
+      "matches": [],
+      "polygon_errors": [],
+      "decision": "accept_new_train_pair"
+    },
+    {
+      "branch": "Phu-1b",
+      "source_image": "data/images/train/minitraffic__bicycle16.jpg",
+      "source_label": "data/labels/train/minitraffic__bicycle16.txt",
+      "split": "train",
+      "matches": [],
+      "polygon_errors": [],
+      "decision": "accept_new_train_pair"
+    },
+    {
+      "branch": "Phu-1b",
+      "source_image": "data/images/train/minitraffic__bicycle18.jpg",
+      "source_label": "data/labels/train/minitraffic__bicycle18.txt",
+      "split": "train",
+      "matches": [],
+      "polygon_errors": [],
+      "decision": "accept_new_train_pair"
+    },
+    {
+      "branch": "Phu-1b",
+      "source_image": "data/images/train/minitraffic__bicycle20.jpg",
+      "source_label": "data/labels/train/minitraffic__bicycle20.txt",
+      "split": "train",
+      "matches": [],
+      "polygon_errors": [],
+      "decision": "pending_scene_or_class_review_reported_by_member"
+    },
+    {
+      "branch": "Phu-1b",
+      "source_image": "data/images/train/minitraffic__bus15.jpg",
+      "source_label": "data/labels/train/minitraffic__bus15.txt",
+      "split": "train",
+      "matches": [],
+      "polygon_errors": [],
+      "decision": "accept_new_train_pair"
+    },
+    {
+      "branch": "Phu-1b",
+      "source_image": "data/images/train/minitraffic__bus21.jpg",
+      "source_label": "data/labels/train/minitraffic__bus21.txt",
+      "split": "train",
+      "matches": [],
+      "polygon_errors": [],
+      "decision": "accept_new_train_pair"
+    },
+    {
+      "branch": "Phu-1b",
+      "source_image": "data/images/train/minitraffic__truck11.jpg",
+      "source_label": "data/labels/train/minitraffic__truck11.txt",
+      "split": "train",
+      "matches": [],
+      "polygon_errors": [],
+      "decision": "accept_new_train_pair"
+    },
+    {
+      "branch": "Phu-1b",
+      "source_image": "data/images/train/minitraffic__truck12.jpg",
+      "source_label": "data/labels/train/minitraffic__truck12.txt",
+      "split": "train",
+      "matches": [],
+      "polygon_errors": [],
+      "decision": "accept_new_train_pair"
+    },
+    {
+      "branch": "Phu-1b",
+      "source_image": "data/images/train/minitraffic__truck17.jpg",
+      "source_label": "data/labels/train/minitraffic__truck17.txt",
+      "split": "train",
+      "matches": [],
+      "polygon_errors": [],
+      "decision": "accept_new_train_pair"
+    },
+    {
+      "branch": "Phu-1b",
+      "source_image": "data/images/train/minitraffic__truck18.jpg",
+      "source_label": "data/labels/train/minitraffic__truck18.txt",
+      "split": "train",
+      "matches": [],
+      "polygon_errors": [],
+      "decision": "accept_new_train_pair"
+    },
+    {
+      "branch": "Phu-1b",
+      "source_image": "data/images/train/minitraffic__truck19.jpg",
+      "source_label": "data/labels/train/minitraffic__truck19.txt",
+      "split": "train",
+      "matches": [],
+      "polygon_errors": [],
+      "decision": "accept_new_train_pair"
+    },
+    {
+      "branch": "Phu-1b",
+      "source_image": "data/images/train/minitraffic__truck20.jpg",
+      "source_label": "data/labels/train/minitraffic__truck20.txt",
+      "split": "train",
+      "matches": [],
+      "polygon_errors": [],
+      "decision": "accept_new_train_pair"
+    },
+    {
+      "branch": "Phu-1b",
+      "source_image": "data/images/train/minitraffic__truck21.jpg",
+      "source_label": "data/labels/train/minitraffic__truck21.txt",
+      "split": "train",
+      "matches": [],
+      "polygon_errors": [],
+      "decision": "accept_new_train_pair"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/cvat__VisDrone_0000022_01036_d_0000006.jpg",
+      "source_label": "data/labels/train/cvat__VisDrone_0000022_01036_d_0000006.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/cvat__VisDrone_0000022_01036_d_0000006.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/cvat__VisDrone_0000069_02163_d_0000006.jpg",
+      "source_label": "data/labels/train/cvat__VisDrone_0000069_02163_d_0000006.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/cvat__VisDrone_0000069_02163_d_0000006.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/cvat__VisDrone_0000103_03349_d_0000031.jpg",
+      "source_label": "data/labels/train/cvat__VisDrone_0000103_03349_d_0000031.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/cvat__VisDrone_0000103_03349_d_0000031.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [
+        {
+          "line": 2,
+          "error": "các cạnh tự cắt nhau (đa giác bị xoắn)"
+        }
+      ],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/cvat__VisDrone_0000213_05745_d_0000247.jpg",
+      "source_label": "data/labels/train/cvat__VisDrone_0000213_05745_d_0000247.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/cvat__VisDrone_0000213_05745_d_0000247.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/cvat__VisDrone_0000242_00001_d_0000001.jpg",
+      "source_label": "data/labels/train/cvat__VisDrone_0000242_00001_d_0000001.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/cvat__VisDrone_0000242_00001_d_0000001.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/cvat__VisDrone_0000291_04201_d_0000889.jpg",
+      "source_label": "data/labels/train/cvat__VisDrone_0000291_04201_d_0000889.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/cvat__VisDrone_0000291_04201_d_0000889.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/cvat__VisDrone_0000308_04401_d_0000327.jpg",
+      "source_label": "data/labels/train/cvat__VisDrone_0000308_04401_d_0000327.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/cvat__VisDrone_0000308_04401_d_0000327.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/cvat__VisDrone_0000360_02941_d_0000728.jpg",
+      "source_label": "data/labels/train/cvat__VisDrone_0000360_02941_d_0000728.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/cvat__VisDrone_0000360_02941_d_0000728.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/cvat__VisDrone_0000364_01765_d_0000782.jpg",
+      "source_label": "data/labels/train/cvat__VisDrone_0000364_01765_d_0000782.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/cvat__VisDrone_0000364_01765_d_0000782.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [
+        {
+          "line": 33,
+          "error": "các cạnh tự cắt nhau (đa giác bị xoắn)"
+        }
+      ],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/guideline11__coco_000000109441.jpg",
+      "source_label": "data/labels/train/guideline11__coco_000000109441.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/guideline11__coco_000000109441.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/guideline11__coco_000000133819.jpg",
+      "source_label": "data/labels/train/guideline11__coco_000000133819.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/guideline11__coco_000000133819.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/guideline11__coco_000000204871.jpg",
+      "source_label": "data/labels/train/guideline11__coco_000000204871.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/guideline11__coco_000000204871.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/guideline11__coco_000000226417.jpg",
+      "source_label": "data/labels/train/guideline11__coco_000000226417.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/guideline11__coco_000000226417.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/guideline11__coco_000000260266.jpg",
+      "source_label": "data/labels/train/guideline11__coco_000000260266.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/guideline11__coco_000000260266.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [
+        {
+          "line": 3,
+          "error": "các cạnh tự cắt nhau (đa giác bị xoắn)"
+        }
+      ],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/guideline11__coco_000000289222.jpg",
+      "source_label": "data/labels/train/guideline11__coco_000000289222.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/guideline11__coco_000000289222.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [
+        {
+          "line": 6,
+          "error": "các cạnh tự cắt nhau (đa giác bị xoắn)"
+        }
+      ],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/guideline11__coco_000000396200.jpg",
+      "source_label": "data/labels/train/guideline11__coco_000000396200.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/guideline11__coco_000000396200.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/guideline11__coco_000000453841.jpg",
+      "source_label": "data/labels/train/guideline11__coco_000000453841.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/guideline11__coco_000000453841.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/guideline11__coco_000000480944.jpg",
+      "source_label": "data/labels/train/guideline11__coco_000000480944.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/guideline11__coco_000000480944.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/guideline11__coco_000000492077.jpg",
+      "source_label": "data/labels/train/guideline11__coco_000000492077.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/guideline11__coco_000000492077.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/guideline11__coco_000000520009.jpg",
+      "source_label": "data/labels/train/guideline11__coco_000000520009.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/guideline11__coco_000000520009.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/kitti7__000001_10.jpg",
+      "source_label": "data/labels/train/kitti7__000001_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000001_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/kitti7__000005_10.jpg",
+      "source_label": "data/labels/train/kitti7__000005_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000005_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/kitti7__000010_10.jpg",
+      "source_label": "data/labels/train/kitti7__000010_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000010_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/kitti7__000018_10.jpg",
+      "source_label": "data/labels/train/kitti7__000018_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000018_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [
+        {
+          "line": 4,
+          "error": "các cạnh tự cắt nhau (đa giác bị xoắn)"
+        }
+      ],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/kitti7__000022_10.jpg",
+      "source_label": "data/labels/train/kitti7__000022_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000022_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/kitti7__000024_10.jpg",
+      "source_label": "data/labels/train/kitti7__000024_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000024_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/kitti7__000025_10.jpg",
+      "source_label": "data/labels/train/kitti7__000025_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000025_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/kitti7__000030_10.jpg",
+      "source_label": "data/labels/train/kitti7__000030_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000030_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/kitti7__000031_10.jpg",
+      "source_label": "data/labels/train/kitti7__000031_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000031_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/kitti7__000032_10.jpg",
+      "source_label": "data/labels/train/kitti7__000032_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000032_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/kitti7__000033_10.jpg",
+      "source_label": "data/labels/train/kitti7__000033_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000033_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/kitti7__000037_10.jpg",
+      "source_label": "data/labels/train/kitti7__000037_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000037_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/kitti7__000038_10.jpg",
+      "source_label": "data/labels/train/kitti7__000038_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000038_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/kitti7__000049_10.jpg",
+      "source_label": "data/labels/train/kitti7__000049_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000049_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/kitti7__000050_10.jpg",
+      "source_label": "data/labels/train/kitti7__000050_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000050_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/kitti7__000052_10.jpg",
+      "source_label": "data/labels/train/kitti7__000052_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000052_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/kitti7__000056_10.jpg",
+      "source_label": "data/labels/train/kitti7__000056_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000056_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/kitti7__000060_10.jpg",
+      "source_label": "data/labels/train/kitti7__000060_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000060_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/kitti7__000061_10.jpg",
+      "source_label": "data/labels/train/kitti7__000061_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000061_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/kitti7__000064_10.jpg",
+      "source_label": "data/labels/train/kitti7__000064_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000064_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/kitti7__000067_10.jpg",
+      "source_label": "data/labels/train/kitti7__000067_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000067_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/kitti7__000071_10.jpg",
+      "source_label": "data/labels/train/kitti7__000071_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000071_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/kitti7__000073_10.jpg",
+      "source_label": "data/labels/train/kitti7__000073_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000073_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/kitti7__000076_10.jpg",
+      "source_label": "data/labels/train/kitti7__000076_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000076_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/kitti7__000083_10.jpg",
+      "source_label": "data/labels/train/kitti7__000083_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000083_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/kitti7__000089_10.jpg",
+      "source_label": "data/labels/train/kitti7__000089_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000089_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        },
+        {
+          "image": "data/images/train/kitti7__000092_10.jpg",
+          "split": "train",
+          "exact": false,
+          "phash": 8,
+          "dhash": 2
+        },
+        {
+          "image": "data/images/train/kitti7__000097_10.jpg",
+          "split": "train",
+          "exact": false,
+          "phash": 2,
+          "dhash": 1
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/kitti7__000091_10.jpg",
+      "source_label": "data/labels/train/kitti7__000091_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000091_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        },
+        {
+          "image": "data/images/train/kitti7__000096_10.jpg",
+          "split": "train",
+          "exact": false,
+          "phash": 10,
+          "dhash": 2
+        },
+        {
+          "image": "data/images/train/kitti7__000097_10.jpg",
+          "split": "train",
+          "exact": false,
+          "phash": 10,
+          "dhash": 2
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/kitti7__000092_10.jpg",
+      "source_label": "data/labels/train/kitti7__000092_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000089_10.jpg",
+          "split": "train",
+          "exact": false,
+          "phash": 8,
+          "dhash": 2
+        },
+        {
+          "image": "data/images/train/kitti7__000092_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        },
+        {
+          "image": "data/images/train/kitti7__000097_10.jpg",
+          "split": "train",
+          "exact": false,
+          "phash": 8,
+          "dhash": 1
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/kitti7__000094_10.jpg",
+      "source_label": "data/labels/train/kitti7__000094_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000094_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/kitti7__000096_10.jpg",
+      "source_label": "data/labels/train/kitti7__000096_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000091_10.jpg",
+          "split": "train",
+          "exact": false,
+          "phash": 10,
+          "dhash": 2
+        },
+        {
+          "image": "data/images/train/kitti7__000096_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        },
+        {
+          "image": "data/images/train/kitti7__000097_10.jpg",
+          "split": "train",
+          "exact": false,
+          "phash": 8,
+          "dhash": 2
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/kitti7__000097_10.jpg",
+      "source_label": "data/labels/train/kitti7__000097_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000089_10.jpg",
+          "split": "train",
+          "exact": false,
+          "phash": 2,
+          "dhash": 1
+        },
+        {
+          "image": "data/images/train/kitti7__000091_10.jpg",
+          "split": "train",
+          "exact": false,
+          "phash": 10,
+          "dhash": 2
+        },
+        {
+          "image": "data/images/train/kitti7__000092_10.jpg",
+          "split": "train",
+          "exact": false,
+          "phash": 8,
+          "dhash": 1
+        },
+        {
+          "image": "data/images/train/kitti7__000096_10.jpg",
+          "split": "train",
+          "exact": false,
+          "phash": 8,
+          "dhash": 2
+        },
+        {
+          "image": "data/images/train/kitti7__000097_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/kitti7__000109_10.jpg",
+      "source_label": "data/labels/train/kitti7__000109_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000109_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/kitti7__000131_10.jpg",
+      "source_label": "data/labels/train/kitti7__000131_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000131_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/kitti7__000143_10.jpg",
+      "source_label": "data/labels/train/kitti7__000143_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000143_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/kitti7__000147_10.jpg",
+      "source_label": "data/labels/train/kitti7__000147_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000147_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/kitti7__000149_10.jpg",
+      "source_label": "data/labels/train/kitti7__000149_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000149_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/kitti7__000150_10.jpg",
+      "source_label": "data/labels/train/kitti7__000150_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000150_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/kitti7__000158_10.jpg",
+      "source_label": "data/labels/train/kitti7__000158_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000158_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/kitti7__000160_10.jpg",
+      "source_label": "data/labels/train/kitti7__000160_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000160_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/kitti7__000165_10.jpg",
+      "source_label": "data/labels/train/kitti7__000165_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000165_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/kitti7__000170_10.jpg",
+      "source_label": "data/labels/train/kitti7__000170_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000170_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/kitti7__000181_10.jpg",
+      "source_label": "data/labels/train/kitti7__000181_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000181_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/kitti7__000183_10.jpg",
+      "source_label": "data/labels/train/kitti7__000183_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000183_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/kitti7__000190_10.jpg",
+      "source_label": "data/labels/train/kitti7__000190_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000190_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/kitti7__000197_10.jpg",
+      "source_label": "data/labels/train/kitti7__000197_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000197_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/pending__dataset__11.jpg",
+      "source_label": "data/labels/train/pending__dataset__11.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/pending__dataset__11.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/pending__dataset__5.jpg",
+      "source_label": "data/labels/train/pending__dataset__5.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/pending__dataset__5.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/pending__dataset__7.jpg",
+      "source_label": "data/labels/train/pending__dataset__7.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/pending__dataset__7.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [
+        {
+          "line": 2,
+          "error": "các cạnh tự cắt nhau (đa giác bị xoắn)"
+        }
+      ],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/phan-2",
+      "source_image": "data/images/train/pending__xe_tho_so__img_014.jpg",
+      "source_label": "data/labels/train/pending__xe_tho_so__img_014.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/pending__xe_tho_so__img_014.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/cvat__VisDrone_0000023_00868_d_0000010.jpg",
+      "source_label": "data/labels/train/cvat__VisDrone_0000023_00868_d_0000010.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/cvat__VisDrone_0000023_00868_d_0000010.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "3bfb8a5d3cf6bb172866cdfffe942a56058002dd57340f6449b7798c891484a0"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/cvat__VisDrone_0000154_01601_d_0000001.jpg",
+      "source_label": "data/labels/train/cvat__VisDrone_0000154_01601_d_0000001.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/cvat__VisDrone_0000154_01601_d_0000001.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "f537753438bde299045862825cff6d6aceea4e31c4364ac5d174f31fc5f42364"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/cvat__VisDrone_0000271_00201_d_0000375.jpg",
+      "source_label": "data/labels/train/cvat__VisDrone_0000271_00201_d_0000375.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/cvat__VisDrone_0000271_00201_d_0000375.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "2e4ab89cd5bf3f3684207e93c0ef3fd4d6f3e0a1732a95a001ab80ad78e62d03"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/cvat__VisDrone_0000287_00801_d_0000763.jpg",
+      "source_label": "data/labels/train/cvat__VisDrone_0000287_00801_d_0000763.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/cvat__VisDrone_0000287_00801_d_0000763.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [
+        {
+          "line": 17,
+          "error": "các cạnh tự cắt nhau (đa giác bị xoắn)"
+        }
+      ],
+      "decision": "keep_repaired_main_label_pending_geometry"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/cvat__VisDrone_0000287_04801_d_0000781.jpg",
+      "source_label": "data/labels/train/cvat__VisDrone_0000287_04801_d_0000781.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/cvat__VisDrone_0000287_04801_d_0000781.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "cce4dfaa9adcb4cb7af2196a8fc719e5a590200df67f36f8ae3a4256ffc15c1d"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/cvat__VisDrone_0000289_04601_d_0000834.jpg",
+      "source_label": "data/labels/train/cvat__VisDrone_0000289_04601_d_0000834.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/cvat__VisDrone_0000289_04601_d_0000834.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [
+        {
+          "line": 20,
+          "error": "các cạnh tự cắt nhau (đa giác bị xoắn)"
+        }
+      ],
+      "decision": "keep_repaired_main_label_pending_geometry"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/cvat__VisDrone_0000291_03601_d_0000886.jpg",
+      "source_label": "data/labels/train/cvat__VisDrone_0000291_03601_d_0000886.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/cvat__VisDrone_0000291_03601_d_0000886.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "a374c504512eaf1ea10a95447a6085d7781fd3cc61abbf991043c65b1ca9d418"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/cvat__VisDrone_0000359_00785_d_0000703.jpg",
+      "source_label": "data/labels/train/cvat__VisDrone_0000359_00785_d_0000703.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/cvat__VisDrone_0000359_00785_d_0000703.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "9669f2e6637fc9c40bc7b591cb9f5b4a67970d1aa87bf15b5cf96ebd6ecf1f3b"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/cvat__VisDrone_0000364_00589_d_0000798.jpg",
+      "source_label": "data/labels/train/cvat__VisDrone_0000364_00589_d_0000798.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/cvat__VisDrone_0000364_00589_d_0000798.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "48bca33e0da8dc84f3c318826d6c17470825cd45d9375e5c5c51a7703367f4d6"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/guideline11__coco_000000142585.jpg",
+      "source_label": "data/labels/train/guideline11__coco_000000142585.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/guideline11__coco_000000142585.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "005ebe1983620d7929ebdebee989b81ca1e191d8b38b496516225e0b316c5c33"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/guideline11__coco_000000155451.jpg",
+      "source_label": "data/labels/train/guideline11__coco_000000155451.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/guideline11__coco_000000155451.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "already_current"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/guideline11__coco_000000165039.jpg",
+      "source_label": "data/labels/train/guideline11__coco_000000165039.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/guideline11__coco_000000165039.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [
+        {
+          "line": 6,
+          "error": "các cạnh tự cắt nhau (đa giác bị xoắn)"
+        }
+      ],
+      "decision": "keep_repaired_main_label_pending_geometry"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/guideline11__coco_000000193717.jpg",
+      "source_label": "data/labels/train/guideline11__coco_000000193717.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/guideline11__coco_000000193717.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "d9d93286a31069012f9f0a2a7bf571afa8a6f7b90c9fd3e9d285b58518e26413"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/guideline11__coco_000000221754.jpg",
+      "source_label": "data/labels/train/guideline11__coco_000000221754.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/guideline11__coco_000000221754.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "324ba0326770717691e7ff52760d2fd09148fbff096a8f2df4a0ed55b40a8708"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/guideline11__coco_000000292997.jpg",
+      "source_label": "data/labels/train/guideline11__coco_000000292997.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/guideline11__coco_000000292997.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "e4afd9aa2065bf9ed4cce55fa2519c0153d869eb14dce075df5ce2e92e389a19"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/guideline11__coco_000000307074.jpg",
+      "source_label": "data/labels/train/guideline11__coco_000000307074.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/guideline11__coco_000000307074.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "b1c4ff5790a2326844ae3e22ae4f1c0d65412d7177f88c81e0dd1053b94234b7"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/guideline11__coco_000000377946.jpg",
+      "source_label": "data/labels/train/guideline11__coco_000000377946.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/guideline11__coco_000000377946.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "8a4c4f5f6dda94f424780dc26f2d664bc5eea892bf1680e7c1198ee873a7e20a"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/guideline11__coco_000000454661.jpg",
+      "source_label": "data/labels/train/guideline11__coco_000000454661.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/guideline11__coco_000000454661.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "4bf475e1414578f1ce73a436a747bd27c0a878d4dc153bf8997ccaee8f9c50f0"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/guideline11__coco_000000531134.jpg",
+      "source_label": "data/labels/train/guideline11__coco_000000531134.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/guideline11__coco_000000531134.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "170d9628a0be8dc55bc3310496520800767f1bff03a0978608f766e03878b2ae"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/guideline11__coco_000000553511.jpg",
+      "source_label": "data/labels/train/guideline11__coco_000000553511.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/guideline11__coco_000000553511.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "91f92db581117b876822822213a5e9aa86a1bfd8af06697279437e91376c1cdb"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/kitti7__000002_10.jpg",
+      "source_label": "data/labels/train/kitti7__000002_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000002_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "d5b76d766562e3c4862546ee737034d2a6181b33c7e72a8a4e0b97e2c5025860"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/kitti7__000007_10.jpg",
+      "source_label": "data/labels/train/kitti7__000007_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000007_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "2178dc4b710e858ebf897cf033a713c339965099fc8ecec1a997408b1acae7b7"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/kitti7__000008_10.jpg",
+      "source_label": "data/labels/train/kitti7__000008_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000008_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "3e8037089aeb60a66f517909d750d6528c67f9cd17ab6448e140b50c760694e3"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/kitti7__000015_10.jpg",
+      "source_label": "data/labels/train/kitti7__000015_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000015_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "5c45703a36cfa4ed746ed15e1760029568f00b2105af44436e99b6ec339c6c62"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/kitti7__000017_10.jpg",
+      "source_label": "data/labels/train/kitti7__000017_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000017_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "4eb802b830ef0bae34aac07ae9f1e002cbe5cb7c375e70d08a3cf7d860d576ea"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/kitti7__000026_10.jpg",
+      "source_label": "data/labels/train/kitti7__000026_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000026_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "df8e9aa2429d2e1f80cb120726f6831c9f7bfec255fc396f799bf9f06d883115"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/kitti7__000029_10.jpg",
+      "source_label": "data/labels/train/kitti7__000029_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000029_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "1f424f2f9b1e1aed94eb34506e1a7abbbd476e66080728b813c1eeab6ce47af8"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/kitti7__000042_10.jpg",
+      "source_label": "data/labels/train/kitti7__000042_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000042_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "f31be325511d1a5faa659d5a93decd7fea9a640449998f3084ab203e1156511b"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/kitti7__000043_10.jpg",
+      "source_label": "data/labels/train/kitti7__000043_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000043_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "a9ca58b43468d168cbaf062c28c5835a62234f350894407259766dc98234817e"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/kitti7__000045_10.jpg",
+      "source_label": "data/labels/train/kitti7__000045_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000045_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "7977a06a1efe9ac017f3bb2c337b542dc13c21773d0231074fbf434daf8f42aa"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/kitti7__000046_10.jpg",
+      "source_label": "data/labels/train/kitti7__000046_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000046_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "8321a31b21640a82729e6c3778596914c1ee17e93ee2d8809fbad66cfddc1f15"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/kitti7__000047_10.jpg",
+      "source_label": "data/labels/train/kitti7__000047_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000047_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "7d3d3828d4bfd8d47ff3e435a8a2967c4e0fa9a5e40dd9d721f647af0001c79f"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/kitti7__000055_10.jpg",
+      "source_label": "data/labels/train/kitti7__000055_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000055_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "5cdcdce679abbb3da1e8529e8f3d172fa66fa85a48c29b894a8bcd9849a05438"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/kitti7__000057_10.jpg",
+      "source_label": "data/labels/train/kitti7__000057_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000057_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "b99adb83d9c837a3285601b2c6c2db6df10f3c23c459ff4ae21fd93f91cc5cff"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/kitti7__000059_10.jpg",
+      "source_label": "data/labels/train/kitti7__000059_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000059_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "already_current"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/kitti7__000072_10.jpg",
+      "source_label": "data/labels/train/kitti7__000072_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000072_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "b19999a590ab90b2add76921b8290f2aa0b31741506e645345e7ea9ce12ffcdc"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/kitti7__000081_10.jpg",
+      "source_label": "data/labels/train/kitti7__000081_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000081_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "d1fee45f558196b89b4e499d9479534bc4894810b1290453757c81699d9e716a"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/kitti7__000084_10.jpg",
+      "source_label": "data/labels/train/kitti7__000084_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000084_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "15d1669298362bff0a082dd98e0732a7fe921856ece695814a7920cd6af4dbdf"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/kitti7__000103_10.jpg",
+      "source_label": "data/labels/train/kitti7__000103_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000103_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "7117d6432179ef9e428c713e50d0b401d3e6898c58d783a0ceda8be55664875a"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/kitti7__000104_10.jpg",
+      "source_label": "data/labels/train/kitti7__000104_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000104_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "2eea19a01570e16b4361bf589757a82f939048c5dc5eaa7405294c85fc709e3d"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/kitti7__000105_10.jpg",
+      "source_label": "data/labels/train/kitti7__000105_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000105_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "d14d37d1084bd38532e40e5a612faf70edac99027310668252a59eca9df812c0"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/kitti7__000106_10.jpg",
+      "source_label": "data/labels/train/kitti7__000106_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000106_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "a85a2b0759c563ffc74deee7347e6f59bbaac9e33fb9fedf4be186e211a23fff"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/kitti7__000107_10.jpg",
+      "source_label": "data/labels/train/kitti7__000107_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000107_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "61dfff09de37648f177fac315e6ec5849b9d5cd83ec5cfabddfb901af8493b56"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/kitti7__000115_10.jpg",
+      "source_label": "data/labels/train/kitti7__000115_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000115_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "a6bed1a0a3413463a6669a91660340093004aaaf1420a30e668251c954eed40a"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/kitti7__000118_10.jpg",
+      "source_label": "data/labels/train/kitti7__000118_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000118_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "4af2dedaa6128ab0e12aa8439002988f95bd9d58b019c6e15f387c58325b2d4f"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/kitti7__000119_10.jpg",
+      "source_label": "data/labels/train/kitti7__000119_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000119_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "cb4b4e5b7d51509afc83dc95fed1eb2c8e6b92ad938edd8e3acd70edd7738429"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/kitti7__000126_10.jpg",
+      "source_label": "data/labels/train/kitti7__000126_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000126_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "05c84440c3553f7cfbe32b53303f04c484b7dad8674df5314f402cf82132862a"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/kitti7__000130_10.jpg",
+      "source_label": "data/labels/train/kitti7__000130_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000130_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "b7ab924534c21431127e808920995d4955f326cf430cc4c4f9f323d3572b463a"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/kitti7__000135_10.jpg",
+      "source_label": "data/labels/train/kitti7__000135_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000135_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "0d2a11f0fb01766e1494ef88a94af5143f916719db8eea165daa6565b93a1b84"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/kitti7__000142_10.jpg",
+      "source_label": "data/labels/train/kitti7__000142_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000142_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "0ce1612f7bd56d29c1675dfd7d64aab64d0cb45621e5adecaf26bde01bf54ee0"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/kitti7__000146_10.jpg",
+      "source_label": "data/labels/train/kitti7__000146_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000146_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "c85c32c7e50679c7243f91ce82f3f18d5349b59ec1440e80828c507724579c1f"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/kitti7__000148_10.jpg",
+      "source_label": "data/labels/train/kitti7__000148_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000148_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "f8664f0f15dbb897ee2b4ae3be399721f446e14e71456211376eb10fe9826ea0"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/kitti7__000154_10.jpg",
+      "source_label": "data/labels/train/kitti7__000154_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000154_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "2a7225eb82604fd0c2ddb8c6610781f8fecf7457fc1f7791130048723fe121c1"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/kitti7__000159_10.jpg",
+      "source_label": "data/labels/train/kitti7__000159_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000159_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "a881ae91d20ab2be31d66b172096e5e0d59ba1fcfd0fa93ccf8fc3013edcbca1"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/kitti7__000161_10.jpg",
+      "source_label": "data/labels/train/kitti7__000161_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000161_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "a0db89a1b27ae9cc46961605f7774ae776c81725881cc3f7de91d5540165df8a"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/kitti7__000164_10.jpg",
+      "source_label": "data/labels/train/kitti7__000164_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000164_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "322520e9b2a7022f0ad56afda4c13f9167e4488d760ff26cd59cff9f018ca15b"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/kitti7__000166_10.jpg",
+      "source_label": "data/labels/train/kitti7__000166_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000166_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "570d63d4683f52985e366a0bb20cf81b278f51769cda047c106fd129472ef936"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/kitti7__000169_10.jpg",
+      "source_label": "data/labels/train/kitti7__000169_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000169_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "96c5c3b156fa1ae73250648aa7149c7425131019a81c38440a194b69d32929cd"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/kitti7__000173_10.jpg",
+      "source_label": "data/labels/train/kitti7__000173_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000173_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "6cfa5bec6742cc05328c6c94177b7599740e7ae7770c7abfd8bc0bb7c170d924"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/kitti7__000176_10.jpg",
+      "source_label": "data/labels/train/kitti7__000176_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000176_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "bc712f26d8b800785d1af13002529d366c1dd16a9efeafa72947e0984ed18bd0"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/kitti7__000182_10.jpg",
+      "source_label": "data/labels/train/kitti7__000182_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000182_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "c6110d4078583dcff0a69285dc566a7b6daf48159103d648f57d1ffce313d44d"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/kitti7__000185_10.jpg",
+      "source_label": "data/labels/train/kitti7__000185_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000185_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "b63427dd1e3f4bada277d854bbe1815845dcf08dec95872fee7e4ae78942f2b7"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/kitti7__000193_10.jpg",
+      "source_label": "data/labels/train/kitti7__000193_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000193_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "772d8458a156da2eae718d4b196f4bd569a3baf301f336d0db80cf6d8ec0d345"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/kitti7__000194_10.jpg",
+      "source_label": "data/labels/train/kitti7__000194_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000194_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "1caa34060d7ec970ef3c6d6e5811d39af0ddd9ae78329e01995d178b35149c95"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/kitti7__000196_10.jpg",
+      "source_label": "data/labels/train/kitti7__000196_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000196_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "40e5cabf43d862407664a12dd2248f5ddaeab67a488a880f8df37236c44106fb"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/pending__dataset__9.jpg",
+      "source_label": "data/labels/train/pending__dataset__9.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/pending__dataset__9.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "cd8ed7fcf5b578467e57115c31dc01b8154d4b696618a755ac48f12db70203b8"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/pending__xe_tho_so__img_005.jpg",
+      "source_label": "data/labels/train/pending__xe_tho_so__img_005.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/pending__xe_tho_so__img_005.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [
+        {
+          "line": 4,
+          "error": "các cạnh tự cắt nhau (đa giác bị xoắn)"
+        }
+      ],
+      "decision": "keep_repaired_main_label_pending_geometry"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/pending__xe_tho_so__img_009.jpg",
+      "source_label": "data/labels/train/pending__xe_tho_so__img_009.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/pending__xe_tho_so__img_009.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "05f740416be86e5a35744bb6a12f3428f63233b3dd4e34616cdd7a65e56de57a"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/pending__xe_tho_so__img_010.jpg",
+      "source_label": "data/labels/train/pending__xe_tho_so__img_010.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/pending__xe_tho_so__img_010.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "7c9b5d3fa42415a6db01f61b9db13cd81481e60dd6cdbed7fde6b1e266bae14f"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/pending__xe_tho_so__img_029.jpg",
+      "source_label": "data/labels/train/pending__xe_tho_so__img_029.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/pending__xe_tho_so__img_029.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "7e395ce039ae07ca2ed13e258145ed5f936a9168c89f65eb4d4cb505019a6313"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/pending__xe_tho_so__img_039.jpg",
+      "source_label": "data/labels/train/pending__xe_tho_so__img_039.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/pending__xe_tho_so__img_039.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "7d91c9e23a96de6f78a9a8be769aca3fea4b79771a1586110aa165b9799f18e6"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/vn_sign_30__zalo_10877.png",
+      "source_label": "data/labels/train/vn_sign_30__zalo_10877.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/vn_sign_30__zalo_10877.png",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "dccf933788ccb41491105fde1be7c758a495c121725cb6905b9dffdf0693edc4"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/vn_sign_30__zalo_11178.png",
+      "source_label": "data/labels/train/vn_sign_30__zalo_11178.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/vn_sign_30__zalo_11178.png",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "b4edcb171e68cb692e27af5d89c649c0198528021cd4821a71503484bda06952"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/vn_sign_30__zalo_254.png",
+      "source_label": "data/labels/train/vn_sign_30__zalo_254.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/vn_sign_30__zalo_254.png",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [
+        {
+          "line": 23,
+          "error": "các cạnh tự cắt nhau (đa giác bị xoắn)"
+        }
+      ],
+      "decision": "keep_repaired_main_label_pending_geometry"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/vn_sign_30__zalo_5025.png",
+      "source_label": "data/labels/train/vn_sign_30__zalo_5025.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/vn_sign_30__zalo_5025.png",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "803da5f2017a08e8857883be06c17225a81a3684bafe61047b68ab3a384c9ca5"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/vn_sign_30__zalo_5046.png",
+      "source_label": "data/labels/train/vn_sign_30__zalo_5046.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/vn_sign_30__zalo_5046.png",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "d3902b6d367df35a1a5e9a079eeb61cab1f4153f288ce28a98939bf3aff4d422"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/vn_sign_30__zalo_9309.png",
+      "source_label": "data/labels/train/vn_sign_30__zalo_9309.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/vn_sign_30__zalo_9309.png",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "6884fc148bba163c5c191ac6f65061b8ddfc421b6ec5703420f88a38bebe2ea1"
+    },
+    {
+      "branch": "vietanh",
+      "source_image": "data/images/train/vn_sign_30__zalo_9530.png",
+      "source_label": "data/labels/train/vn_sign_30__zalo_9530.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/vn_sign_30__zalo_9530.png",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "accept_latest_member_train_label",
+      "previous_label_sha256": "183f7f98df3bf0e0db191cfcea0f2366c876359c259be963c4fceed9f342b209"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/000000483165.jpg",
+      "source_label": "data/labels/train/000000483165.txt",
+      "split": "train",
+      "matches": [],
+      "polygon_errors": [
+        {
+          "line": 4,
+          "error": "các cạnh tự cắt nhau (đa giác bị xoắn)"
+        }
+      ],
+      "decision": "pending_guideline_review_from_prior_audit"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/000000489107.jpg",
+      "source_label": "data/labels/train/000000489107.txt",
+      "split": "train",
+      "matches": [],
+      "polygon_errors": [],
+      "decision": "pending_guideline_review_from_prior_audit"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/000000508985.jpg",
+      "source_label": "data/labels/train/000000508985.txt",
+      "split": "train",
+      "matches": [],
+      "polygon_errors": [],
+      "decision": "pending_guideline_review_from_prior_audit"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/000000514376.jpg",
+      "source_label": "data/labels/train/000000514376.txt",
+      "split": "train",
+      "matches": [],
+      "polygon_errors": [],
+      "decision": "pending_guideline_review_from_prior_audit"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/000000514619.jpg",
+      "source_label": "data/labels/train/000000514619.txt",
+      "split": "train",
+      "matches": [],
+      "polygon_errors": [],
+      "decision": "pending_guideline_review_from_prior_audit"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/000000514904.jpg",
+      "source_label": "data/labels/train/000000514904.txt",
+      "split": "train",
+      "matches": [],
+      "polygon_errors": [
+        {
+          "line": 12,
+          "error": "các cạnh tự cắt nhau (đa giác bị xoắn)"
+        }
+      ],
+      "decision": "pending_guideline_review_from_prior_audit"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/000000518853.jpg",
+      "source_label": "data/labels/train/000000518853.txt",
+      "split": "train",
+      "matches": [],
+      "polygon_errors": [],
+      "decision": "pending_guideline_review_from_prior_audit"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/000000521998.jpg",
+      "source_label": "data/labels/train/000000521998.txt",
+      "split": "train",
+      "matches": [],
+      "polygon_errors": [
+        {
+          "line": 3,
+          "error": "các cạnh tự cắt nhau (đa giác bị xoắn)"
+        }
+      ],
+      "decision": "pending_guideline_review_from_prior_audit"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/000000522119.jpg",
+      "source_label": "data/labels/train/000000522119.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/traffic7__000000522119.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/000000525567.jpg",
+      "source_label": "data/labels/train/000000525567.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/val/traffic7__000000525567.jpg",
+          "split": "val",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/000000530683.jpg",
+      "source_label": "data/labels/train/000000530683.txt",
+      "split": "train",
+      "matches": [],
+      "polygon_errors": [
+        {
+          "line": 1,
+          "error": "các cạnh tự cắt nhau (đa giác bị xoắn)"
+        },
+        {
+          "line": 11,
+          "error": "các cạnh tự cắt nhau (đa giác bị xoắn)"
+        }
+      ],
+      "decision": "pending_guideline_review_from_prior_audit"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/000000533739.jpg",
+      "source_label": "data/labels/train/000000533739.txt",
+      "split": "train",
+      "matches": [],
+      "polygon_errors": [],
+      "decision": "pending_guideline_review_from_prior_audit"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/bicycle10.jpg",
+      "source_label": "data/labels/train/bicycle10.txt",
+      "split": "train",
+      "matches": [],
+      "polygon_errors": [],
+      "decision": "pending_guideline_review_from_prior_audit"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/bicycle7.jpg",
+      "source_label": "data/labels/train/bicycle7.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/extra25e5__bicycle7.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/bicycle8.jpg",
+      "source_label": "data/labels/train/bicycle8.txt",
+      "split": "train",
+      "matches": [],
+      "polygon_errors": [],
+      "decision": "pending_guideline_review_from_prior_audit"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/bicycle9.jpg",
+      "source_label": "data/labels/train/bicycle9.txt",
+      "split": "train",
+      "matches": [],
+      "polygon_errors": [],
+      "decision": "pending_guideline_review_from_prior_audit"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/bus11.jpg",
+      "source_label": "data/labels/train/bus11.txt",
+      "split": "train",
+      "matches": [],
+      "polygon_errors": [],
+      "decision": "pending_guideline_review_from_prior_audit"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/bus12.jpg",
+      "source_label": "data/labels/train/bus12.txt",
+      "split": "train",
+      "matches": [],
+      "polygon_errors": [],
+      "decision": "pending_guideline_review_from_prior_audit"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/bus13.jpg",
+      "source_label": "data/labels/train/bus13.txt",
+      "split": "train",
+      "matches": [],
+      "polygon_errors": [],
+      "decision": "pending_guideline_review_from_prior_audit"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/cvat__VisDrone_0000022_01036_d_0000006.jpg",
+      "source_label": "data/labels/train/cvat__VisDrone_0000022_01036_d_0000006.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/cvat__VisDrone_0000022_01036_d_0000006.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/cvat__VisDrone_0000069_02163_d_0000006.jpg",
+      "source_label": "data/labels/train/cvat__VisDrone_0000069_02163_d_0000006.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/cvat__VisDrone_0000069_02163_d_0000006.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/cvat__VisDrone_0000103_03349_d_0000031.jpg",
+      "source_label": "data/labels/train/cvat__VisDrone_0000103_03349_d_0000031.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/cvat__VisDrone_0000103_03349_d_0000031.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [
+        {
+          "line": 2,
+          "error": "các cạnh tự cắt nhau (đa giác bị xoắn)"
+        }
+      ],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/cvat__VisDrone_0000213_05745_d_0000247.jpg",
+      "source_label": "data/labels/train/cvat__VisDrone_0000213_05745_d_0000247.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/cvat__VisDrone_0000213_05745_d_0000247.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/cvat__VisDrone_0000242_00001_d_0000001.jpg",
+      "source_label": "data/labels/train/cvat__VisDrone_0000242_00001_d_0000001.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/cvat__VisDrone_0000242_00001_d_0000001.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/cvat__VisDrone_0000291_04201_d_0000889.jpg",
+      "source_label": "data/labels/train/cvat__VisDrone_0000291_04201_d_0000889.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/cvat__VisDrone_0000291_04201_d_0000889.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/cvat__VisDrone_0000308_04401_d_0000327.jpg",
+      "source_label": "data/labels/train/cvat__VisDrone_0000308_04401_d_0000327.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/cvat__VisDrone_0000308_04401_d_0000327.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/cvat__VisDrone_0000360_02941_d_0000728.jpg",
+      "source_label": "data/labels/train/cvat__VisDrone_0000360_02941_d_0000728.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/cvat__VisDrone_0000360_02941_d_0000728.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/cvat__VisDrone_0000364_01765_d_0000782.jpg",
+      "source_label": "data/labels/train/cvat__VisDrone_0000364_01765_d_0000782.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/cvat__VisDrone_0000364_01765_d_0000782.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [
+        {
+          "line": 33,
+          "error": "các cạnh tự cắt nhau (đa giác bị xoắn)"
+        }
+      ],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/guideline11__coco_000000109441.jpg",
+      "source_label": "data/labels/train/guideline11__coco_000000109441.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/guideline11__coco_000000109441.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/guideline11__coco_000000133819.jpg",
+      "source_label": "data/labels/train/guideline11__coco_000000133819.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/guideline11__coco_000000133819.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/guideline11__coco_000000204871.jpg",
+      "source_label": "data/labels/train/guideline11__coco_000000204871.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/guideline11__coco_000000204871.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/guideline11__coco_000000226417.jpg",
+      "source_label": "data/labels/train/guideline11__coco_000000226417.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/guideline11__coco_000000226417.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/guideline11__coco_000000260266.jpg",
+      "source_label": "data/labels/train/guideline11__coco_000000260266.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/guideline11__coco_000000260266.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [
+        {
+          "line": 3,
+          "error": "các cạnh tự cắt nhau (đa giác bị xoắn)"
+        }
+      ],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/guideline11__coco_000000289222.jpg",
+      "source_label": "data/labels/train/guideline11__coco_000000289222.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/guideline11__coco_000000289222.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [
+        {
+          "line": 6,
+          "error": "các cạnh tự cắt nhau (đa giác bị xoắn)"
+        }
+      ],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/guideline11__coco_000000396200.jpg",
+      "source_label": "data/labels/train/guideline11__coco_000000396200.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/guideline11__coco_000000396200.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/guideline11__coco_000000453841.jpg",
+      "source_label": "data/labels/train/guideline11__coco_000000453841.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/guideline11__coco_000000453841.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/guideline11__coco_000000480944.jpg",
+      "source_label": "data/labels/train/guideline11__coco_000000480944.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/guideline11__coco_000000480944.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/guideline11__coco_000000492077.jpg",
+      "source_label": "data/labels/train/guideline11__coco_000000492077.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/guideline11__coco_000000492077.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/guideline11__coco_000000520009.jpg",
+      "source_label": "data/labels/train/guideline11__coco_000000520009.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/guideline11__coco_000000520009.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/kitti7__000001_10.jpg",
+      "source_label": "data/labels/train/kitti7__000001_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000001_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/kitti7__000005_10.jpg",
+      "source_label": "data/labels/train/kitti7__000005_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000005_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/kitti7__000010_10.jpg",
+      "source_label": "data/labels/train/kitti7__000010_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000010_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/kitti7__000018_10.jpg",
+      "source_label": "data/labels/train/kitti7__000018_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000018_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [
+        {
+          "line": 4,
+          "error": "các cạnh tự cắt nhau (đa giác bị xoắn)"
+        }
+      ],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/kitti7__000022_10.jpg",
+      "source_label": "data/labels/train/kitti7__000022_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000022_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/kitti7__000024_10.jpg",
+      "source_label": "data/labels/train/kitti7__000024_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000024_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/kitti7__000025_10.jpg",
+      "source_label": "data/labels/train/kitti7__000025_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000025_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/kitti7__000030_10.jpg",
+      "source_label": "data/labels/train/kitti7__000030_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000030_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/kitti7__000031_10.jpg",
+      "source_label": "data/labels/train/kitti7__000031_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000031_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/kitti7__000032_10.jpg",
+      "source_label": "data/labels/train/kitti7__000032_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000032_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/kitti7__000033_10.jpg",
+      "source_label": "data/labels/train/kitti7__000033_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000033_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/kitti7__000037_10.jpg",
+      "source_label": "data/labels/train/kitti7__000037_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000037_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/kitti7__000038_10.jpg",
+      "source_label": "data/labels/train/kitti7__000038_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000038_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/kitti7__000049_10.jpg",
+      "source_label": "data/labels/train/kitti7__000049_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000049_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/kitti7__000050_10.jpg",
+      "source_label": "data/labels/train/kitti7__000050_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000050_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/kitti7__000052_10.jpg",
+      "source_label": "data/labels/train/kitti7__000052_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000052_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/kitti7__000056_10.jpg",
+      "source_label": "data/labels/train/kitti7__000056_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000056_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/kitti7__000060_10.jpg",
+      "source_label": "data/labels/train/kitti7__000060_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000060_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/kitti7__000061_10.jpg",
+      "source_label": "data/labels/train/kitti7__000061_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000061_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/kitti7__000064_10.jpg",
+      "source_label": "data/labels/train/kitti7__000064_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000064_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/kitti7__000067_10.jpg",
+      "source_label": "data/labels/train/kitti7__000067_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000067_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/kitti7__000071_10.jpg",
+      "source_label": "data/labels/train/kitti7__000071_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000071_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/kitti7__000073_10.jpg",
+      "source_label": "data/labels/train/kitti7__000073_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000073_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/kitti7__000076_10.jpg",
+      "source_label": "data/labels/train/kitti7__000076_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000076_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/kitti7__000083_10.jpg",
+      "source_label": "data/labels/train/kitti7__000083_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000083_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/kitti7__000089_10.jpg",
+      "source_label": "data/labels/train/kitti7__000089_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000089_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        },
+        {
+          "image": "data/images/train/kitti7__000092_10.jpg",
+          "split": "train",
+          "exact": false,
+          "phash": 8,
+          "dhash": 2
+        },
+        {
+          "image": "data/images/train/kitti7__000097_10.jpg",
+          "split": "train",
+          "exact": false,
+          "phash": 2,
+          "dhash": 1
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/kitti7__000091_10.jpg",
+      "source_label": "data/labels/train/kitti7__000091_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000091_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        },
+        {
+          "image": "data/images/train/kitti7__000096_10.jpg",
+          "split": "train",
+          "exact": false,
+          "phash": 10,
+          "dhash": 2
+        },
+        {
+          "image": "data/images/train/kitti7__000097_10.jpg",
+          "split": "train",
+          "exact": false,
+          "phash": 10,
+          "dhash": 2
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/kitti7__000092_10.jpg",
+      "source_label": "data/labels/train/kitti7__000092_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000089_10.jpg",
+          "split": "train",
+          "exact": false,
+          "phash": 8,
+          "dhash": 2
+        },
+        {
+          "image": "data/images/train/kitti7__000092_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        },
+        {
+          "image": "data/images/train/kitti7__000097_10.jpg",
+          "split": "train",
+          "exact": false,
+          "phash": 8,
+          "dhash": 1
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/kitti7__000094_10.jpg",
+      "source_label": "data/labels/train/kitti7__000094_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000094_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/kitti7__000096_10.jpg",
+      "source_label": "data/labels/train/kitti7__000096_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000091_10.jpg",
+          "split": "train",
+          "exact": false,
+          "phash": 10,
+          "dhash": 2
+        },
+        {
+          "image": "data/images/train/kitti7__000096_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        },
+        {
+          "image": "data/images/train/kitti7__000097_10.jpg",
+          "split": "train",
+          "exact": false,
+          "phash": 8,
+          "dhash": 2
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/kitti7__000097_10.jpg",
+      "source_label": "data/labels/train/kitti7__000097_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000089_10.jpg",
+          "split": "train",
+          "exact": false,
+          "phash": 2,
+          "dhash": 1
+        },
+        {
+          "image": "data/images/train/kitti7__000091_10.jpg",
+          "split": "train",
+          "exact": false,
+          "phash": 10,
+          "dhash": 2
+        },
+        {
+          "image": "data/images/train/kitti7__000092_10.jpg",
+          "split": "train",
+          "exact": false,
+          "phash": 8,
+          "dhash": 1
+        },
+        {
+          "image": "data/images/train/kitti7__000096_10.jpg",
+          "split": "train",
+          "exact": false,
+          "phash": 8,
+          "dhash": 2
+        },
+        {
+          "image": "data/images/train/kitti7__000097_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/kitti7__000109_10.jpg",
+      "source_label": "data/labels/train/kitti7__000109_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000109_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/kitti7__000131_10.jpg",
+      "source_label": "data/labels/train/kitti7__000131_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000131_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/kitti7__000143_10.jpg",
+      "source_label": "data/labels/train/kitti7__000143_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000143_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/kitti7__000147_10.jpg",
+      "source_label": "data/labels/train/kitti7__000147_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000147_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/kitti7__000149_10.jpg",
+      "source_label": "data/labels/train/kitti7__000149_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000149_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/kitti7__000150_10.jpg",
+      "source_label": "data/labels/train/kitti7__000150_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000150_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/kitti7__000158_10.jpg",
+      "source_label": "data/labels/train/kitti7__000158_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000158_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/kitti7__000160_10.jpg",
+      "source_label": "data/labels/train/kitti7__000160_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000160_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/kitti7__000165_10.jpg",
+      "source_label": "data/labels/train/kitti7__000165_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000165_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/kitti7__000170_10.jpg",
+      "source_label": "data/labels/train/kitti7__000170_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000170_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/kitti7__000181_10.jpg",
+      "source_label": "data/labels/train/kitti7__000181_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000181_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/kitti7__000183_10.jpg",
+      "source_label": "data/labels/train/kitti7__000183_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000183_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/kitti7__000190_10.jpg",
+      "source_label": "data/labels/train/kitti7__000190_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000190_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/kitti7__000197_10.jpg",
+      "source_label": "data/labels/train/kitti7__000197_10.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/kitti7__000197_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/pending__dataset__11.jpg",
+      "source_label": "data/labels/train/pending__dataset__11.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/pending__dataset__11.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/pending__dataset__5.jpg",
+      "source_label": "data/labels/train/pending__dataset__5.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/pending__dataset__5.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/pending__dataset__7.jpg",
+      "source_label": "data/labels/train/pending__dataset__7.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/pending__dataset__7.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [
+        {
+          "line": 2,
+          "error": "các cạnh tự cắt nhau (đa giác bị xoắn)"
+        }
+      ],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/pending__xe_tho_so__img_014.jpg",
+      "source_label": "data/labels/train/pending__xe_tho_so__img_014.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/pending__xe_tho_so__img_014.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/truck1.jpg",
+      "source_label": "data/labels/train/truck1.txt",
+      "split": "train",
+      "matches": [],
+      "polygon_errors": [],
+      "decision": "pending_guideline_review_from_prior_audit"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/truck10.jpg",
+      "source_label": "data/labels/train/truck10.txt",
+      "split": "train",
+      "matches": [],
+      "polygon_errors": [],
+      "decision": "pending_guideline_review_from_prior_audit"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/truck2.jpg",
+      "source_label": "data/labels/train/truck2.txt",
+      "split": "train",
+      "matches": [],
+      "polygon_errors": [],
+      "decision": "pending_guideline_review_from_prior_audit"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/truck3.jpg",
+      "source_label": "data/labels/train/truck3.txt",
+      "split": "train",
+      "matches": [
+        {
+          "image": "data/images/train/minitraffic__truck3.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "polygon_errors": [],
+      "decision": "duplicate_keep_existing_split_and_labels"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/truck5.jpg",
+      "source_label": "data/labels/train/truck5.txt",
+      "split": "train",
+      "matches": [],
+      "polygon_errors": [],
+      "decision": "pending_guideline_review_from_prior_audit"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/truck6.jpg",
+      "source_label": "data/labels/train/truck6.txt",
+      "split": "train",
+      "matches": [],
+      "polygon_errors": [],
+      "decision": "pending_guideline_review_from_prior_audit"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/truck7.jpg",
+      "source_label": "data/labels/train/truck7.txt",
+      "split": "train",
+      "matches": [],
+      "polygon_errors": [],
+      "decision": "pending_guideline_review_from_prior_audit"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/truck8.jpg",
+      "source_label": "data/labels/train/truck8.txt",
+      "split": "train",
+      "matches": [],
+      "polygon_errors": [],
+      "decision": "pending_guideline_review_from_prior_audit"
+    },
+    {
+      "branch": "data/extra-batch",
+      "source_image": "data/images/train/truck9.jpg",
+      "source_label": "data/labels/train/truck9.txt",
+      "split": "train",
+      "matches": [],
+      "polygon_errors": [],
+      "decision": "pending_guideline_review_from_prior_audit"
+    }
+  ]
+}

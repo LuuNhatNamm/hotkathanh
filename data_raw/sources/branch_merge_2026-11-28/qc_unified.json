@@ -1,0 +1,104 @@
+{
+  "counts": {
+    "train": {
+      "images": 404,
+      "labels": 404,
+      "instances": 5544,
+      "per_class": {
+        "0": 2461,
+        "1": 103,
+        "2": 145,
+        "3": 142,
+        "4": 206,
+        "5": 318,
+        "6": 126,
+        "7": 109,
+        "8": 773,
+        "9": 612,
+        "10": 549
+      }
+    },
+    "val": {
+      "images": 50,
+      "labels": 50,
+      "instances": 641,
+      "per_class": {
+        "0": 285,
+        "1": 45,
+        "2": 26,
+        "3": 12,
+        "4": 12,
+        "5": 23,
+        "6": 16,
+        "7": 11,
+        "8": 128,
+        "9": 45,
+        "10": 38
+      }
+    }
+  },
+  "polygon_errors": [],
+  "orphan_labels": [],
+  "exact_duplicate_pairs": [],
+  "near_duplicate_pairs": [
+    {
+      "a": "data/images/train/kitti7__000089_10.jpg",
+      "b": "data/images/train/kitti7__000092_10.jpg",
+      "exact": false,
+      "phash": 8,
+      "dhash": 2
+    },
+    {
+      "a": "data/images/train/kitti7__000089_10.jpg",
+      "b": "data/images/train/kitti7__000097_10.jpg",
+      "exact": false,
+      "phash": 2,
+      "dhash": 1
+    },
+    {
+      "a": "data/images/train/kitti7__000091_10.jpg",
+      "b": "data/images/train/kitti7__000096_10.jpg",
+      "exact": false,
+      "phash": 10,
+      "dhash": 2
+    },
+    {
+      "a": "data/images/train/kitti7__000091_10.jpg",
+      "b": "data/images/train/kitti7__000097_10.jpg",
+      "exact": false,
+      "phash": 10,
+      "dhash": 2
+    },
+    {
+      "a": "data/images/train/kitti7__000092_10.jpg",
+      "b": "data/images/train/kitti7__000097_10.jpg",
+      "exact": false,
+      "phash": 8,
+      "dhash": 1
+    },
+    {
+      "a": "data/images/train/kitti7__000096_10.jpg",
+      "b": "data/images/train/kitti7__000097_10.jpg",
+      "exact": false,
+      "phash": 8,
+      "dhash": 2
+    },
+    {
+      "a": "data/images/train/kitti7__000113_10.jpg",
+      "b": "data/images/train/kitti7__000114_10.jpg",
+      "exact": false,
+      "phash": 10,
+      "dhash": 2
+    },
+    {
+      "a": "data/images/train/kitti7__000138_10.jpg",
+      "b": "data/images/train/kitti7__000139_10.jpg",
+      "exact": false,
+      "phash": 2,
+      "dhash": 5
+    }
+  ],
+  "cross_split_leakage": [],
+  "val50_unchanged": true,
+  "claim": "Notebook polygon checks and image similarity checks only; semantic annotation completeness requires human review."
+}

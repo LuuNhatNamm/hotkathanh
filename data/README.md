@@ -1,10 +1,15 @@
 # Dữ liệu YOLO-seg 11 lớp
 
+## Phiên bản thống nhất ngày 28/11/2026
+
+Train: **404 ảnh / 5.544 instance**. Val: **50 ảnh / 641 instance**, giữ nguyên bản val50. Dùng `data.yaml`; manifest từng cặp ở `split_manifest.json`. Xem [nguồn nhánh, quyết định xung đột và QC](../MERGE_DATA_2026-11-28.md). Các mục bên dưới ghi lịch sử những lần nhập trước.
+
+
 ## Tập dùng để huấn luyện và đánh giá
 
 | Split | Ảnh | File nhãn | Đường dẫn |
 | --- | ---: | ---: | --- |
-| Train đã sửa | 384 | 384 | `images/train/`, `labels/train/` |
+| Train đã sửa | 404 | 404 | `images/train/`, `labels/train/` |
 | Val đã sửa | 50 | 50 | `images/val/`, `labels/val/` |
 
 Ảnh và nhãn được đặt trực tiếp trong thư mục split, giữ tên gốc. Các thư mục p1–p4 đã được gom về cấu trúc này. `data.yaml` dùng schema 11 lớp trong `labeling_guideline.md`.

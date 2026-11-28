@@ -1,5 +1,8 @@
 # Đội 29 — dữ liệu đã lọc và thử cấu hình YOLO26n-seg
 
+> Cập nhật sau merge: bộ chung trong `data/` trên `main` có 404 train / 50 val. Val50 giữ nguyên. Các tên ZIP 384/50 và cấu hình phía dưới mô tả lần chuẩn bị cũ; xem `MERGE_DATA_2026-11-28.md` trước khi tạo lượt chạy mới.
+
+
 ## Bộ đang dùng
 
 - Đã pull main: không có commit mới. Dữ liệu mới nằm trên nhánh `data/extra-batch`, commit `25e5cd3`, đã fetch và tải về để kiểm tra.

@@ -1,5 +1,10 @@
 # Robotaxi · YOLO26n-seg
 
+## Dữ liệu thống nhất sau merge nhánh
+
+Dùng `data/` trên `main`: **404 train / 50 val**, 5.544 instance train và 641 instance val. Đã đối chiếu nhánh thành viên, nhận các cặp mới đủ điều kiện và giữ bản chờ rà trong `data_raw`. Xem [quyết định hợp nhất và phần cần rà](MERGE_DATA_2026-11-28.md).
+
+
 ## Slide thuyết trình Đội 29
 
 - [PowerPoint 14 slide](slides/Doi29_RoboTaxi_ThuyetTrinh.pptx), có lời thuyết trình trong Notes, thời lượng gợi ý 10–12 phút.
@@ -24,7 +29,7 @@ Bản cập nhật local sau lọc nhánh extra-batch: xem [hướng dẫn tối
 
 Đọc [hướng dẫn từng bước cho Đội 29](HUONG_DAN_TRAIN_COLAB_DOI29.md). Seed `TEAM_ID = 34`.
 
-Bộ dữ liệu dùng để chạy hiện nằm trong `data/`, gồm **384 ảnh train / 5.496 đối tượng** và **50 ảnh val / 641 đối tượng**. Đã bổ sung 70 ảnh Mini Traffic Detection vào train và cập nhật nhãn đã rà. Thêm 35 ảnh chọn từ bộ 7 lớp, chia 11 train / 24 val. Phần phân công bên dưới lưu lại bộ ảnh gốc của nhóm.
+Bộ dữ liệu dùng để chạy hiện nằm trong `data/`, gồm **404 ảnh train / 5.544 đối tượng** và **50 ảnh val / 641 đối tượng**. Đã bổ sung 70 ảnh Mini Traffic Detection vào train và cập nhật nhãn đã rà. Thêm 35 ảnh chọn từ bộ 7 lớp, chia 11 train / 24 val. Phần phân công bên dưới lưu lại bộ ảnh gốc của nhóm.
 
 Có thể clone repo ngay trong Colab và đặt `DATASET_PATH = "/content/hotkathanh/data"`. Hướng dẫn có sẵn ô lệnh clone, thứ tự chạy notebook, cấu hình và danh sách file cần bàn giao.
 

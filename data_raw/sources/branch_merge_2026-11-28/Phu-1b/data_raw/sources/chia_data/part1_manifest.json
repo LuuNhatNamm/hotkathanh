@@ -1,0 +1,114 @@
+{
+ "kept": {
+  "coco__000000102202.jpg": {
+   "src": "F:/AI20k/team repo/hotkathanh/chia_data/data1/000000102202.jpg",
+   "md5": "3a47d1d04f5fce3b0f30ef922fe19be9"
+  },
+  "coco__000000104800.jpg": {
+   "src": "F:/AI20k/team repo/hotkathanh/chia_data/data1/000000104800.jpg",
+   "md5": "ea83863c02af069c2ba7dfe875f713d9"
+  },
+  "coco__000000113521.jpg": {
+   "src": "F:/AI20k/team repo/hotkathanh/chia_data/data1/000000113521.jpg",
+   "md5": "28fed757d1e2cfeba3d0a2cbca608261"
+  },
+  "coco__000000114087.jpg": {
+   "src": "F:/AI20k/team repo/hotkathanh/chia_data/data1/000000114087.jpg",
+   "md5": "f53f9a690731e1c26f1a6f5d99f0b242"
+  },
+  "coco__000000114310.jpg": {
+   "src": "F:/AI20k/team repo/hotkathanh/chia_data/data1/000000114310.jpg",
+   "md5": "108f7b1ce52e6f96b046b0d81db4ce0d"
+  },
+  "coco__000000124277.jpg": {
+   "src": "F:/AI20k/team repo/hotkathanh/chia_data/data1/000000124277.jpg",
+   "md5": "ceead8d2ebc964390c31d1bdf5a0baa6"
+  },
+  "coco__000000138979.jpg": {
+   "src": "F:/AI20k/team repo/hotkathanh/chia_data/data1/000000138979.jpg",
+   "md5": "9df5b0f773fd280c3e2223b4f9f7d4f1"
+  },
+  "coco__000000139507.jpg": {
+   "src": "F:/AI20k/team repo/hotkathanh/chia_data/data1/000000139507.jpg",
+   "md5": "e2999e51a2a33eb1d83bc26de9fa7a7c"
+  },
+  "coco__000000213605.jpg": {
+   "src": "F:/AI20k/team repo/hotkathanh/chia_data/data1/000000213605.jpg",
+   "md5": "fa0ccb8a47f526331a6a3ac4d30b7560"
+  },
+  "coco__000000217886.jpg": {
+   "src": "F:/AI20k/team repo/hotkathanh/chia_data/data1/000000217886.jpg",
+   "md5": "64b97dcc10b2f895f351d58fe337067e"
+  },
+  "coco__000000226148.jpg": {
+   "src": "F:/AI20k/team repo/hotkathanh/chia_data/data1/000000226148.jpg",
+   "md5": "82d55825a272093e3ddfdbf77edc1dc2"
+  },
+  "coco__000000234352.jpg": {
+   "src": "F:/AI20k/team repo/hotkathanh/chia_data/data1/000000234352.jpg",
+   "md5": "90184a086f3e19a995956a3b25b34dff"
+  },
+  "coco__000000243825.jpg": {
+   "src": "F:/AI20k/team repo/hotkathanh/chia_data/data1/000000243825.jpg",
+   "md5": "0549e1a12ced28b6896eef6e9fb73cc1"
+  },
+  "minitraffic__bicycle15.jpg": {
+   "src": "F:/AI20k/team repo/hotkathanh/chia_data/data1/bicycle15.jpg",
+   "md5": "818a8924fdabf43fdf071cdebf08fcd2"
+  },
+  "minitraffic__bicycle16.jpg": {
+   "src": "F:/AI20k/team repo/hotkathanh/chia_data/data1/bicycle16.jpg",
+   "md5": "2db4be98c460c3d3a891b3ceac18988b"
+  },
+  "minitraffic__bicycle18.jpg": {
+   "src": "F:/AI20k/team repo/hotkathanh/chia_data/data1/bicycle18.jpg",
+   "md5": "0da12fe08fffcdc1763197197d65c808"
+  },
+  "minitraffic__bicycle20.jpg": {
+   "src": "F:/AI20k/team repo/hotkathanh/chia_data/data1/bicycle20.jpg",
+   "md5": "f8cb98a38b09574d99c1b590b49f2259"
+  },
+  "minitraffic__bus15.jpg": {
+   "src": "F:/AI20k/team repo/hotkathanh/chia_data/data1/bus15.jpg",
+   "md5": "de57e72cb65fa997fdc69250b39b0723"
+  },
+  "minitraffic__bus21.jpg": {
+   "src": "F:/AI20k/team repo/hotkathanh/chia_data/data1/bus21.jpg",
+   "md5": "74dc39c1824d693d25dde12664e50fcf"
+  },
+  "minitraffic__truck11.jpg": {
+   "src": "F:/AI20k/team repo/hotkathanh/chia_data/data1/truck11.jpg",
+   "md5": "eccbfb20234ed08c78b0d3df398428a3"
+  },
+  "minitraffic__truck12.jpg": {
+   "src": "F:/AI20k/team repo/hotkathanh/chia_data/data1/truck12.jpg",
+   "md5": "5124eb5d4854b39185acea9da10c4cdc"
+  },
+  "minitraffic__truck17.jpg": {
+   "src": "F:/AI20k/team repo/hotkathanh/chia_data/data1/truck17.jpg",
+   "md5": "c61acb5be6c1b8d954d7a1b21ea447bd"
+  },
+  "minitraffic__truck18.jpg": {
+   "src": "F:/AI20k/team repo/hotkathanh/chia_data/data1/truck18.jpg",
+   "md5": "073606c1fa2b42e72d08e7fffb39a76f"
+  },
+  "minitraffic__truck19.jpg": {
+   "src": "F:/AI20k/team repo/hotkathanh/chia_data/data1/truck19.jpg",
+   "md5": "c9572ab1db2ee58bd4f52eaefba6bc2c"
+  },
+  "minitraffic__truck20.jpg": {
+   "src": "F:/AI20k/team repo/hotkathanh/chia_data/data1/truck20.jpg",
+   "md5": "52a7b72f3f22b190befa2c4252e0717d"
+  },
+  "minitraffic__truck21.jpg": {
+   "src": "F:/AI20k/team repo/hotkathanh/chia_data/data1/truck21.jpg",
+   "md5": "55c8d15eb8f1ad29a954bd59918b698f"
+  }
+ },
+ "skipped_duplicate": {
+  "bicycle17.jpg": "data/images/train/minitraffic__bicycle17.jpg",
+  "bicycle21.jpg": "data/images/train/minitraffic__bicycle21.jpg",
+  "bus14.jpg": "data/images/train/minitraffic__bus14.jpg",
+  "bus20.jpg": "data/images/train/minitraffic__bus20.jpg"
+ }
+}
