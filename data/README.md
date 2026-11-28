@@ -1,6 +1,6 @@
 # Dữ liệu YOLO-seg 11 lớp đã duyệt
 
-Tập val đang có 35 ảnh chờ nhãn. Hãy bổ sung và kiểm tra nhãn trước khi chạy notebook. Tập train đang chờ ảnh và nhãn đã duyệt. data.yaml đã khai báo thứ tự 11 lớp của BTC.
+Tập train có 98 cặp ảnh–nhãn đã duyệt, mỗi ảnh đều có file TXT (gồm 1 ảnh nền có TXT rỗng chủ ý). Tập val có 35 ảnh nhưng mới 10 ảnh có nhãn, còn 25 ảnh chờ nhãn. Hãy bổ sung và kiểm tra nhãn trước khi chạy notebook. data.yaml đã khai báo thứ tự 11 lớp của BTC.
 
 1. Rà ảnh trong [data_raw](../data_raw/README.md) theo [guideline](../labeling_guideline.md).
 2. Xuất nhãn YOLO-seg sau khi duyệt. Chép ảnh và file TXT cùng tên gốc vào images/<split>/ và labels/<split>/, giữ split từ manifest. Ảnh nền phải được rà và có file TXT rỗng chủ ý.
