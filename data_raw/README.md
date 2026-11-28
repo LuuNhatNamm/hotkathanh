@@ -10,3 +10,5 @@ Dataset có 346 ảnh. Dùng hai tập train và val, theo vị trí ảnh hiệ
 Nhãn tham khảo nằm trong labels/train và labels/val, bên trong chia theo nguồn guideline11, kitti7 và vn_sign_30. Mỗi file TXT cùng tên gốc và split với ảnh. Các nhãn Sign cần rà, gán bổ sung trước khi đưa vào [data](../data/README.md). Xem [ghi chú nguồn vn_sign_30](sources/vn_sign_30/README.md).
 
 Tra nguồn và 23 cặp nghi gần trùng trong split_manifest.json. Các cặp này nằm cùng split.
+
+Bộ bổ sung nằm riêng trong [phan_2_extra](phan_2_extra/README.md): 118 ảnh chưa có nhãn, chia sẵn `data1`–`data4` cho bốn thành viên (30/29/30/29). Chưa gộp vào train/val để tránh trùng với 346 ảnh ở trên.
