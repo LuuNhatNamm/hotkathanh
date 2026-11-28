@@ -4,12 +4,12 @@
 
 | Split | Ảnh | File nhãn | Đường dẫn |
 | --- | ---: | ---: | --- |
-| Train đã sửa | 372 | 372 | `images/train/`, `labels/train/` |
-| Val đã sửa | 26 | 26 | `images/val/`, `labels/val/` |
+| Train đã sửa | 384 | 384 | `images/train/`, `labels/train/` |
+| Val đã sửa | 50 | 50 | `images/val/`, `labels/val/` |
 
 Ảnh và nhãn được đặt trực tiếp trong thư mục split, giữ tên gốc. Các thư mục p1–p4 đã được gom về cấu trúc này. `data.yaml` dùng schema 11 lớp trong `labeling_guideline.md`.
 
-Dùng `data/data.yaml` cho bước train/val. Tập train gồm 302 ảnh của đội và 70 ảnh Mini Traffic Detection, bổ sung 83 đối tượng. Trong số ảnh bổ sung, 57 ảnh dùng polygon nguồn đã ánh xạ và 13 ảnh được vẽ thêm phần người lái để tạo mask Cyclist hoặc Motorcyclist. Xem [nguồn và danh sách ảnh](../data_raw/sources/mini_traffic_detection/README.md).
+Dùng `data/data.yaml` cho bước train/val. Phần train trước lần bổ sung Traffic7 gồm 302 ảnh của đội và 70 ảnh Mini Traffic Detection, bổ sung 83 đối tượng. Trong số ảnh bổ sung, 57 ảnh dùng polygon nguồn đã ánh xạ và 13 ảnh được vẽ thêm phần người lái để tạo mask Cyclist hoặc Motorcyclist. Xem [nguồn và danh sách ảnh](../data_raw/sources/mini_traffic_detection/README.md).
 
 ## Val chờ rà
 
@@ -46,3 +46,11 @@ Chín ảnh train ban đầu còn thiếu nhãn đã sửa được giữ tại 
 Phân chia gốc của bộ ảnh nhóm là 311 train và 35 val. Các ảnh gốc chờ rà giữ split cũ khi bổ sung. 70 ảnh Mini Traffic Detection chỉ bổ sung vào train của nhóm.
 
 Trỏ dataset của notebook vào thư mục `data/`, kiểm tra nhãn rồi chạy train. Mỗi file TXT chứa polygon YOLO-seg cùng tên gốc với ảnh tương ứng.
+
+## Bổ sung Traffic7
+
+Thêm 11 ảnh vào train, 24 ảnh vào val từ bộ 7 lớp, chỉ chọn ảnh có Bus, xe máy hoặc xe đạp. Train hiện 383 ảnh / 5.495 instance, val 50 ảnh / 641 instance. Xem [nguồn, chuyển nhãn và QC](../data_raw/sources/traffic7_local/README.md). Giữ 26 ảnh val cũ trong tập val mở rộng.
+
+## Lọc bản cập nhật extra-batch
+
+Bổ sung 1 ảnh Cyclist đã sửa lớp, sau khi rà guideline; hiện 384 train / 5.496 instance, 50 val / 641 instance. Xem [bảng lọc từng ảnh](../data_raw/sources/extra_batch_remote/LOC_THEO_GUIDELINE.md). Các ảnh mới chưa đủ nhãn nằm ngoài data dùng train.

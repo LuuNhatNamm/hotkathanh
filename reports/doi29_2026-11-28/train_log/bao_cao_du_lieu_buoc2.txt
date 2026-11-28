@@ -1,0 +1,22 @@
+BÁO CÁO KIỂM TRA DỮ LIỆU (Colab, bước 2)
+train: 372 ảnh | 5338 đối tượng | 0 ảnh không có đối tượng
+val:    26 ảnh |  372 đối tượng | 0 ảnh không có đối tượng
+Số đối tượng mỗi ảnh: trung bình 14.3, trung vị 10, lớn nhất 180
+id lớp            train ảnh  val ảnh  nhỏ<64
+0  Car             2391  300  211  22   331
+1  Bus               86   56    3   2     7
+2  Truck            141   86   12   7    18
+3  Other vehicle    138   43   12   3    23
+4  Motorcycle       238   56    9   2    18
+5  Motorcyclist     285   63   23   6    42
+6  Bicycle          115   44    8   5     2
+7  Cyclist           93   48    9   4    12
+8  Pedestrian       749  121   26   8    93
+9  Sign             592  175   37  15   147
+10 Traffic light    510  126   22   6    85
+CẢNH BÁO:
+! Ít ví dụ trong train (<100): Bus (86), Cyclist (93)
+! Val có <10 đối tượng: Bus (3), Motorcycle (9), Bicycle (8), Cyclist (9)
+! 778 đối tượng < 64 px ở thang 640: hệ thống chấm bỏ qua
+! 5 ảnh > 100 đối tượng (chấm chỉ giữ 100 dự đoán/ảnh): cvat__VisDrone_0000213_05745_d_0000247 (152), cvat__VisDrone_0000291_02201_d_0000879 (124), ...
+! 23 cặp ảnh gần giống (pHash <= 2), cùng split (KITTI khung liền nhau)

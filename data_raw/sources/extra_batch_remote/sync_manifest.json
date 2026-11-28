@@ -1,0 +1,2278 @@
+{
+  "remote": "https://github.com/LuuNhatNamm/hotkathanh.git",
+  "branch": "data/extra-batch",
+  "commit": "25e5cd3",
+  "items": [
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\000000423693.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\000000423693.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [],
+      "sha256": "71335f019856e33419877741fcbfb1f134aff3b48ca536aee89131775528ed0d",
+      "status": "needs_semantic_review",
+      "geometry_errors": [],
+      "guideline_decision": {
+        "code": "needs_label",
+        "reason": "Ảnh tàu du lịch có TXT rỗng; cần quyết định Other vehicle và rà các đối tượng đủ lớn.",
+        "sections": "1 Other vehicle; 2.3; 5.4"
+      }
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\000000483165.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\000000483165.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [],
+      "sha256": "8ddadc0e130b6ab317fce3fa2be6377f98648271e2c60908b95b8d1c6821e345",
+      "status": "needs_semantic_review",
+      "geometry_errors": [
+        {
+          "line": 4,
+          "error": "các cạnh tự cắt nhau (đa giác bị xoắn)"
+        }
+      ],
+      "guideline_decision": {
+        "code": "needs_label",
+        "reason": "Thiếu các xe đạp đỗ phía sau và có polygon tự cắt.",
+        "sections": "2.1; 2.3; 3 Bicycle; 6"
+      }
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\000000489107.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\000000489107.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [],
+      "sha256": "f5f45a8e9c429c0b3ca2f22459af0871aa1c6717e588f10dbc7598d11e8d9158",
+      "status": "needs_semantic_review",
+      "geometry_errors": [],
+      "guideline_decision": {
+        "code": "needs_label",
+        "reason": "Chỉ có người chính và cyclist; thiếu xe/đám người/biển báo rõ ở nền.",
+        "sections": "2.3; 3 Sign"
+      }
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\000000508985.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\000000508985.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [],
+      "sha256": "e925ae853b27f3be05ad8e9791564d40743411f3f4de036d5078477f0cb79b07",
+      "status": "needs_semantic_review",
+      "geometry_errors": [],
+      "guideline_decision": {
+        "code": "needs_label",
+        "reason": "Các ô tô rõ ở làn đường chưa được gán.",
+        "sections": "2.3; 3 Car"
+      }
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\000000514376.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\000000514376.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [],
+      "sha256": "951d0f6e435a5cafbdc7fa40f8e5f42467c0ecb2259576c7ffc2eb784e3193a7",
+      "status": "needs_semantic_review",
+      "geometry_errors": [],
+      "guideline_decision": {
+        "code": "wrong_class_and_missing",
+        "reason": "Xe điện đường ray đang ghi Bus; cần quy ước Other vehicle theo catch-all, bổ sung xe nền.",
+        "sections": "1 Bus; 1 Other vehicle; 2.3; 5.4"
+      }
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\000000514619.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\000000514619.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [],
+      "sha256": "b3bb3c4309d6fed0ff4e3fd8291cc5376e6817208e909f288a0c4e4c9f0caea3",
+      "status": "needs_semantic_review",
+      "geometry_errors": [],
+      "guideline_decision": {
+        "code": "needs_label",
+        "reason": "Xe nền và một số người đủ lớn chưa được gán.",
+        "sections": "2.3"
+      }
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\000000514904.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\000000514904.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [],
+      "sha256": "aecf17f677b784375f87ec2a6f1f7977903e9bd72840ebf5f4f430c21e05a9d8",
+      "status": "needs_semantic_review",
+      "geometry_errors": [
+        {
+          "line": 12,
+          "error": "các cạnh tự cắt nhau (đa giác bị xoắn)"
+        }
+      ],
+      "guideline_decision": {
+        "code": "fragmented_instance",
+        "reason": "Một người chính bị tách thành nhiều Pedestrian; có polygon lỗi, thiếu xe đạp ở nền.",
+        "sections": "2.1; 2.3; 6"
+      }
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\000000518853.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\000000518853.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [],
+      "sha256": "dcb62fb17680acc5a3148ceb978bad3c5599aaef630b79b250665208aaf45bac",
+      "status": "needs_semantic_review",
+      "geometry_errors": [],
+      "guideline_decision": {
+        "code": "needs_label",
+        "reason": "Thiếu xe ô tô ở trái và biển đường rõ trong ảnh.",
+        "sections": "2.3; 3 Car; 3 Sign"
+      }
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\000000521998.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\000000521998.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [],
+      "sha256": "3f20055f65e82b528984d71296ce92d6e573ef478a7cf02e8a8d4b96cf2bb7ec",
+      "status": "needs_semantic_review",
+      "geometry_errors": [
+        {
+          "line": 3,
+          "error": "các cạnh tự cắt nhau (đa giác bị xoắn)"
+        }
+      ],
+      "guideline_decision": {
+        "code": "fragmented_instance",
+        "reason": "Một người và xe đạp bị tách thành nhiều instance; thiếu mask xe nền và biển đỗ xe, polygon lỗi.",
+        "sections": "2.1; 2.3; 3 Sign; 6"
+      }
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\000000522119.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\000000522119.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\traffic7__000000522119.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "7056b4f7143a3328bc65c386defecc5c46d9e9c7551bee9da69c2e529ecca8ff",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\000000525567.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\000000525567.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\val\\traffic7__000000525567.jpg",
+          "split": "val",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "c9ce08ef9e07873aa0fd043a957d1b25e94731cc76ede13d2d6eaae06cd159ab",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\000000530683.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\000000530683.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [],
+      "sha256": "bae28716d53cbdb4f2a345351d246874198320356392a25e3ba4a5855d9b1e2e",
+      "status": "needs_semantic_review",
+      "geometry_errors": [
+        {
+          "line": 1,
+          "error": "các cạnh tự cắt nhau (đa giác bị xoắn)"
+        },
+        {
+          "line": 11,
+          "error": "các cạnh tự cắt nhau (đa giác bị xoắn)"
+        }
+      ],
+      "guideline_decision": {
+        "code": "rider_not_merged",
+        "reason": "Cyclist chính bị tách người/xe; một số mảnh nhãn chồng hoặc tự cắt.",
+        "sections": "3 Bicycle/Cyclist; 2.1; 2.2; 6"
+      }
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\000000533739.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\000000533739.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [],
+      "sha256": "692588010ed9ec676c823d081b9b568d249b85ebe91cce3f126a4376fd64d52e",
+      "status": "needs_semantic_review",
+      "geometry_errors": [],
+      "guideline_decision": {
+        "code": "needs_label",
+        "reason": "Thiếu nhiều Car rõ phía trước.",
+        "sections": "2.3; 3 Car"
+      }
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\bicycle10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\bicycle10.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [],
+      "sha256": "a963b062f4c8e5dc78c5bcf158f73310dc064a0d88c46e6c85d8089fa0a83fee",
+      "status": "needs_semantic_review",
+      "geometry_errors": [],
+      "guideline_decision": {
+        "code": "wrong_class_and_missing",
+        "reason": "Xe có bàn đạp và người lái đang ghi Motorcyclist 5; cần Cyclist 7, bổ sung người phía sau đủ lớn.",
+        "sections": "3 Bicycle/Cyclist; 2.3"
+      }
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\bicycle7.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\bicycle7.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [],
+      "sha256": "1ddef2869e09d74585af38fb7c0085ab4fb152f0b513a8b7353ff898e94206be",
+      "status": "imported_train",
+      "correction": "Motorcyclist 5 -> Cyclist 7: pedal bicycle with rider",
+      "destination_image": "data/images/train/extra25e5__bicycle7.jpg",
+      "destination_label": "data/labels/train/extra25e5__bicycle7.txt",
+      "geometry_errors": [],
+      "guideline_decision": {
+        "code": "accepted_after_class_fix",
+        "reason": "Xe đạp có người lái; đã sửa Motorcyclist 5 thành Cyclist 7, giữ một instance người+xe.",
+        "sections": "3 Bicycle/Cyclist"
+      }
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\bicycle8.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\bicycle8.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [],
+      "sha256": "00b6f2f3926ff03fe2a454e30af7084aa48db0cb49efa5447d7dd39b21959513",
+      "status": "needs_semantic_review",
+      "destination_image": "data/images/train/extra25e5__bicycle8.jpg",
+      "destination_label": "data/labels/train/extra25e5__bicycle8.txt",
+      "geometry_errors": [],
+      "withdrawn_from_train": true,
+      "guideline_decision": {
+        "code": "overlapping_masks",
+        "reason": "Người đang dắt xe: Pedestrian 8 và Bicycle 6 đúng lớp, nhưng hai mask chồng nhau khoảng 23.9% diện tích mask xe; cần sửa phần che khuất.",
+        "sections": "2.2; 3 Bicycle; 3 Pedestrian"
+      }
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\bicycle9.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\bicycle9.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [],
+      "sha256": "42528e8ef0157353df39543221b9c6afcdf0ab40b5cd86204660b5b880730efa",
+      "status": "needs_semantic_review",
+      "geometry_errors": [],
+      "guideline_decision": {
+        "code": "rider_state_review",
+        "reason": "Người đứng cạnh/đang dắt hoặc bước xuống xe, yên thấy trống; nhãn gộp Cyclist cần rà lại, có thể cần Pedestrian + Bicycle.",
+        "sections": "3 Bicycle/Cyclist; 4 Người bước lên/bước xuống"
+      }
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\bus11.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\bus11.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [],
+      "sha256": "1271648e25d9004fd682082e65327966111fbfa2ace9f252fc4d521437554941",
+      "status": "needs_semantic_review",
+      "destination_image": "data/images/train/extra25e5__bus11.jpg",
+      "destination_label": "data/labels/train/extra25e5__bus11.txt",
+      "geometry_errors": [],
+      "withdrawn_from_train": true,
+      "guideline_decision": {
+        "code": "needs_exposed_person_review",
+        "reason": "Có người lộ phía trên nóc bus ngoài mask; cần xác nhận tư thế/instance theo guideline trước khi coi là đủ nhãn.",
+        "sections": "2.3; 3 Pedestrian"
+      }
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\bus12.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\bus12.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [],
+      "sha256": "de2bdd618dbbbe9031935d6a3f9d07564c3c8fd07c98b6b2ed7634ac1ac44068",
+      "status": "needs_semantic_review",
+      "geometry_errors": [],
+      "guideline_decision": {
+        "code": "needs_label",
+        "reason": "Thiếu các Car đủ lớn ở hai bên bus.",
+        "sections": "2.3; 3 Car"
+      }
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\bus13.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\bus13.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [],
+      "sha256": "ecfe6f62ad4ac50fbb144f6418651f23b9c9b85bb36b99e27b55e2b4fbd66c30",
+      "status": "needs_semantic_review",
+      "geometry_errors": [],
+      "guideline_decision": {
+        "code": "needs_label",
+        "reason": "Thiếu người đứng bên trái bus; không gán tượng trên xe.",
+        "sections": "2.3; 2.7; 3 Pedestrian"
+      }
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\cvat__VisDrone_0000022_01036_d_0000006.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\cvat__VisDrone_0000022_01036_d_0000006.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\cvat__VisDrone_0000022_01036_d_0000006.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "b444df95836457c96613401bd1367095daf3c63f0fc891ba8b4a9d2211aa0ba4",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\cvat__VisDrone_0000069_02163_d_0000006.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\cvat__VisDrone_0000069_02163_d_0000006.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\cvat__VisDrone_0000069_02163_d_0000006.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "da30797c56c1b6a9a9c5d1bd02c55d594b6faeabcc0ae93659bc834a73b2824a",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\cvat__VisDrone_0000103_03349_d_0000031.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\cvat__VisDrone_0000103_03349_d_0000031.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\cvat__VisDrone_0000103_03349_d_0000031.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "5b1939e07ecfaab560d16a41f754a816dd5c3bb7a82879984b44e9fa7d9f179c",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\cvat__VisDrone_0000213_05745_d_0000247.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\cvat__VisDrone_0000213_05745_d_0000247.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\cvat__VisDrone_0000213_05745_d_0000247.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "37db904aba8332fa2a0e9e0c9726649f9c388090501e4621430708bde5b58763",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\cvat__VisDrone_0000242_00001_d_0000001.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\cvat__VisDrone_0000242_00001_d_0000001.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\cvat__VisDrone_0000242_00001_d_0000001.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "bb78e3cc3aafe91cd779aa9c52bb66d6d19ca00726b77f9e1fedc5863a1a98b1",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\cvat__VisDrone_0000291_04201_d_0000889.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\cvat__VisDrone_0000291_04201_d_0000889.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\cvat__VisDrone_0000291_04201_d_0000889.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "bd93cfa6c19bbb8befef10b0e44414edd326b6e82b6a97ab4c991d4d8a34bf8d",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\cvat__VisDrone_0000308_04401_d_0000327.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\cvat__VisDrone_0000308_04401_d_0000327.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\cvat__VisDrone_0000308_04401_d_0000327.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "ac235c38679e3bbf188dfd9160c12fbc9b7567d02d509be9977765f6706a90af",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\cvat__VisDrone_0000360_02941_d_0000728.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\cvat__VisDrone_0000360_02941_d_0000728.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\cvat__VisDrone_0000360_02941_d_0000728.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "07c3f05b6a5310f2eb2237b4205d18ba5bb4a00d3d265d70066db6d50166f8ad",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\cvat__VisDrone_0000364_01765_d_0000782.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\cvat__VisDrone_0000364_01765_d_0000782.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\cvat__VisDrone_0000364_01765_d_0000782.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "451961d5e3fd86f3778f2c59204de3f20f5601d53071f9c4da94fb02390e4c9a",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\guideline11__coco_000000109441.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\guideline11__coco_000000109441.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\guideline11__coco_000000109441.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "a6099acbb72ebec1c46e522ad26e874742446549d373c52048e0dc18ba15f5d3",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\guideline11__coco_000000133819.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\guideline11__coco_000000133819.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\guideline11__coco_000000133819.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "ddb32ae4d1057b76bbfcde96ef5b03c0df64811155bf2da75ca622f83ddc1f29",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\guideline11__coco_000000204871.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\guideline11__coco_000000204871.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\guideline11__coco_000000204871.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "f471e48c808ea689a1e3a4a1214bc03e81a95195146b0c42601dbd6eaa006c89",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\guideline11__coco_000000226417.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\guideline11__coco_000000226417.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\guideline11__coco_000000226417.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "3b9c08f91df2e02c28c663da9f5a7204768633fb278b8489330f595dd144f94d",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\guideline11__coco_000000260266.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\guideline11__coco_000000260266.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\guideline11__coco_000000260266.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "a5193e5cc5a14ee137092638d926fe3de0132243aede2e40d54aaa2a7d3d344b",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\guideline11__coco_000000289222.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\guideline11__coco_000000289222.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\guideline11__coco_000000289222.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "3a184bfd08f6a64fbaeeae674ecdd25ca524604f48640586d8831a33d6db3210",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\guideline11__coco_000000396200.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\guideline11__coco_000000396200.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\guideline11__coco_000000396200.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "492978cb3d7411c8ffe2667b13c6d3e381e646874ec7237fb3ac65dbbef58a73",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\guideline11__coco_000000453841.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\guideline11__coco_000000453841.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\guideline11__coco_000000453841.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "adf4b5c957aee8afdecd9c10efa3521026bb94e81fa37278604a6dcb45652fa2",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\guideline11__coco_000000480944.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\guideline11__coco_000000480944.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\guideline11__coco_000000480944.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "d93e279fe681bff9f79cda02129731ce9abf2596a573aed2dbb3f2c237d9c7e2",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\guideline11__coco_000000492077.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\guideline11__coco_000000492077.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\guideline11__coco_000000492077.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "16c697f38aa036da979494b579d337c41fc7a4529802372f7e7c535478b6103d",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\guideline11__coco_000000520009.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\guideline11__coco_000000520009.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\guideline11__coco_000000520009.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "54617d5196a0d66e47f083ce2ecc67c990b5415eca52302dafdc0591597d4e02",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\kitti7__000001_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\kitti7__000001_10.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000001_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "d9613b77d489b29b1c2b02277c598862b98c72d9dcde76271f5b0a3efcd1c2c3",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\kitti7__000005_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\kitti7__000005_10.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000005_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "759ec98310c7d4df80823b81463114ffc14a447312eb059e01507f76b3346c27",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\kitti7__000010_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\kitti7__000010_10.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000010_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "453e41c2e799aaf60610612f00c1921276c0e0db9ce3dbc20b94c76b788ddef9",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\kitti7__000018_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\kitti7__000018_10.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000018_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "4d093b5a5e15b8d91b739a0f880d616c5a6a29e48262c3b799296079f8c16c9b",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\kitti7__000022_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\kitti7__000022_10.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000022_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "edc91c5f8dbd57c7668d9b3d6b796252968d81fcc33748ddfd22854e2016e623",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\kitti7__000024_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\kitti7__000024_10.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000024_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "ad4739f2362f2d8c36d742d42882a84b32b10e77db86120fb7b0c4b125a23eff",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\kitti7__000025_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\kitti7__000025_10.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000025_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "11939b808c843dab1cf90d3228e5940af1c4e4fbf129a8d676433d4bec2959ce",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\kitti7__000030_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\kitti7__000030_10.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000030_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "e034bd7bfbbbc3f4ae63dd0f3f0734480eeade2a23937434c901dce262889760",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\kitti7__000031_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\kitti7__000031_10.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000031_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "58250354d9494845fc2de74674dbb9feded82455d0eb4e2f6f2a31abd397f105",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\kitti7__000032_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\kitti7__000032_10.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000032_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "156412d24a165435b8b4a58d07e5b548fadf794d2e606476bff388075e18a08f",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\kitti7__000033_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\kitti7__000033_10.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000033_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "732b019ebc994a24ed5e8aa38770d297f7cc0f151bbc2b7b6192f8f8e353940b",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\kitti7__000037_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\kitti7__000037_10.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000037_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "1e0d52e70dc4e70ab3a87828b7370e58062589bb35646ef65f683f1214423952",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\kitti7__000038_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\kitti7__000038_10.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000038_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "f6c3e1f2cfc360170605fd4b0a91c8aa22bc32a1af9463cc1663b0826f0b9faa",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\kitti7__000049_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\kitti7__000049_10.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000049_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "eeea59168fc1784091624b4399477972cd4ef3bfb71be9413bb9283f03888eba",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\kitti7__000050_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\kitti7__000050_10.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000050_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "23c19697ce1c56cf818fdcf833aa43ba103212800a98a3183a6f54f692a05665",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\kitti7__000052_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\kitti7__000052_10.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000052_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "773f6adbe82f29ac92f3d98534db4d5e1bcfe1756c774114b3dcd846b76e8ee2",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\kitti7__000056_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\kitti7__000056_10.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000056_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "3f90e16dd88d2ac625fafeee76ee934ee2a91f4a3428336864e26dc4ce9f9dea",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\kitti7__000060_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\kitti7__000060_10.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000060_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "1b2ab121358ea2e9d9679f066bd77fba5b3d09604bfa1c7ed2a7243e3e0cef72",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\kitti7__000061_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\kitti7__000061_10.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000061_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "9ae80bf8b582be49d0e823c25ebad06ce14ff97089c470a2871d5ef900d7b692",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\kitti7__000064_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\kitti7__000064_10.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000064_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "afd8fd59d388b9cc4722106bec848e46592c3d43f41386a0146f0db819085d9d",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\kitti7__000067_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\kitti7__000067_10.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000067_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "8a570eb175d38093f2d45720b5c894a1875f4041d28b5da9b352d8f57b5a230c",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\kitti7__000071_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\kitti7__000071_10.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000071_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "ae1f489d798890f7e6398de040c85f2eafd9a3656c796e6642a162f06348adf3",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\kitti7__000073_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\kitti7__000073_10.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000073_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "b5088697616c2f4ea1500ced7b388bb3c2380450651d9f8e070dca57335e4902",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\kitti7__000076_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\kitti7__000076_10.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000076_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "b09cd91056953c5ea098825b25480d1addd0159ef1381058af582ad8d3e4d579",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\kitti7__000083_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\kitti7__000083_10.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000083_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "4a916612653a5142102dbc3a6878787a7923c17ee031c7a8c1b7ee0d214efeec",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\kitti7__000089_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\kitti7__000089_10.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000089_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        },
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000092_10.jpg",
+          "split": "train",
+          "exact": false,
+          "phash": 8,
+          "dhash": 2
+        },
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000097_10.jpg",
+          "split": "train",
+          "exact": false,
+          "phash": 2,
+          "dhash": 1
+        }
+      ],
+      "sha256": "3a8e538342ac4b45256ba49792cd40531665772759f9a2cd96e9712bd2e4f806",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\kitti7__000091_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\kitti7__000091_10.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000091_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        },
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000092_10.jpg",
+          "split": "train",
+          "exact": false,
+          "phash": 4,
+          "dhash": 3
+        },
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000096_10.jpg",
+          "split": "train",
+          "exact": false,
+          "phash": 10,
+          "dhash": 2
+        },
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000097_10.jpg",
+          "split": "train",
+          "exact": false,
+          "phash": 10,
+          "dhash": 2
+        }
+      ],
+      "sha256": "4d28f4f7237ce73774d484dfa2a46c47dd92ad93c1265fc305e53471e0fb6d72",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\kitti7__000092_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\kitti7__000092_10.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000089_10.jpg",
+          "split": "train",
+          "exact": false,
+          "phash": 8,
+          "dhash": 2
+        },
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000091_10.jpg",
+          "split": "train",
+          "exact": false,
+          "phash": 4,
+          "dhash": 3
+        },
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000092_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        },
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000097_10.jpg",
+          "split": "train",
+          "exact": false,
+          "phash": 8,
+          "dhash": 1
+        }
+      ],
+      "sha256": "c74f5fb4127ad6f3ef22057a63c32260d3812c8fdc7a5db8edff2f9a9f507e99",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\kitti7__000094_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\kitti7__000094_10.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000094_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "5d6ea0b41cc3cb980f9f5d290d1cac5f6f0e0ed246df15b0fdae07e14f3ea7c3",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\kitti7__000096_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\kitti7__000096_10.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000091_10.jpg",
+          "split": "train",
+          "exact": false,
+          "phash": 10,
+          "dhash": 2
+        },
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000096_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        },
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000097_10.jpg",
+          "split": "train",
+          "exact": false,
+          "phash": 8,
+          "dhash": 2
+        }
+      ],
+      "sha256": "06f0ca8e9a8f6d1623d2a30d8d5791e6680c724f1c8300b0edb132ebe97b10a3",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\kitti7__000097_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\kitti7__000097_10.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000089_10.jpg",
+          "split": "train",
+          "exact": false,
+          "phash": 2,
+          "dhash": 1
+        },
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000091_10.jpg",
+          "split": "train",
+          "exact": false,
+          "phash": 10,
+          "dhash": 2
+        },
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000092_10.jpg",
+          "split": "train",
+          "exact": false,
+          "phash": 8,
+          "dhash": 1
+        },
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000096_10.jpg",
+          "split": "train",
+          "exact": false,
+          "phash": 8,
+          "dhash": 2
+        },
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000097_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "f2c4345a6b7eeab3fff151f3b84a1fdc3ea33dc014399565bde8bd1d6a92efb6",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\kitti7__000109_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\kitti7__000109_10.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000109_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "df5d3979370456181f673a146693ebddcd1e4627135cd2727bfe2fbc1f0faee5",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\kitti7__000131_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\kitti7__000131_10.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000131_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "731b1eeb076d96504e0012deaa58e414202c90a41ea4d349016ffe8b7f2350c6",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\kitti7__000143_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\kitti7__000143_10.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000143_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "bf90c7bc6c6de84486a37d700aa6d18c0fb739c70d047bfb564c39f59e5aa8a6",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\kitti7__000147_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\kitti7__000147_10.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000147_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "0f1b3e89c5cb480be16407068149b862f2ea282b36a0391fe8863a5cbcd2e851",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\kitti7__000149_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\kitti7__000149_10.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000149_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "6393363ca799efcda36bc6af7cf387ee78108664a2915868991ab999808d154f",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\kitti7__000150_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\kitti7__000150_10.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000150_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "91b2bbcd6b6262c14e268a52d39f77f93aa852097d12048a0955a83e8c45adcf",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\kitti7__000158_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\kitti7__000158_10.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000158_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "565e7aa553f1f0eabfdd758a36e9d48473dfacccfa34bc67ab71583743e4aea3",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\kitti7__000160_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\kitti7__000160_10.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000160_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "59794746884a8954b86556396c123268cf51c3135d5892a0e1cf588f4743c5cb",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\kitti7__000165_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\kitti7__000165_10.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000165_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "7f99583b8e14b6a01d0f204e0e8fcb91fc87f85cafc9690e89b136645f88c26e",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\kitti7__000170_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\kitti7__000170_10.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000170_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "1ee6fe540867a052daf0578ccb377033f2a619b12ecffe4969fe2701b75ac6e4",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\kitti7__000181_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\kitti7__000181_10.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000181_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "9577d8a407b4984bf6d9fe2e1a69f18da70666052c5a4f3adfc923fb6bcb61e4",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\kitti7__000183_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\kitti7__000183_10.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000183_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "93f62c3260b528e58800153f3107b4b9b6f1a0a11bff4ed3cc423f36996f0b2c",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\kitti7__000190_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\kitti7__000190_10.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000190_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "2506a18c7e2626c732a1247712452f3daff43dbb7fa6d6fb99701597999deb3a",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\kitti7__000197_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\kitti7__000197_10.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\kitti7__000197_10.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "3d34a004391c470a219f32dffac6949e4169d819bec930e838c9d2cf218ec50b",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\pending__dataset__11.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\pending__dataset__11.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\pending__dataset__11.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "cfb80fa9dff1b4cd47241360ccdf7e9c14bce00c7862a3274eba0ae81f411948",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\pending__dataset__5.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\pending__dataset__5.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\pending__dataset__5.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "fb5fe9340b1eeec3148ae92029c4f94b93696cbdef3043b1831e98910599a6c3",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\pending__dataset__7.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\pending__dataset__7.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\pending__dataset__7.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "fac8e8161703ba1d80e0e652f1ef1e82bc9bc5555dc94aa5a8335b57abd6ae9f",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\pending__xe_tho_so__img_014.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\pending__xe_tho_so__img_014.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\pending__xe_tho_so__img_014.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "571ec1c8214e87c2b4da520d25acd68d3726d667939e9351c49f51aa971f6dbb",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\truck1.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\truck1.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [],
+      "sha256": "ea863ca9e42222af2ee4fdffa78f4e2793b9f6cee7912e6a46ecf7975104ce51",
+      "status": "needs_semantic_review",
+      "geometry_errors": [],
+      "guideline_decision": {
+        "code": "tractor_trailer_review",
+        "reason": "Nhãn Truck phủ cả xe; cần kiểm tra cấu trúc xe tải liền khối hay đầu kéo/rơ-moóc. Nếu là đầu kéo phải tách Truck 2 và Other vehicle 3 trước khi nhập.",
+        "sections": "3 Truck; 3 Other vehicle; 4 Đầu kéo + container"
+      }
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\truck10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\truck10.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [],
+      "sha256": "cab656533c3bcde0f180cb7b74637d0605e7a6fd5625e76b4cc50ad9420d6032",
+      "status": "needs_semantic_review",
+      "geometry_errors": [],
+      "guideline_decision": {
+        "code": "tractor_trailer_review",
+        "reason": "Nhãn Truck phủ cả xe; cần kiểm tra cấu trúc xe tải liền khối hay đầu kéo/rơ-moóc. Nếu là đầu kéo phải tách Truck 2 và Other vehicle 3 trước khi nhập.",
+        "sections": "3 Truck; 3 Other vehicle; 4 Đầu kéo + container"
+      }
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\truck2.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\truck2.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [],
+      "sha256": "5a29d559946d4dbde330ca3da6c399df4ef2cdd562392486f102d986c730e2bc",
+      "status": "needs_semantic_review",
+      "geometry_errors": [],
+      "guideline_decision": {
+        "code": "tractor_trailer_review",
+        "reason": "Nhãn Truck phủ cả xe; cần kiểm tra cấu trúc xe tải liền khối hay đầu kéo/rơ-moóc. Nếu là đầu kéo phải tách Truck 2 và Other vehicle 3 trước khi nhập.",
+        "sections": "3 Truck; 3 Other vehicle; 4 Đầu kéo + container"
+      }
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\truck3.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\truck3.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\train\\minitraffic__truck3.jpg",
+          "split": "train",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "1ca26d1d0701acfce8a5ce8230e65dd4a2d0dc873c0685e385e85c32a78e2a56",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\truck5.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\truck5.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [],
+      "sha256": "94d8dfc0c7917126e5d5596bc4c666bc5db28ff7207bac849d56dab5ccce47a2",
+      "status": "needs_semantic_review",
+      "geometry_errors": [],
+      "guideline_decision": {
+        "code": "tractor_trailer_review",
+        "reason": "Nhãn Truck phủ cả xe; cần kiểm tra cấu trúc xe tải liền khối hay đầu kéo/rơ-moóc. Nếu là đầu kéo phải tách Truck 2 và Other vehicle 3 trước khi nhập.",
+        "sections": "3 Truck; 3 Other vehicle; 4 Đầu kéo + container"
+      }
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\truck6.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\truck6.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [],
+      "sha256": "310e75a7b44bf488d5dc22fc983f9f2b05c5713e213521b7edd57e483deed29b",
+      "status": "needs_semantic_review",
+      "geometry_errors": [],
+      "guideline_decision": {
+        "code": "tractor_trailer_review",
+        "reason": "Nhãn Truck phủ cả xe; cần kiểm tra cấu trúc xe tải liền khối hay đầu kéo/rơ-moóc. Nếu là đầu kéo phải tách Truck 2 và Other vehicle 3 trước khi nhập.",
+        "sections": "3 Truck; 3 Other vehicle; 4 Đầu kéo + container"
+      }
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\truck7.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\truck7.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [],
+      "sha256": "cd0db8283274b4ccd462c62f3369144f2e238a576c61b1522ffe3a2cb37beaf4",
+      "status": "needs_semantic_review",
+      "geometry_errors": [],
+      "guideline_decision": {
+        "code": "tractor_trailer_review",
+        "reason": "Nhãn Truck phủ cả xe; cần kiểm tra cấu trúc xe tải liền khối hay đầu kéo/rơ-moóc. Nếu là đầu kéo phải tách Truck 2 và Other vehicle 3 trước khi nhập.",
+        "sections": "3 Truck; 3 Other vehicle; 4 Đầu kéo + container"
+      }
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\truck8.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\truck8.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [],
+      "sha256": "09068515fc304680fe111fa74922b450cdb60ba21a07fa8e3332701e0b56855a",
+      "status": "needs_semantic_review",
+      "geometry_errors": [],
+      "guideline_decision": {
+        "code": "tractor_trailer_review",
+        "reason": "Nhãn Truck phủ cả xe; cần kiểm tra cấu trúc xe tải liền khối hay đầu kéo/rơ-moóc. Nếu là đầu kéo phải tách Truck 2 và Other vehicle 3 trước khi nhập.",
+        "sections": "3 Truck; 3 Other vehicle; 4 Đầu kéo + container"
+      }
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\train\\truck9.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\train\\truck9.txt",
+      "source_split": "train",
+      "has_label": true,
+      "matches": [],
+      "sha256": "3285c20f1793592242252a90ddc68fb3e1ecc86602ffc348fd5da31f603c564d",
+      "status": "needs_semantic_review",
+      "geometry_errors": [],
+      "guideline_decision": {
+        "code": "tractor_trailer_review",
+        "reason": "Nhãn Truck phủ cả xe; cần kiểm tra cấu trúc xe tải liền khối hay đầu kéo/rơ-moóc. Nếu là đầu kéo phải tách Truck 2 và Other vehicle 3 trước khi nhập.",
+        "sections": "3 Truck; 3 Other vehicle; 4 Đầu kéo + container"
+      }
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\val\\cvat__VisDrone_0000276_04401_d_0000529.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\val\\cvat__VisDrone_0000276_04401_d_0000529.txt",
+      "source_split": "val",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\val\\cvat__VisDrone_0000276_04401_d_0000529.jpg",
+          "split": "val",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "dc1d2a2a66240385cfb43bb492b434b9a555382019f0eacbd89c0f2dd79d72d8",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\val\\cvat__VisDrone_0000280_00401_d_0000614.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\val\\cvat__VisDrone_0000280_00401_d_0000614.txt",
+      "source_split": "val",
+      "has_label": false,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\val\\cvat__VisDrone_0000280_00401_d_0000614.jpg",
+          "split": "val",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "8ccd2b9e054074349516374809add04e20aab9e960dd0801965045b59e005bfb",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\val\\cvat__VisDrone_0000327_00601_d_0000714.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\val\\cvat__VisDrone_0000327_00601_d_0000714.txt",
+      "source_split": "val",
+      "has_label": false,
+      "matches": [],
+      "sha256": "39c00b56aca6a0daa913e2db4244836754455de0521a536d5146103524be226c",
+      "status": "missing_label"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\val\\cvat__VisDrone_0000335_03921_d_0000063.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\val\\cvat__VisDrone_0000335_03921_d_0000063.txt",
+      "source_split": "val",
+      "has_label": false,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\val\\cvat__VisDrone_0000335_03921_d_0000063.jpg",
+          "split": "val",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "2d4747e247c30a5ed8b310b4f35bf9947c9d642425b3b76cf004e0651669a8b4",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\val\\guideline11__coco_000000157756.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\val\\guideline11__coco_000000157756.txt",
+      "source_split": "val",
+      "has_label": false,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\val\\guideline11__coco_000000157756.jpg",
+          "split": "val",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "d46a285172f857e1bbce63263da95a0e0d632f8f118c158ecbf233f83012f913",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\val\\guideline11__coco_000000198928.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\val\\guideline11__coco_000000198928.txt",
+      "source_split": "val",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\val\\guideline11__coco_000000198928.jpg",
+          "split": "val",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "9c981890805bdd497f2524632dc68158080a0d3b2da3c134cff7f2b2c7d87217",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\val\\guideline11__coco_000000354753.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\val\\guideline11__coco_000000354753.txt",
+      "source_split": "val",
+      "has_label": false,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\val\\guideline11__coco_000000354753.jpg",
+          "split": "val",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "88961147f216d1cd45c6becdbdea7514c1664deeeb660e4fec9f961d0bd33865",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\val\\guideline11__coco_000000467511.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\val\\guideline11__coco_000000467511.txt",
+      "source_split": "val",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\val\\guideline11__coco_000000467511.jpg",
+          "split": "val",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "19b802f8dd06dcad456ef8577e8994b9192c1a1187a7f85b5b26a3d7899d9a09",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\val\\guideline11__coco_000000577932.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\val\\guideline11__coco_000000577932.txt",
+      "source_split": "val",
+      "has_label": true,
+      "matches": [],
+      "sha256": "593d4d8a69f21f4821e0bdd1d9f90e77084b31fb951090b549915a986b0633fe",
+      "status": "needs_semantic_review"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\val\\kitti7__000013_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\val\\kitti7__000013_10.txt",
+      "source_split": "val",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\val\\kitti7__000013_10.jpg",
+          "split": "val",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "c35d8339a85b4a50d00ac06508b6e08f8d43cfbaa9c7d49a492197d30cc86940",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\val\\kitti7__000028_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\val\\kitti7__000028_10.txt",
+      "source_split": "val",
+      "has_label": false,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\val\\kitti7__000028_10.jpg",
+          "split": "val",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "594d301deede41fab78da1b0ae0ac24bd066c2516ad74275a57a2ca2f5dc6373",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\val\\kitti7__000035_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\val\\kitti7__000035_10.txt",
+      "source_split": "val",
+      "has_label": false,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\val\\kitti7__000035_10.jpg",
+          "split": "val",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "fcd243463434183171b86ac00bef5fa4124344260885da0c9e2c76934e264a42",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\val\\kitti7__000065_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\val\\kitti7__000065_10.txt",
+      "source_split": "val",
+      "has_label": false,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\val\\kitti7__000065_10.jpg",
+          "split": "val",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "971d7af26ed620b29a62dc5773249611c0827b90dfeaa28baba87da6cdfc0d54",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\val\\kitti7__000074_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\val\\kitti7__000074_10.txt",
+      "source_split": "val",
+      "has_label": false,
+      "matches": [],
+      "sha256": "4bccb09033d3b7efe7cf638cd28a3f5acf1c1b5498ff0de7af5c8e7c93303e21",
+      "status": "missing_label"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\val\\kitti7__000075_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\val\\kitti7__000075_10.txt",
+      "source_split": "val",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\val\\kitti7__000075_10.jpg",
+          "split": "val",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "7959716b32edd438774d18c3be76f1dc48519ea9ad8c7c6332d93dc145750590",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\val\\kitti7__000077_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\val\\kitti7__000077_10.txt",
+      "source_split": "val",
+      "has_label": false,
+      "matches": [],
+      "sha256": "1b420ced3c99fa26a8a08560baa72a0c8fc7f75888411a936002be0cdfa18680",
+      "status": "missing_label"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\val\\kitti7__000078_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\val\\kitti7__000078_10.txt",
+      "source_split": "val",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\val\\kitti7__000078_10.jpg",
+          "split": "val",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "34dc142edfe962291ba282c13edfe2d20f25e45dac03d33931e64750e35a4389",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\val\\kitti7__000086_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\val\\kitti7__000086_10.txt",
+      "source_split": "val",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\val\\kitti7__000086_10.jpg",
+          "split": "val",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "7ceee3f4411edac6c816d05a61d1f89edf1fcdc2a6b3be8016a5bea2d8bb7c86",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\val\\kitti7__000108_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\val\\kitti7__000108_10.txt",
+      "source_split": "val",
+      "has_label": false,
+      "matches": [],
+      "sha256": "b92f0e637287cd17eef1772c9b8303c281c26414ab88b15b909666cbd0915952",
+      "status": "missing_label"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\val\\kitti7__000110_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\val\\kitti7__000110_10.txt",
+      "source_split": "val",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\val\\kitti7__000110_10.jpg",
+          "split": "val",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "bef8a96c3e2fbb901b82b7cca9586264716461ee580e72f579ef25971528ce99",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\val\\kitti7__000117_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\val\\kitti7__000117_10.txt",
+      "source_split": "val",
+      "has_label": false,
+      "matches": [],
+      "sha256": "e128d112314bf4eb7ccfaa1b6162b145232f72fb1fce6920c8d9ecae77095bfc",
+      "status": "missing_label"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\val\\kitti7__000121_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\val\\kitti7__000121_10.txt",
+      "source_split": "val",
+      "has_label": false,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\val\\kitti7__000121_10.jpg",
+          "split": "val",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "b1e5f2f19fdf11f584b28fe212a0acfa4f118b8816aeee9c5f61304eed9a6a8e",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\val\\kitti7__000136_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\val\\kitti7__000136_10.txt",
+      "source_split": "val",
+      "has_label": false,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\val\\kitti7__000136_10.jpg",
+          "split": "val",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "9873241182363c62ce6bbcb7b65672a25486f8e3eb833da9b51dd14558444b8a",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\val\\kitti7__000151_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\val\\kitti7__000151_10.txt",
+      "source_split": "val",
+      "has_label": false,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\val\\kitti7__000151_10.jpg",
+          "split": "val",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "651d9fac5da771bb6fc5553877c9489d29473a883594a1a68bb69cd73d7a7b65",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\val\\kitti7__000162_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\val\\kitti7__000162_10.txt",
+      "source_split": "val",
+      "has_label": false,
+      "matches": [],
+      "sha256": "ccac834a1572b5bf5319d4847ae42bee510f427fb095d246b04b14c42c3a32c3",
+      "status": "missing_label"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\val\\kitti7__000163_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\val\\kitti7__000163_10.txt",
+      "source_split": "val",
+      "has_label": false,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\val\\kitti7__000163_10.jpg",
+          "split": "val",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "d58debdaf5d3f7e15e8c7957631dae2ae8d61bf334566a53bb4b6324e60a0270",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\val\\kitti7__000168_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\val\\kitti7__000168_10.txt",
+      "source_split": "val",
+      "has_label": false,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\val\\kitti7__000168_10.jpg",
+          "split": "val",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "0c062332dca0b1d12214473788e361abaa2b6e5b517e4a30dc27b6cd7bc1dabf",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\val\\kitti7__000175_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\val\\kitti7__000175_10.txt",
+      "source_split": "val",
+      "has_label": false,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\val\\kitti7__000175_10.jpg",
+          "split": "val",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "a05998a8cfb480cf3bfdda2a10e33cea465d1b02a209074cce6f4e97ad508de2",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\val\\kitti7__000188_10.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\val\\kitti7__000188_10.txt",
+      "source_split": "val",
+      "has_label": false,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\val\\kitti7__000188_10.jpg",
+          "split": "val",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "490fa464c2049fe7c1c61a30918a03ecfc50675582e15805cdee560eb1d2c8b3",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\val\\pending__dataset__2.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\val\\pending__dataset__2.txt",
+      "source_split": "val",
+      "has_label": false,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\val\\pending__dataset__2.jpg",
+          "split": "val",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "a10d69253e7f26385797af4d6eca9e1d5f892249ab18c3a9af946b65d8cc6e98",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\val\\pending__xe_tho_so__img_006.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\val\\pending__xe_tho_so__img_006.txt",
+      "source_split": "val",
+      "has_label": true,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\val\\pending__xe_tho_so__img_006.jpg",
+          "split": "val",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "0d5ba9d4e419511a0d7a937eec2a2f4a2a22a095964718e75ca8600250fea203",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\val\\pending__xe_tho_so__img_008.jpg",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\val\\pending__xe_tho_so__img_008.txt",
+      "source_split": "val",
+      "has_label": false,
+      "matches": [],
+      "sha256": "0006963df478decb7a93189f896c715f329e67ca51e1e767894a7579948929cb",
+      "status": "missing_label"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\val\\vn_sign_30__zalo_4692.png",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\val\\vn_sign_30__zalo_4692.txt",
+      "source_split": "val",
+      "has_label": false,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\val\\vn_sign_30__zalo_4692.png",
+          "split": "val",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "2cbc2a7276fe51e2ace6102d7c1f6081565482213708fb266684149d4428543e",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\val\\vn_sign_30__zalo_5259.png",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\val\\vn_sign_30__zalo_5259.txt",
+      "source_split": "val",
+      "has_label": false,
+      "matches": [
+        {
+          "image": "E:\\hackathon\\hotkathanh\\data\\images\\val\\vn_sign_30__zalo_5259.png",
+          "split": "val",
+          "exact": true,
+          "phash": 0,
+          "dhash": 0
+        }
+      ],
+      "sha256": "0a12d1a4e1e41af5c5d772b8599ffea22c0f8ca7b03e181d28a41784d07eb49d",
+      "status": "duplicate_keep_existing"
+    },
+    {
+      "image": "E:\\hackathon\\extra_batch_review\\data\\images\\val\\vn_sign_30__zalo_9767.png",
+      "label": "E:\\hackathon\\extra_batch_review\\data\\labels\\val\\vn_sign_30__zalo_9767.txt",
+      "source_split": "val",
+      "has_label": false,
+      "matches": [],
+      "sha256": "fef8302ad9540c917971c4d14378c8968931b85915e6073dade6bbb9452caffb",
+      "status": "missing_label"
+    }
+  ],
+  "guideline_sha256": "12f57d5a368d3bbd572e4f23a3d9f8b9bfad1e72865646a6f3a84ecdd15702e2",
+  "ready_count": 1,
+  "pending_count": 51
+}

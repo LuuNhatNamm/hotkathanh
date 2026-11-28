@@ -2,7 +2,9 @@
 
 Đội **29 – Lưu Nhật Nam**, seed điền vào ô **`TEAM_ID = 34`**. Mọi thành viên dùng cùng seed này.
 
-Tài liệu hướng dẫn chạy bộ dữ liệu mới, kiểm tra kết quả và chuẩn bị bài nộp. Chưa có kết quả huấn luyện cho bộ 372 ảnh train tại thời điểm viết hướng dẫn.
+Tài liệu hướng dẫn chạy bộ dữ liệu mới, kiểm tra kết quả và chuẩn bị bài nộp. Chưa có kết quả huấn luyện cho bộ 383 ảnh train tại thời điểm viết hướng dẫn.
+
+> Hướng dẫn này mô tả phiên bản 383 train / 50 val. Bộ hiện tại trong repository có 384 train / 50 val sau khi bổ sung một ảnh đã rà; xem HUONG_DAN_TOI_UU_TEAM34.md để dùng bản mới nhất.
 
 ## 1. Lấy dữ liệu từ GitHub hoặc ZIP
 
@@ -34,16 +36,16 @@ Trong ô tham số, đặt `DATASET_PATH = "/content/hotkathanh/data"`, chạy l
 Nếu dùng ZIP đã đóng gói, nhận từ Nam file sau và lưu trên máy trước khi mở Colab:
 
 ```text
-hotkathanh_dataset_372train_26val_minitraffic.zip
+hotkathanh_dataset_383train_50val_traffic7.zip
 ```
 
 Trên máy Nam, file nằm tại:
 
 ```text
-E:\hackathon\hotkathanh_dataset_372train_26val_minitraffic.zip
+E:\hackathon\hotkathanh_dataset_383train_50val_traffic7.zip
 ```
 
-File khoảng **91,72 MiB**. ZIP là lựa chọn thay thế khi không clone trực tiếp. Nội dung train/val tương ứng với bộ `data/` được bàn giao trong repo.
+File khoảng **98,61 MiB**. ZIP là lựa chọn thay thế khi không clone trực tiếp. Nội dung train/val tương ứng với bộ `data/` được bàn giao trong repo.
 
 ZIP có cấu trúc:
 
@@ -61,16 +63,18 @@ Số liệu cần đối chiếu khi chạy kiểm tra:
 
 | Tập | Ảnh | File nhãn | Đối tượng |
 | --- | ---: | ---: | ---: |
-| Train | 372 | 372 | 5.338 |
-| Val | 26 | 26 | 372 |
+| Train | 383 | 383 | 5.495 |
+| Val | 50 | 50 | 641 |
 
 Những phần đã xử lý trong dữ liệu bàn giao:
+
+- Bổ sung 35 ảnh có Bus, xe máy hoặc xe đạp từ nguồn 7 lớp: 11 train và 24 val. Chi tiết tại `data_raw/sources/traffic7_local/README.md`.
 
 - Sửa 53 polygon tự cắt nhau.
 - Rà và đổi 148 ID lớp trong 10 file nhãn.
 - Loại 320 annotation trùng trong một ảnh train.
 - Bổ sung 70 ảnh Mini Traffic Detection vào train, thêm 83 đối tượng. Trong đó 57 ảnh dùng polygon nguồn đã ánh xạ lớp, 13 ảnh được bổ sung mask người lái cùng phương tiện.
-- Giữ 26 ảnh val của đội. Có sửa lớp trong nhãn val nên cần đánh giá lại khi so với mô hình cũ.
+- Giữ 26 ảnh val cũ, thêm 24 ảnh để đủ 50. Có sửa lớp trong nhãn val nên cần đánh giá lại khi so với mô hình cũ.
 
 Kiểm tra bằng notebook trên ZIP mới cho kết quả **0 polygon không hợp lệ, 0 lỗi chặn và 0 cặp ảnh trùng/gần giống giữa train và val**. Kiểm tra này xác nhận cấu trúc và hình học nhãn, chất lượng đường viền và lớp vẫn cần xem qua ảnh minh họa.
 
@@ -109,12 +113,12 @@ PATIENCE = 20
 TRAIN_IMGSZ = 640
 INSTALL_PACKAGES = True
 REQUIRE_GPU = True
-DRIVE_OUTPUT_DIR = "/content/drive/MyDrive/doi29_seed34/run_372"
+DRIVE_OUTPUT_DIR = "/content/drive/MyDrive/doi29_seed34/run_383"
 ```
 
 - Nếu đã clone theo Cách A, dùng `DATASET_PATH = "/content/hotkathanh/data"`. Nếu chọn upload ZIP, đặt `DATASET_PATH = ""` để Bước 1 hiện nút chọn file.
 - Giữ `MODEL_SIZE = "n"` theo kiến trúc YOLO26n-seg của cuộc thi.
-- Thư mục `run_372` dùng lưu kết quả lượt chạy mới. Nếu chạy thêm thí nghiệm, đổi sang thư mục riêng để giữ lại mô hình cũ.
+- Thư mục `run_383` dùng lưu kết quả lượt chạy mới. Nếu chạy thêm thí nghiệm, đổi sang thư mục riêng để giữ lại mô hình cũ.
 - `VAL_RATIO` giữ mặc định. Bộ ZIP đã chia sẵn train/val nên không cần chia lại.
 
 Chạy ô tham số sau khi chỉnh xong. Không dán đè toàn bộ ô bằng đoạn ngắn phía trên vì cuối ô còn có phần khởi tạo cần thiết.
@@ -131,16 +135,16 @@ Giữ phiên bản thư viện và cấu hình xuất mô hình của notebook. 
 ## 6. Chạy Bước 1 — Nạp dữ liệu
 
 1. Chạy ô **Bước 1**.
-2. Nếu clone repo, kiểm tra `DATASET_PATH` trỏ tới `/content/hotkathanh/data`. Nếu dùng ZIP, chọn file `hotkathanh_dataset_372train_26val_minitraffic.zip` khi được yêu cầu.
+2. Nếu clone repo, kiểm tra `DATASET_PATH` trỏ tới `/content/hotkathanh/data`. Nếu dùng ZIP, chọn file `hotkathanh_dataset_383train_50val_traffic7.zip` khi được yêu cầu.
 3. Đợi chuẩn bị dữ liệu hoàn tất.
-4. Kiểm tra notebook nhận đúng **372 ảnh train, 26 ảnh val**.
+4. Kiểm tra notebook nhận đúng **383 ảnh train, 50 ảnh val**.
 
 Đường dẫn `E:\...` là đường dẫn trên máy Windows. Colab cần file được tải lên hoặc đường dẫn Google Drive đã mount.
 
 Nếu muốn đọc ZIP từ Drive, tải ZIP vào Drive trước rồi điền đường dẫn thực tế, ví dụ:
 
 ```python
-DATASET_PATH = "/content/drive/MyDrive/hotkathanh_dataset_372train_26val_minitraffic.zip"
+DATASET_PATH = "/content/drive/MyDrive/hotkathanh_dataset_383train_50val_traffic7.zip"
 ```
 
 Sau khi đổi đường dẫn, chạy lại ô tham số và Bước 1.
@@ -155,7 +159,7 @@ Sau khi đổi đường dẫn, chạy lại ô tham số và Bước 1.
 
 Các cảnh báo về lớp hiếm, vật thể nhỏ, ảnh nhiều đối tượng hoặc ảnh gần giống trong cùng train vẫn có thể xuất hiện. Ghi lại các cảnh báo đó để xem hạn chế dữ liệu.
 
-**Điểm dừng kiểm tra:** nếu chỉ thấy 302 ảnh train, có thể đang dùng ZIP cũ. Chọn lại ZIP 372 ảnh và chạy lại từ Bước 1.
+**Điểm dừng kiểm tra:** nếu chỉ thấy 302 hoặc 372 ảnh train, có thể đang dùng ZIP cũ. Chọn lại ZIP 383 ảnh và chạy lại từ Bước 1.
 
 ## 8. Chạy Bước 3 — Huấn luyện
 
@@ -181,7 +185,7 @@ Không thêm dataset, ảnh báo cáo hoặc `best.pt` vào ZIP nộp.
 ## 10. Chạy Bước 5 — Chấm thử theo cuộc thi
 
 1. Chạy ô **Bước 5**.
-2. Đợi suy luận đủ 26 ảnh val và tính điểm.
+2. Đợi suy luận đủ 50 ảnh val và tính điểm.
 3. Ghi lại `mask mAP@[.5:.95]`, điểm `100 × mAP`, AP từng lớp và thời gian suy luận.
 4. Xem 6 ảnh lỗi nhất trong phần báo cáo, thường nằm tại `/content/work/report/loi/`.
 
@@ -211,8 +215,8 @@ Gửi các file kết quả qua thư mục dùng chung của nhóm, kèm nội d
 ```text
 Đội: 29 – Lưu Nhật Nam
 TEAM_ID: 34
-Dataset: hotkathanh_dataset_372train_26val_minitraffic.zip
-Train/val: 372/26 ảnh
+Dataset: hotkathanh_dataset_383train_50val_traffic7.zip
+Train/val: 383/50 ảnh
 Mô hình: YOLO26n-seg
 Epoch đã chạy: ...
 Batch thực tế: ...
@@ -235,7 +239,7 @@ Chưa có bằng chứng rằng thêm 70 ảnh sẽ tăng điểm bao nhiêu. Sa
 | `validate_team_id is not defined` | Chạy lại các ô thư viện trước Bước 0 |
 | `TEAM_ID` chưa hợp lệ | Sửa thành `34` và chạy lại ô tham số |
 | Không tìm thấy ZIP | Chọn lại file upload hoặc kiểm tra đúng đường dẫn Drive |
-| Chỉ nhận 302 ảnh train | Đổi sang ZIP `372train_26val_minitraffic` rồi chạy lại Bước 1–2 |
+| Chỉ nhận 302 hoặc 372 ảnh train | Đổi sang ZIP `383train_50val_traffic7` rồi chạy lại Bước 1–2 |
 | Hết bộ nhớ GPU | Giảm batch xuống 8, chạy lại ô tham số và bước train |
 | Mất biến sau khi runtime khởi động lại | Chạy lại các ô khai báo và các bước tạo dữ liệu/biến cần thiết theo thứ tự |
 | Không thấy kết quả trong Drive | Kiểm tra mount Drive, `DRIVE_OUTPUT_DIR` và thông báo sao chép ở từng bước; tải file về máy trước khi đóng runtime |
@@ -243,7 +247,7 @@ Chưa có bằng chứng rằng thêm 70 ảnh sẽ tăng điểm bao nhiêu. Sa
 ## Checklist trước khi báo hoàn thành
 
 - [ ] Dùng đúng ZIP mới và `TEAM_ID = 34`.
-- [ ] QC đủ 372 train, 26 val, không có lỗi chặn.
+- [ ] QC đủ 383 train, 50 val, không có lỗi chặn.
 - [ ] Train hoàn tất và đã giữ `best.pt`.
 - [ ] Export được `submission.zip` đúng cấu trúc.
 - [ ] Chấm Bước 5, lưu điểm và xem ảnh lỗi.

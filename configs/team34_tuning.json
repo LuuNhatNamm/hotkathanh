@@ -1,0 +1,33 @@
+{
+  "team_id": 34,
+  "architecture": "yolo26n-seg",
+  "imgsz": 640,
+  "seed": 34,
+  "profiles": [
+    {
+      "name": "default60",
+      "epochs": 60,
+      "patience": 20,
+      "optimizer": "auto"
+    },
+    {
+      "name": "mask2_100",
+      "epochs": 100,
+      "patience": 25,
+      "optimizer": "auto",
+      "mask_ratio": 2
+    },
+    {
+      "name": "mild_mask2_100",
+      "epochs": 100,
+      "patience": 25,
+      "optimizer": "auto",
+      "mask_ratio": 2,
+      "mosaic": 0.5,
+      "scale": 0.3,
+      "mixup": 0.0,
+      "copy_paste": 0.0,
+      "cos_lr": true
+    }
+  ]
+}

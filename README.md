@@ -1,5 +1,12 @@
 # Robotaxi · YOLO26n-seg
 
+## Slide thuyết trình Đội 29
+
+- [PowerPoint 14 slide](slides/Doi29_RoboTaxi_ThuyetTrinh.pptx), có lời thuyết trình trong Notes, thời lượng gợi ý 10–12 phút.
+- [Báo cáo và số liệu nguồn ngày 28/11/2026](reports/doi29_2026-11-28/TONG_HOP_THUYET_TRINH_DOI29.md).
+- Slide trình bày hai lượt run_372 và run_398 theo báo cáo, điểm public tốt nhất được ghi nhận là 49,48. Đây là các phiên bản thí nghiệm khác với bộ dữ liệu hiện tại trong `data/`.
+
+
 Mở [hướng dẫn HTML](huong-dan-robotaxi-yolo26.html) để xem sơ đồ use case và quy trình của nhóm.
 
 | Vai trò | Đường dẫn | Việc làm |
@@ -13,9 +20,11 @@ Bộ data_raw ban đầu có **346 ảnh**, chia **311 train / 35 val**, gồm 3
 
 ## Chạy tiếp phần huấn luyện của đội
 
+Bản cập nhật local sau lọc nhánh extra-batch: xem [hướng dẫn tối ưu và bộ dữ liệu mới](HUONG_DAN_TOI_UU_TEAM34.md).
+
 Đọc [hướng dẫn từng bước cho Đội 29](HUONG_DAN_TRAIN_COLAB_DOI29.md). Seed `TEAM_ID = 34`.
 
-Bộ dữ liệu dùng để chạy hiện nằm trong `data/`, gồm **372 ảnh train / 5.338 đối tượng** và **26 ảnh val / 372 đối tượng**. Đã bổ sung 70 ảnh Mini Traffic Detection vào train và cập nhật nhãn đã rà. Phần phân công bên dưới lưu lại bộ ảnh gốc của nhóm.
+Bộ dữ liệu dùng để chạy hiện nằm trong `data/`, gồm **384 ảnh train / 5.496 đối tượng** và **50 ảnh val / 641 đối tượng**. Đã bổ sung 70 ảnh Mini Traffic Detection vào train và cập nhật nhãn đã rà. Thêm 35 ảnh chọn từ bộ 7 lớp, chia 11 train / 24 val. Phần phân công bên dưới lưu lại bộ ảnh gốc của nhóm.
 
 Có thể clone repo ngay trong Colab và đặt `DATASET_PATH = "/content/hotkathanh/data"`. Hướng dẫn có sẵn ô lệnh clone, thứ tự chạy notebook, cấu hình và danh sách file cần bàn giao.
 

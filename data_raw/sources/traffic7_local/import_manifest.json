@@ -1,0 +1,1542 @@
+{
+  "source": "E:\\hackathon\\dataset\\New folder",
+  "schema": "team 11 classes",
+  "selection": {
+    "val": [
+      0,
+      32,
+      23,
+      98,
+      47,
+      49,
+      75,
+      78,
+      62,
+      97,
+      112,
+      122,
+      142,
+      154,
+      196,
+      219,
+      222,
+      244,
+      263,
+      271,
+      283,
+      297,
+      265,
+      215
+    ],
+    "train": [
+      7,
+      39,
+      57,
+      96,
+      151,
+      213,
+      11,
+      104,
+      125,
+      156,
+      158
+    ]
+  },
+  "items": [
+    {
+      "index": 0,
+      "source_split": "train",
+      "source_image": "E:\\hackathon\\dataset\\New folder\\train\\images\\000000004130.jpg",
+      "source_label": "E:\\hackathon\\dataset\\New folder\\train\\labels\\000000004130.txt",
+      "destination_split": "val",
+      "image": "images/val/traffic7__000000004130.jpg",
+      "label": "labels/val/traffic7__000000004130.txt",
+      "instances": 13,
+      "actions": [
+        {
+          "drop_too_small": 9
+        },
+        {
+          "drop_too_small": 10
+        },
+        {
+          "drop_too_small": 11
+        },
+        {
+          "drop_too_small": 12
+        },
+        {
+          "drop_too_small": 13
+        },
+        {
+          "drop_too_small": 15
+        },
+        {
+          "drop_too_small": 18
+        },
+        {
+          "drop_too_small": 19
+        }
+      ],
+      "explicit_drops": [],
+      "class_overrides": {},
+      "source_image_sha256": "5cf83533c635f8afd1c7640652f6570ed139555d85b4b9c26f6e937b1d70f10f"
+    },
+    {
+      "index": 32,
+      "source_split": "train",
+      "source_image": "E:\\hackathon\\dataset\\New folder\\train\\images\\000000098392.jpg",
+      "source_label": "E:\\hackathon\\dataset\\New folder\\train\\labels\\000000098392.txt",
+      "destination_split": "val",
+      "image": "images/val/traffic7__000000098392.jpg",
+      "label": "labels/val/traffic7__000000098392.txt",
+      "instances": 10,
+      "actions": [
+        {
+          "drop_passenger": 7,
+          "vehicle": 6
+        },
+        {
+          "drop_passenger": 9,
+          "vehicle": 6
+        },
+        {
+          "added_class": 9,
+          "points_pixels": [
+            [
+              217,
+              493
+            ],
+            [
+              232,
+              493
+            ],
+            [
+              237,
+              501
+            ],
+            [
+              236,
+              510
+            ],
+            [
+              229,
+              516
+            ],
+            [
+              218,
+              511
+            ],
+            [
+              216,
+              502
+            ]
+          ]
+        },
+        {
+          "added_class": 9,
+          "points_pixels": [
+            [
+              98,
+              539
+            ],
+            [
+              114,
+              540
+            ],
+            [
+              115,
+              550
+            ],
+            [
+              99,
+              550
+            ]
+          ]
+        }
+      ],
+      "explicit_drops": [
+        9,
+        7
+      ],
+      "class_overrides": {},
+      "source_image_sha256": "c976adf7599725c1bab7fbae692611501e7a33fb5e182c3e301f985205340ecf"
+    },
+    {
+      "index": 23,
+      "source_split": "train",
+      "source_image": "E:\\hackathon\\dataset\\New folder\\train\\images\\000000084170.jpg",
+      "source_label": "E:\\hackathon\\dataset\\New folder\\train\\labels\\000000084170.txt",
+      "destination_split": "val",
+      "image": "images/val/traffic7__000000084170.jpg",
+      "label": "labels/val/traffic7__000000084170.txt",
+      "instances": 7,
+      "actions": [
+        {
+          "drop_passenger": 4,
+          "vehicle": 2
+        },
+        {
+          "drop_passenger": 6,
+          "vehicle": 2
+        },
+        {
+          "added_class": 9,
+          "points_pixels": [
+            [
+              549,
+              77
+            ],
+            [
+              613,
+              78
+            ],
+            [
+              612,
+              144
+            ],
+            [
+              548,
+              142
+            ]
+          ]
+        },
+        {
+          "added_class": 9,
+          "points_pixels": [
+            [
+              554,
+              154
+            ],
+            [
+              596,
+              194
+            ],
+            [
+              555,
+              230
+            ],
+            [
+              518,
+              193
+            ]
+          ]
+        }
+      ],
+      "explicit_drops": [
+        4,
+        6
+      ],
+      "class_overrides": {},
+      "source_image_sha256": "74de1d85ded730e719dbf35407dc4160976d9da86f2b310f8df6bb388586afa3"
+    },
+    {
+      "index": 98,
+      "source_split": "train",
+      "source_image": "E:\\hackathon\\dataset\\New folder\\train\\images\\000000258794.jpg",
+      "source_label": "E:\\hackathon\\dataset\\New folder\\train\\labels\\000000258794.txt",
+      "destination_split": "val",
+      "image": "images/val/traffic7__000000258794.jpg",
+      "label": "labels/val/traffic7__000000258794.txt",
+      "instances": 12,
+      "actions": [
+        {
+          "drop_passenger": 8,
+          "vehicle": 2
+        },
+        {
+          "drop_passenger": 9,
+          "vehicle": 3
+        },
+        {
+          "drop_passenger": 14,
+          "vehicle": 2
+        },
+        {
+          "drop_too_small": 12
+        }
+      ],
+      "explicit_drops": [
+        8,
+        9,
+        14
+      ],
+      "class_overrides": {},
+      "source_image_sha256": "427c86a36ea411d82360d21b2d639724f2cf169993548c177d78fe72aa950b3d"
+    },
+    {
+      "index": 47,
+      "source_split": "train",
+      "source_image": "E:\\hackathon\\dataset\\New folder\\train\\images\\000000137826.jpg",
+      "source_label": "E:\\hackathon\\dataset\\New folder\\train\\labels\\000000137826.txt",
+      "destination_split": "val",
+      "image": "images/val/traffic7__000000137826.jpg",
+      "label": "labels/val/traffic7__000000137826.txt",
+      "instances": 12,
+      "actions": [
+        {
+          "drop_passenger": 5,
+          "vehicle": 2
+        },
+        {
+          "drop_passenger": 6,
+          "vehicle": 2
+        },
+        {
+          "drop_passenger": 11,
+          "vehicle": 2
+        },
+        {
+          "drop_passenger": 12,
+          "vehicle": 2
+        },
+        {
+          "drop_passenger": 13,
+          "vehicle": 2
+        },
+        {
+          "drop_passenger": 17,
+          "vehicle": 2
+        },
+        {
+          "added_class": 10,
+          "points_pixels": [
+            [
+              620,
+              0
+            ],
+            [
+              639,
+              0
+            ],
+            [
+              639,
+              43
+            ],
+            [
+              630,
+              43
+            ],
+            [
+              628,
+              24
+            ],
+            [
+              620,
+              22
+            ]
+          ]
+        },
+        {
+          "drop_too_small": 15
+        }
+      ],
+      "explicit_drops": [
+        5,
+        6,
+        11,
+        12,
+        13,
+        17
+      ],
+      "class_overrides": {},
+      "source_image_sha256": "e06584fc801c506550aa06202918d68d30d8c6c783858a715f9d5bce13a5c825"
+    },
+    {
+      "index": 49,
+      "source_split": "train",
+      "source_image": "E:\\hackathon\\dataset\\New folder\\train\\images\\000000138979.jpg",
+      "source_label": "E:\\hackathon\\dataset\\New folder\\train\\labels\\000000138979.txt",
+      "destination_split": "val",
+      "image": "images/val/traffic7__000000138979.jpg",
+      "label": "labels/val/traffic7__000000138979.txt",
+      "instances": 4,
+      "actions": [
+        {
+          "drop_passenger": 2,
+          "vehicle": 1
+        },
+        {
+          "drop_passenger": 5,
+          "vehicle": 1
+        },
+        {
+          "drop_passenger": 6,
+          "vehicle": 1
+        }
+      ],
+      "explicit_drops": [
+        2,
+        5,
+        6
+      ],
+      "class_overrides": {},
+      "source_image_sha256": "1422f5ad941613d3a62795c276abda2ed3b45972d0fc84d9df5a1a715338131e"
+    },
+    {
+      "index": 75,
+      "source_split": "train",
+      "source_image": "E:\\hackathon\\dataset\\New folder\\train\\images\\000000192114.jpg",
+      "source_label": "E:\\hackathon\\dataset\\New folder\\train\\labels\\000000192114.txt",
+      "destination_split": "val",
+      "image": "images/val/traffic7__000000192114.jpg",
+      "label": "labels/val/traffic7__000000192114.txt",
+      "instances": 15,
+      "actions": [
+        {
+          "merge": [
+            0,
+            2
+          ],
+          "class": 4
+        }
+      ],
+      "explicit_drops": [],
+      "class_overrides": {},
+      "source_image_sha256": "a8cf3a84cd3e27c00aa76a1c426b175b54d434ad6daeacf0cd16734daa27a861"
+    },
+    {
+      "index": 78,
+      "source_split": "train",
+      "source_image": "E:\\hackathon\\dataset\\New folder\\train\\images\\000000202339.jpg",
+      "source_label": "E:\\hackathon\\dataset\\New folder\\train\\labels\\000000202339.txt",
+      "destination_split": "val",
+      "image": "images/val/traffic7__000000202339.jpg",
+      "label": "labels/val/traffic7__000000202339.txt",
+      "instances": 4,
+      "actions": [],
+      "explicit_drops": [],
+      "class_overrides": {},
+      "source_image_sha256": "9b1d63dff953ffb99953a9c7073ba01772810928f3b22a205b267f9ae0fa7ed5"
+    },
+    {
+      "index": 62,
+      "source_split": "train",
+      "source_image": "E:\\hackathon\\dataset\\New folder\\train\\images\\000000165347.jpg",
+      "source_label": "E:\\hackathon\\dataset\\New folder\\train\\labels\\000000165347.txt",
+      "destination_split": "val",
+      "image": "images/val/traffic7__000000165347.jpg",
+      "label": "labels/val/traffic7__000000165347.txt",
+      "instances": 21,
+      "actions": [
+        {
+          "drop_passenger": 4,
+          "vehicle": 0
+        },
+        {
+          "drop_passenger": 14,
+          "vehicle": 0
+        },
+        {
+          "drop_too_small": 11
+        }
+      ],
+      "explicit_drops": [
+        4,
+        14
+      ],
+      "class_overrides": {},
+      "source_image_sha256": "0d9ff3a9e2313b26c534699054c7218aa45a0cd1b930dedcb7f97233dc72ef5a"
+    },
+    {
+      "index": 97,
+      "source_split": "train",
+      "source_image": "E:\\hackathon\\dataset\\New folder\\train\\images\\000000256906.jpg",
+      "source_label": "E:\\hackathon\\dataset\\New folder\\train\\labels\\000000256906.txt",
+      "destination_split": "val",
+      "image": "images/val/traffic7__000000256906.jpg",
+      "label": "labels/val/traffic7__000000256906.txt",
+      "instances": 13,
+      "actions": [
+        {
+          "drop_passenger": 10,
+          "vehicle": 0
+        },
+        {
+          "drop_too_small": 7
+        },
+        {
+          "drop_too_small": 8
+        },
+        {
+          "drop_too_small": 11
+        },
+        {
+          "drop_too_small": 13
+        }
+      ],
+      "explicit_drops": [
+        10
+      ],
+      "class_overrides": {},
+      "source_image_sha256": "716a5fd833f01d1ed78ea81f1d848e3bb73e71cb41692a7b0f3fa8da01e2efbc"
+    },
+    {
+      "index": 112,
+      "source_split": "train",
+      "source_image": "E:\\hackathon\\dataset\\New folder\\train\\images\\000000284725.jpg",
+      "source_label": "E:\\hackathon\\dataset\\New folder\\train\\labels\\000000284725.txt",
+      "destination_split": "val",
+      "image": "images/val/traffic7__000000284725.jpg",
+      "label": "labels/val/traffic7__000000284725.txt",
+      "instances": 9,
+      "actions": [
+        {
+          "drop_passenger": 8,
+          "vehicle": 4
+        },
+        {
+          "drop_passenger": 10,
+          "vehicle": 4
+        },
+        {
+          "drop_passenger": 11,
+          "vehicle": 4
+        },
+        {
+          "drop_too_small": 9
+        }
+      ],
+      "explicit_drops": [
+        8,
+        10,
+        11
+      ],
+      "class_overrides": {},
+      "source_image_sha256": "10ab8075df3cd9e3344d12fbb764a3c977e809bd06726649b686dd68abcbdf07"
+    },
+    {
+      "index": 122,
+      "source_split": "train",
+      "source_image": "E:\\hackathon\\dataset\\New folder\\train\\images\\000000320482.jpg",
+      "source_label": "E:\\hackathon\\dataset\\New folder\\train\\labels\\000000320482.txt",
+      "destination_split": "val",
+      "image": "images/val/traffic7__000000320482.jpg",
+      "label": "labels/val/traffic7__000000320482.txt",
+      "instances": 17,
+      "actions": [],
+      "explicit_drops": [],
+      "class_overrides": {},
+      "source_image_sha256": "cdaf252fe1ad5bb3150edadf94909eb7146bab1bcb4e4208e9dfa55ad0a041f2"
+    },
+    {
+      "index": 142,
+      "source_split": "train",
+      "source_image": "E:\\hackathon\\dataset\\New folder\\train\\images\\000000362682.jpg",
+      "source_label": "E:\\hackathon\\dataset\\New folder\\train\\labels\\000000362682.txt",
+      "destination_split": "val",
+      "image": "images/val/traffic7__000000362682.jpg",
+      "label": "labels/val/traffic7__000000362682.txt",
+      "instances": 3,
+      "actions": [
+        {
+          "drop_passenger": 1,
+          "vehicle": 0
+        },
+        {
+          "drop_passenger": 4,
+          "vehicle": 2
+        }
+      ],
+      "explicit_drops": [
+        1,
+        4
+      ],
+      "class_overrides": {},
+      "source_image_sha256": "840ceaeff4c9d12ebbf3820ef38426091e6a28782ec6cceea9f265cf8cfb2651"
+    },
+    {
+      "index": 154,
+      "source_split": "train",
+      "source_image": "E:\\hackathon\\dataset\\New folder\\train\\images\\000000392722.jpg",
+      "source_label": "E:\\hackathon\\dataset\\New folder\\train\\labels\\000000392722.txt",
+      "destination_split": "val",
+      "image": "images/val/traffic7__000000392722.jpg",
+      "label": "labels/val/traffic7__000000392722.txt",
+      "instances": 12,
+      "actions": [
+        {
+          "drop_passenger": 12,
+          "vehicle": 6
+        }
+      ],
+      "explicit_drops": [
+        12
+      ],
+      "class_overrides": {},
+      "source_image_sha256": "137bbeb12ff0d4152279be001c8c5e59b03e2aac88a939db1a3667fd4aac72c6"
+    },
+    {
+      "index": 196,
+      "source_split": "train",
+      "source_image": "E:\\hackathon\\dataset\\New folder\\train\\images\\000000495919.jpg",
+      "source_label": "E:\\hackathon\\dataset\\New folder\\train\\labels\\000000495919.txt",
+      "destination_split": "val",
+      "image": "images/val/traffic7__000000495919.jpg",
+      "label": "labels/val/traffic7__000000495919.txt",
+      "instances": 12,
+      "actions": [
+        {
+          "drop_too_small": 3
+        },
+        {
+          "drop_too_small": 9
+        },
+        {
+          "drop_too_small": 11
+        },
+        {
+          "drop_too_small": 15
+        }
+      ],
+      "explicit_drops": [],
+      "class_overrides": {
+        "11": 1
+      },
+      "source_image_sha256": "183446bd562c9c746e947614542f77a4fc92937e9ecd6b161d219f4fb96842e4"
+    },
+    {
+      "index": 219,
+      "source_split": "train",
+      "source_image": "E:\\hackathon\\dataset\\New folder\\train\\images\\000000531036.jpg",
+      "source_label": "E:\\hackathon\\dataset\\New folder\\train\\labels\\000000531036.txt",
+      "destination_split": "val",
+      "image": "images/val/traffic7__000000531036.jpg",
+      "label": "labels/val/traffic7__000000531036.txt",
+      "instances": 3,
+      "actions": [],
+      "explicit_drops": [],
+      "class_overrides": {},
+      "source_image_sha256": "79be9c405b3ce4d2eea61fc29b0e1e633504fbeebee6483d64dfb38b1dd844a5"
+    },
+    {
+      "index": 222,
+      "source_split": "train",
+      "source_image": "E:\\hackathon\\dataset\\New folder\\train\\images\\000000534673.jpg",
+      "source_label": "E:\\hackathon\\dataset\\New folder\\train\\labels\\000000534673.txt",
+      "destination_split": "val",
+      "image": "images/val/traffic7__000000534673.jpg",
+      "label": "labels/val/traffic7__000000534673.txt",
+      "instances": 2,
+      "actions": [
+        {
+          "drop_passenger": 1,
+          "vehicle": 0
+        }
+      ],
+      "explicit_drops": [
+        1
+      ],
+      "class_overrides": {},
+      "source_image_sha256": "e3596c112886930b23b8e698ad5f637a1fe7522f45acc7f7a927b4a7e294757a"
+    },
+    {
+      "index": 244,
+      "source_split": "valid",
+      "source_image": "E:\\hackathon\\dataset\\New folder\\valid\\images\\000000060610.jpg",
+      "source_label": "E:\\hackathon\\dataset\\New folder\\valid\\labels\\000000060610.txt",
+      "destination_split": "val",
+      "image": "images/val/traffic7__000000060610.jpg",
+      "label": "labels/val/traffic7__000000060610.txt",
+      "instances": 9,
+      "actions": [
+        {
+          "drop_passenger": 3,
+          "vehicle": 2
+        },
+        {
+          "drop_passenger": 5,
+          "vehicle": 2
+        },
+        {
+          "drop_passenger": 6,
+          "vehicle": 2
+        },
+        {
+          "drop_passenger": 9,
+          "vehicle": 2
+        },
+        {
+          "drop_passenger": 10,
+          "vehicle": 2
+        },
+        {
+          "drop_passenger": 11,
+          "vehicle": 2
+        },
+        {
+          "drop_passenger": 15,
+          "vehicle": 2
+        },
+        {
+          "drop_passenger": 16,
+          "vehicle": 2
+        },
+        {
+          "drop_passenger": 17,
+          "vehicle": 2
+        }
+      ],
+      "explicit_drops": [
+        3,
+        5,
+        6,
+        9,
+        10,
+        11,
+        15,
+        16,
+        17
+      ],
+      "class_overrides": {},
+      "source_image_sha256": "b2dc80d9b14616c296e1c87fffe5ff96cb4aa362397a04236be957b7f425caff"
+    },
+    {
+      "index": 263,
+      "source_split": "valid",
+      "source_image": "E:\\hackathon\\dataset\\New folder\\valid\\images\\000000267022.jpg",
+      "source_label": "E:\\hackathon\\dataset\\New folder\\valid\\labels\\000000267022.txt",
+      "destination_split": "val",
+      "image": "images/val/traffic7__000000267022.jpg",
+      "label": "labels/val/traffic7__000000267022.txt",
+      "instances": 16,
+      "actions": [
+        {
+          "merge": [
+            1,
+            19
+          ],
+          "class": 6
+        },
+        {
+          "drop_too_small": 8
+        },
+        {
+          "drop_too_small": 9
+        },
+        {
+          "drop_too_small": 15
+        },
+        {
+          "drop_too_small": 18
+        },
+        {
+          "drop_too_small": 20
+        }
+      ],
+      "explicit_drops": [
+        23,
+        6,
+        7
+      ],
+      "class_overrides": {},
+      "source_image_sha256": "012b67bd768338d85d2019ba2de9010d80fe5ec6d1e47ba1cdc0a82eeae69465"
+    },
+    {
+      "index": 271,
+      "source_split": "valid",
+      "source_image": "E:\\hackathon\\dataset\\New folder\\valid\\images\\000000362722.jpg",
+      "source_label": "E:\\hackathon\\dataset\\New folder\\valid\\labels\\000000362722.txt",
+      "destination_split": "val",
+      "image": "images/val/traffic7__000000362722.jpg",
+      "label": "labels/val/traffic7__000000362722.txt",
+      "instances": 16,
+      "actions": [
+        {
+          "drop_passenger": 1,
+          "vehicle": 0
+        },
+        {
+          "drop_passenger": 2,
+          "vehicle": 0
+        },
+        {
+          "drop_passenger": 3,
+          "vehicle": 0
+        },
+        {
+          "drop_passenger": 9,
+          "vehicle": 0
+        },
+        {
+          "drop_passenger": 10,
+          "vehicle": 0
+        },
+        {
+          "drop_passenger": 11,
+          "vehicle": 0
+        },
+        {
+          "drop_passenger": 20,
+          "vehicle": 0
+        },
+        {
+          "drop_passenger": 21,
+          "vehicle": 0
+        },
+        {
+          "added_class": 9,
+          "points_pixels": [
+            [
+              8,
+              142
+            ],
+            [
+              43,
+              140
+            ],
+            [
+              45,
+              154
+            ],
+            [
+              10,
+              159
+            ]
+          ]
+        },
+        {
+          "added_class": 9,
+          "points_pixels": [
+            [
+              358,
+              119
+            ],
+            [
+              374,
+              119
+            ],
+            [
+              376,
+              140
+            ],
+            [
+              358,
+              141
+            ]
+          ]
+        }
+      ],
+      "explicit_drops": [
+        1,
+        2,
+        3,
+        9,
+        10,
+        11,
+        20,
+        21
+      ],
+      "class_overrides": {},
+      "source_image_sha256": "998480e49820df9db65bf2bfeec0f9be557234956f7d31dd77a481638dcaba2d"
+    },
+    {
+      "index": 283,
+      "source_split": "valid",
+      "source_image": "E:\\hackathon\\dataset\\New folder\\valid\\images\\000000485887.jpg",
+      "source_label": "E:\\hackathon\\dataset\\New folder\\valid\\labels\\000000485887.txt",
+      "destination_split": "val",
+      "image": "images/val/traffic7__000000485887.jpg",
+      "label": "labels/val/traffic7__000000485887.txt",
+      "instances": 13,
+      "actions": [
+        {
+          "drop_passenger": 9,
+          "vehicle": 4
+        },
+        {
+          "drop_passenger": 12,
+          "vehicle": 6
+        },
+        {
+          "drop_too_small": 10
+        }
+      ],
+      "explicit_drops": [
+        9,
+        12
+      ],
+      "class_overrides": {},
+      "source_image_sha256": "46e71b40e9c936d24940ba1c3561bf36cbe2ecd6a2f1c115cc455f951655348b"
+    },
+    {
+      "index": 297,
+      "source_split": "valid",
+      "source_image": "E:\\hackathon\\dataset\\New folder\\valid\\images\\000000563734.jpg",
+      "source_label": "E:\\hackathon\\dataset\\New folder\\valid\\labels\\000000563734.txt",
+      "destination_split": "val",
+      "image": "images/val/traffic7__000000563734.jpg",
+      "label": "labels/val/traffic7__000000563734.txt",
+      "instances": 17,
+      "actions": [],
+      "explicit_drops": [],
+      "class_overrides": {},
+      "source_image_sha256": "df3cee336d965ca249b5e4acd9618d0e2d0e267267222408b6565bb331a5fb23"
+    },
+    {
+      "index": 265,
+      "source_split": "valid",
+      "source_image": "E:\\hackathon\\dataset\\New folder\\valid\\images\\000000295403.jpg",
+      "source_label": "E:\\hackathon\\dataset\\New folder\\valid\\labels\\000000295403.txt",
+      "destination_split": "val",
+      "image": "images/val/traffic7__000000295403.jpg",
+      "label": "labels/val/traffic7__000000295403.txt",
+      "instances": 17,
+      "actions": [
+        {
+          "merge": [
+            0,
+            6,
+            3
+          ],
+          "class": 7
+        },
+        {
+          "merge": [
+            4,
+            5,
+            9
+          ],
+          "class": 6
+        },
+        {
+          "drop_too_small": 15
+        }
+      ],
+      "explicit_drops": [],
+      "class_overrides": {
+        "14": 1
+      },
+      "source_image_sha256": "f69a98aed2170bdc00b7f8b6ff940b713cf3ddb225bae5db9d95313deaa2b482"
+    },
+    {
+      "index": 215,
+      "source_split": "train",
+      "source_image": "E:\\hackathon\\dataset\\New folder\\train\\images\\000000525567.jpg",
+      "source_label": "E:\\hackathon\\dataset\\New folder\\train\\labels\\000000525567.txt",
+      "destination_split": "val",
+      "image": "images/val/traffic7__000000525567.jpg",
+      "label": "labels/val/traffic7__000000525567.txt",
+      "instances": 12,
+      "actions": [
+        {
+          "merge": [
+            10,
+            3
+          ],
+          "class": 7
+        },
+        {
+          "added_class": 9,
+          "points_pixels": [
+            [
+              15,
+              28
+            ],
+            [
+              73,
+              30
+            ],
+            [
+              73,
+              41
+            ],
+            [
+              15,
+              40
+            ]
+          ]
+        },
+        {
+          "added_class": 9,
+          "points_pixels": [
+            [
+              498,
+              116
+            ],
+            [
+              509,
+              126
+            ],
+            [
+              499,
+              138
+            ],
+            [
+              489,
+              126
+            ]
+          ]
+        },
+        {
+          "added_class": 9,
+          "points_pixels": [
+            [
+              495,
+              139
+            ],
+            [
+              502,
+              140
+            ],
+            [
+              502,
+              154
+            ],
+            [
+              495,
+              154
+            ]
+          ]
+        },
+        {
+          "added_class": 9,
+          "points_pixels": [
+            [
+              496,
+              161
+            ],
+            [
+              502,
+              161
+            ],
+            [
+              502,
+              181
+            ],
+            [
+              496,
+              181
+            ]
+          ]
+        },
+        {
+          "drop_too_small": 7
+        },
+        {
+          "drop_too_small": 8
+        },
+        {
+          "drop_too_small": 12
+        },
+        {
+          "drop_too_small": 13
+        },
+        {
+          "drop_too_small": "added"
+        },
+        {
+          "drop_too_small": "added"
+        }
+      ],
+      "explicit_drops": [],
+      "class_overrides": {},
+      "source_image_sha256": "c9ce08ef9e07873aa0fd043a957d1b25e94731cc76ede13d2d6eaae06cd159ab"
+    },
+    {
+      "index": 7,
+      "source_split": "train",
+      "source_image": "E:\\hackathon\\dataset\\New folder\\train\\images\\000000014388.jpg",
+      "source_label": "E:\\hackathon\\dataset\\New folder\\train\\labels\\000000014388.txt",
+      "destination_split": "train",
+      "image": "images/train/traffic7__000000014388.jpg",
+      "label": "labels/train/traffic7__000000014388.txt",
+      "instances": 10,
+      "actions": [
+        {
+          "merge": [
+            3,
+            5
+          ],
+          "class": 5
+        },
+        {
+          "merge": [
+            12,
+            4
+          ],
+          "class": 5
+        },
+        {
+          "drop_too_small": 9
+        },
+        {
+          "drop_too_small": 10
+        },
+        {
+          "drop_too_small": 14
+        },
+        {
+          "drop_too_small": 15
+        }
+      ],
+      "explicit_drops": [],
+      "class_overrides": {},
+      "source_image_sha256": "ac9799d411dca4018e4d0efad5d416b3b194be6a41b952c26125126576cd9133"
+    },
+    {
+      "index": 39,
+      "source_split": "train",
+      "source_image": "E:\\hackathon\\dataset\\New folder\\train\\images\\000000113521.jpg",
+      "source_label": "E:\\hackathon\\dataset\\New folder\\train\\labels\\000000113521.txt",
+      "destination_split": "train",
+      "image": "images/train/traffic7__000000113521.jpg",
+      "label": "labels/train/traffic7__000000113521.txt",
+      "instances": 11,
+      "actions": [
+        {
+          "merge": [
+            10,
+            1
+          ],
+          "class": 7
+        },
+        {
+          "merge": [
+            11,
+            2
+          ],
+          "class": 7
+        },
+        {
+          "merge": [
+            7,
+            3
+          ],
+          "class": 7
+        },
+        {
+          "merge": [
+            6,
+            9
+          ],
+          "class": 7
+        },
+        {
+          "merge": [
+            12,
+            15
+          ],
+          "class": 5
+        }
+      ],
+      "explicit_drops": [],
+      "class_overrides": {},
+      "source_image_sha256": "d9d678a8ffdda700b70dfbb06a61ccb973b4a096863c6df134eec77c80fb8501"
+    },
+    {
+      "index": 57,
+      "source_split": "train",
+      "source_image": "E:\\hackathon\\dataset\\New folder\\train\\images\\000000148437.jpg",
+      "source_label": "E:\\hackathon\\dataset\\New folder\\train\\labels\\000000148437.txt",
+      "destination_split": "train",
+      "image": "images/train/traffic7__000000148437.jpg",
+      "label": "labels/train/traffic7__000000148437.txt",
+      "instances": 17,
+      "actions": [
+        {
+          "merge": [
+            0,
+            1
+          ],
+          "class": 5
+        },
+        {
+          "added_class": 9,
+          "points_pixels": [
+            [
+              609,
+              167
+            ],
+            [
+              630,
+              167
+            ],
+            [
+              630,
+              191
+            ],
+            [
+              610,
+              191
+            ]
+          ]
+        }
+      ],
+      "explicit_drops": [],
+      "class_overrides": {},
+      "source_image_sha256": "06f05f360c077e489467803d32334f809663cbcad5801f0a9be796ae56bac936"
+    },
+    {
+      "index": 96,
+      "source_split": "train",
+      "source_image": "E:\\hackathon\\dataset\\New folder\\train\\images\\000000253964.jpg",
+      "source_label": "E:\\hackathon\\dataset\\New folder\\train\\labels\\000000253964.txt",
+      "destination_split": "train",
+      "image": "images/train/traffic7__000000253964.jpg",
+      "label": "labels/train/traffic7__000000253964.txt",
+      "instances": 11,
+      "actions": [
+        {
+          "merge": [
+            0,
+            13,
+            20
+          ],
+          "class": 5
+        },
+        {
+          "merge": [
+            14,
+            12
+          ],
+          "class": 5
+        },
+        {
+          "merge": [
+            1,
+            2
+          ],
+          "class": 5
+        },
+        {
+          "merge": [
+            11,
+            3
+          ],
+          "class": 5
+        },
+        {
+          "merge": [
+            15,
+            4
+          ],
+          "class": 5
+        },
+        {
+          "merge": [
+            16,
+            8
+          ],
+          "class": 5
+        },
+        {
+          "merge": [
+            17,
+            9
+          ],
+          "class": 5
+        },
+        {
+          "drop_too_small": 10
+        },
+        {
+          "drop_too_small": [
+            17,
+            9
+          ]
+        }
+      ],
+      "explicit_drops": [],
+      "class_overrides": {},
+      "source_image_sha256": "02b64a71b4aae277fffb7c8bddf351bdf6b1b95cdb9f75317dde5d199600ec36"
+    },
+    {
+      "index": 151,
+      "source_split": "train",
+      "source_image": "E:\\hackathon\\dataset\\New folder\\train\\images\\000000386341.jpg",
+      "source_label": "E:\\hackathon\\dataset\\New folder\\train\\labels\\000000386341.txt",
+      "destination_split": "train",
+      "image": "images/train/traffic7__000000386341.jpg",
+      "label": "labels/train/traffic7__000000386341.txt",
+      "instances": 10,
+      "actions": [
+        {
+          "merge": [
+            0,
+            8
+          ],
+          "class": 7
+        },
+        {
+          "merge": [
+            1,
+            5
+          ],
+          "class": 7
+        },
+        {
+          "drop_too_small": 6
+        },
+        {
+          "drop_too_small": 9
+        },
+        {
+          "drop_too_small": 11
+        },
+        {
+          "drop_too_small": 14
+        },
+        {
+          "drop_too_small": 15
+        },
+        {
+          "drop_too_small": 17
+        }
+      ],
+      "explicit_drops": [],
+      "class_overrides": {},
+      "source_image_sha256": "f478333f964bf6df1761ca9cc6ffe12b202ade5c73c070c8e18c3315675a44b2"
+    },
+    {
+      "index": 213,
+      "source_split": "train",
+      "source_image": "E:\\hackathon\\dataset\\New folder\\train\\images\\000000522119.jpg",
+      "source_label": "E:\\hackathon\\dataset\\New folder\\train\\labels\\000000522119.txt",
+      "destination_split": "train",
+      "image": "images/train/traffic7__000000522119.jpg",
+      "label": "labels/train/traffic7__000000522119.txt",
+      "instances": 15,
+      "actions": [
+        {
+          "drop_passenger": 10,
+          "vehicle": 2
+        },
+        {
+          "drop_passenger": 15,
+          "vehicle": 2
+        },
+        {
+          "drop_passenger": 16,
+          "vehicle": 2
+        }
+      ],
+      "explicit_drops": [
+        16,
+        10,
+        15
+      ],
+      "class_overrides": {},
+      "source_image_sha256": "7056b4f7143a3328bc65c386defecc5c46d9e9c7551bee9da69c2e529ecca8ff"
+    },
+    {
+      "index": 11,
+      "source_split": "train",
+      "source_image": "E:\\hackathon\\dataset\\New folder\\train\\images\\000000023821.jpg",
+      "source_label": "E:\\hackathon\\dataset\\New folder\\train\\labels\\000000023821.txt",
+      "destination_split": "train",
+      "image": "images/train/traffic7__000000023821.jpg",
+      "label": "labels/train/traffic7__000000023821.txt",
+      "instances": 16,
+      "actions": [
+        {
+          "drop_too_small": 4
+        },
+        {
+          "drop_too_small": 6
+        },
+        {
+          "drop_too_small": 8
+        }
+      ],
+      "explicit_drops": [],
+      "class_overrides": {},
+      "source_image_sha256": "7c9f265c062afb718d1f2c4df9ced13d4f5e5cdc8cf689b807ef4469bb6c87a9"
+    },
+    {
+      "index": 104,
+      "source_split": "train",
+      "source_image": "E:\\hackathon\\dataset\\New folder\\train\\images\\000000276009.jpg",
+      "source_label": "E:\\hackathon\\dataset\\New folder\\train\\labels\\000000276009.txt",
+      "destination_split": "train",
+      "image": "images/train/traffic7__000000276009.jpg",
+      "label": "labels/train/traffic7__000000276009.txt",
+      "instances": 15,
+      "actions": [
+        {
+          "added_class": 9,
+          "points_pixels": [
+            [
+              460,
+              56
+            ],
+            [
+              472,
+              55
+            ],
+            [
+              473,
+              75
+            ],
+            [
+              460,
+              76
+            ]
+          ]
+        },
+        {
+          "added_class": 9,
+          "points_pixels": [
+            [
+              451,
+              79
+            ],
+            [
+              471,
+              78
+            ],
+            [
+              470,
+              93
+            ],
+            [
+              451,
+              94
+            ]
+          ]
+        },
+        {
+          "drop_too_small": 7
+        },
+        {
+          "drop_too_small": 12
+        },
+        {
+          "drop_too_small": 14
+        },
+        {
+          "drop_too_small": 15
+        },
+        {
+          "drop_too_small": 16
+        },
+        {
+          "drop_too_small": 17
+        },
+        {
+          "drop_too_small": 18
+        }
+      ],
+      "explicit_drops": [],
+      "class_overrides": {
+        "8": 3,
+        "9": 3,
+        "10": 0
+      },
+      "source_image_sha256": "46a7bbe28906e3e3ecab2125ecad5195c36bd23013eff9bb58288f2d53b5288e"
+    },
+    {
+      "index": 125,
+      "source_split": "train",
+      "source_image": "E:\\hackathon\\dataset\\New folder\\train\\images\\000000325418.jpg",
+      "source_label": "E:\\hackathon\\dataset\\New folder\\train\\labels\\000000325418.txt",
+      "destination_split": "train",
+      "image": "images/train/traffic7__000000325418.jpg",
+      "label": "labels/train/traffic7__000000325418.txt",
+      "instances": 18,
+      "actions": [
+        {
+          "drop_too_small": 6
+        },
+        {
+          "drop_too_small": 7
+        },
+        {
+          "drop_too_small": 19
+        }
+      ],
+      "explicit_drops": [],
+      "class_overrides": {},
+      "source_image_sha256": "bd7ffd535ae91f910ec28b348cf2d11e828c4a93da4b0950732435fc547b74ee"
+    },
+    {
+      "index": 156,
+      "source_split": "train",
+      "source_image": "E:\\hackathon\\dataset\\New folder\\train\\images\\000000394527.jpg",
+      "source_label": "E:\\hackathon\\dataset\\New folder\\train\\labels\\000000394527.txt",
+      "destination_split": "train",
+      "image": "images/train/traffic7__000000394527.jpg",
+      "label": "labels/train/traffic7__000000394527.txt",
+      "instances": 15,
+      "actions": [
+        {
+          "drop_too_small": 15
+        }
+      ],
+      "explicit_drops": [
+        14
+      ],
+      "class_overrides": {},
+      "source_image_sha256": "ad052a5ece5cdb8a04f58e83f226bc8f4beea0d902660154d3c81ba5f9666108"
+    },
+    {
+      "index": 158,
+      "source_split": "train",
+      "source_image": "E:\\hackathon\\dataset\\New folder\\train\\images\\000000398246.jpg",
+      "source_label": "E:\\hackathon\\dataset\\New folder\\train\\labels\\000000398246.txt",
+      "destination_split": "train",
+      "image": "images/train/traffic7__000000398246.jpg",
+      "label": "labels/train/traffic7__000000398246.txt",
+      "instances": 19,
+      "actions": [
+        {
+          "added_class": 9,
+          "points_pixels": [
+            [
+              452,
+              143
+            ],
+            [
+              495,
+              141
+            ],
+            [
+              495,
+              154
+            ],
+            [
+              451,
+              156
+            ]
+          ]
+        },
+        {
+          "drop_too_small": 12
+        }
+      ],
+      "explicit_drops": [],
+      "class_overrides": {},
+      "source_image_sha256": "22b4abe93edf8f40b5e331bb56de6983026fa2a46caa5aaad65baf63c158b266"
+    }
+  ],
+  "original_val_26": [
+    "cvat__VisDrone_0000276_04401_d_0000529.jpg",
+    "cvat__VisDrone_0000280_00401_d_0000614.jpg",
+    "cvat__VisDrone_0000335_03921_d_0000063.jpg",
+    "guideline11__coco_000000157756.jpg",
+    "guideline11__coco_000000198928.jpg",
+    "guideline11__coco_000000354753.jpg",
+    "guideline11__coco_000000467511.jpg",
+    "kitti7__000013_10.jpg",
+    "kitti7__000028_10.jpg",
+    "kitti7__000035_10.jpg",
+    "kitti7__000065_10.jpg",
+    "kitti7__000075_10.jpg",
+    "kitti7__000078_10.jpg",
+    "kitti7__000086_10.jpg",
+    "kitti7__000110_10.jpg",
+    "kitti7__000121_10.jpg",
+    "kitti7__000136_10.jpg",
+    "kitti7__000151_10.jpg",
+    "kitti7__000163_10.jpg",
+    "kitti7__000168_10.jpg",
+    "kitti7__000175_10.jpg",
+    "kitti7__000188_10.jpg",
+    "pending__dataset__2.jpg",
+    "pending__xe_tho_so__img_006.jpg",
+    "vn_sign_30__zalo_4692.png",
+    "vn_sign_30__zalo_5259.png"
+  ],
+  "review_method": "Visual review of selected source image overlays and converted overlays; class mapping, explicit rider joins, source passenger removal and selected missing sign faces. Geometry and duplicate checks are separate from semantic review.",
+  "source_license": "Not supplied in local source folder; retain origin and verify before redistribution beyond team."
+}
