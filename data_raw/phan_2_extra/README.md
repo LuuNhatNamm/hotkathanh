@@ -1,22 +1,23 @@
-# Bộ ảnh bổ sung · 118 ảnh
+# Bộ ảnh bổ sung · 117 ảnh
 
 Dữ liệu thô bổ sung cho bốn thành viên, chia sẵn thành bốn thư mục, mỗi người một thư mục. Toàn bộ là ảnh chưa có nhãn; nhãn cần gán theo [guideline 11 lớp](../../labeling_guideline.md).
 
 | Thư mục | Tổng ảnh | Tên COCO | Tên theo lớp | Ghi chú |
 | --- | ---: | ---: | ---: | --- |
 | data1 | 30 | 13 | 17 | bicycle, bus, truck |
-| data2 | 29 | 13 | 16 | bicycle, bus, truck |
+| data2 | 28 | 12 | 16 | bicycle, bus, truck |
 | data3 | 30 | 18 | 12 | bicycle, bus, truck |
 | data4 | 29 | 13 | 16 | bicycle, bus |
-| **Tổng** | **118** | 57 | 61 | |
+| **Tổng** | **117** | 56 | 61 | |
 
 ## Nguồn và cách tạo
 
 - Nguồn gốc: `~/Downloads/ai-action/chia_data`, gồm `data1`–`data4`, mỗi thư mục 30 ảnh.
-- Đã loại 2 ảnh trùng nội dung với dữ liệu đang có trong repo (kiểm tra bằng SHA-1), vì vậy data2 và data4 còn 29 ảnh:
+- Đã loại 2 ảnh trùng nội dung với dữ liệu đang có trong repo (kiểm tra bằng SHA-1), vì vậy data4 và data2 bớt 1 ảnh:
   - `data4/000000274272.jpg` trùng `data_raw/images/train/guideline11__coco_000000274272.jpg`
-  - `data2/000000577932.jpg` trùng `data_raw/images/val/guideline11__coco_000000577932.jpg`
-- 118/118 ảnh đã được kiểm tra hash khớp với nguồn và đọc được header/trailer JPEG.
+  - `data2/000000577932.jpg` trùng `data/images/val/guideline11__coco_000000577932.jpg`. Nhãn của ảnh này vẫn được dùng, đã đưa vào `data/labels/val/guideline11__coco_000000577932.txt`.
+- Đã loại `data2/000000423693.jpg` vì cảnh không có đối tượng nào thuộc 11 lớp.
+- 117/117 ảnh còn lại đã được kiểm tra hash khớp với nguồn và đọc được header/trailer JPEG.
 
 ## Tên file
 

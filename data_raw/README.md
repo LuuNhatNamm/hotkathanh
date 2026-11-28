@@ -11,4 +11,4 @@ Nhãn tham khảo nằm trong labels/train và labels/val, bên trong chia theo 
 
 Tra nguồn và 23 cặp nghi gần trùng trong split_manifest.json. Các cặp này nằm cùng split.
 
-Bộ bổ sung nằm riêng trong [phan_2_extra](phan_2_extra/README.md): 118 ảnh chưa có nhãn, chia sẵn `data1`–`data4` cho bốn thành viên (30/29/30/29). Chưa gộp vào train/val để tránh trùng với 346 ảnh ở trên.
+Bộ bổ sung nằm riêng trong [phan_2_extra](phan_2_extra/README.md): 117 ảnh chưa có nhãn, chia sẵn `data1`–`data4` cho bốn thành viên (30/28/30/29). Chưa gộp vào train/val để tránh trùng với 346 ảnh ở trên. Nhãn đã duyệt của data2 nằm trong [data](../data/README.md).
